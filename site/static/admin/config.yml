@@ -13,7 +13,31 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Read Year", name: "read_year", widget: "number"}
+      - {label: "Read Year", name: "read_year", widget: "date", default: "", format: "YYYY"}
       - {label: "Ref URL", name: "book_ref_url", widget: "string"}
       - {label: "My Recommendation (1-5)", name: "recommendation", widget: "select",  options: ["1", "2", "3", "4", "5"]}
       - {label: "Slug", name: "url", widget: "string"}
+  - name: "essays" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Essays" # Used in the UI, ie.: "New Post"
+    folder: "site/content/essays" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string", default: "Prashish"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: false, default: ["ongoing"], required: false}
+      - {label: "Category", name: "category", widget: "string", default: "Prashish"}
+      - {label: "Slug", name: "url", widget: "string", default: "/"}
+  - name: "fragments" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Fragments" # Used in the UI, ie.: "New Post"
+    folder: "site/content/fragments" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string", default: "Prashish"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: false, default: ["ongoing"], required: false}
+      - {label: "Category", name: "category", widget: "string", default: "Prashish"}
+      - {label: "Slug", name: "url", widget: "string", default: "/"}
