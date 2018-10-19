@@ -1,16 +1,17 @@
 {{ partial "header" . }}
 
 <div class="now-body">
-  {{ range .Pages.GroupByParam "read_year" }}
+  {{ range .Data.Pages.GroupByParam "read_year" }}
   <p><strong>{{ .Key }}:</strong></p>
   <ul>
     {{ range .Pages }}
-    <li>{{ .Title }} {{ .Params.URL }} {{ if ne .Params.author "" }} - {{ index .Params.author }} {{ end }}</li>
+    	<li>{{ .Title }} {{ .Params.url }} {{ if ne .Params.author "" }} - {{ index .Params.author }} {{ end }}</li>
     {{ end }}
   </ul>
   {{ end }}
 </div>
 
+<br />
 <div class="now-body">
 	<p><strong>2018:</strong></p>
 	<ul>
