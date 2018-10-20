@@ -42,3 +42,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Tags", name: "tags", widget: "list", allow_add: false, default: ["ongoing"], required: false}
       - {label: "Category", name: "category", widget: "string", default: "Prashish"}
       - {label: "Slug", name: "url", widget: "string", default: "/:slug"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "site/content/bookshelf/_index.md"
+        label: "Bookshelf"
+        name: "bookshelf"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}

@@ -493,7 +493,19 @@ hr {
 .bookshelf-body p {
   margin: 0px;
   line-height: 1.5;
+  margin-top: 10px;
+}
+
+.bookshelf-list {
   margin-top: 20px;
+}
+
+.bookshelf-list ul {
+  margin-top: 0.1em;
+}
+
+.bookshelf-body ul li {
+  line-height: 2rem;
 }
 
 /* end bookshelf */
