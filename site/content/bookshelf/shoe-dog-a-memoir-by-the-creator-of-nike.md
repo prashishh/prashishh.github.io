@@ -5,6 +5,6 @@ author: Phil Knight
 read_year: '2017'
 book_ref_url: 'https://www.goodreads.com/book/show/27220736-shoe-dog'
 recommendation: '4'
-url: /reading/shoe-dog
+url: /bookshelf/shoe-dog
 ---
 

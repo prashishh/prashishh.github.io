@@ -5,6 +5,6 @@ author: 'Satya Nadella'
 read_year: '2018'
 book_ref_url: 'https://www.goodreads.com/book/show/30835567-hit-refresh'
 recommendation: '3'
-url: /reading/hit-refresh
+url: /bookshelf/hit-refresh
 ---
 

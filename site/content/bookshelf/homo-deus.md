@@ -6,5 +6,5 @@ author: 'Yuval Noah Harari'
 read_year: '2018'
 book_ref_url: 'https://www.goodreads.com/book/show/31138556-homo-deus'
 recommendation: '3'
-url: /bookshelf/homo-deus/
+url: /reading/homo-deus/
 ---

@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Read Year (No, if not)", name: "read_year", widget: "string", default: "NO"}
       - {label: "Reference URL", name: "book_ref_url", widget: "string", required: false}
       - {label: "My Recommendation (1-5)", name: "recommendation", widget: "select",  options: ["1", "2", "3", "4", "5"]}
-      - {label: "Slug", name: "url", widget: "string", default: "/reading/:slug"}
+      - {label: "Slug", name: "url", widget: "string", default: "/bookshelf/:slug"}
   - name: "essays" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Essays" # Used in the UI, ie.: "New Post"
     folder: "site/content/essays" # The path to the folder where the documents are stored

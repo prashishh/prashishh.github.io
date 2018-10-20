@@ -5,6 +5,6 @@ author: Ben Horowitz
 read_year: '2017'
 recommendation: '4'
 book_ref_url: 'https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things'
-url: /reading/hard-things
+url: /bookshelf/hard-things
 ---
 

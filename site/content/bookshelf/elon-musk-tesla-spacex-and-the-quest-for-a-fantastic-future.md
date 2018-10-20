@@ -5,6 +5,6 @@ author: Ashlee Vance
 read_year: '2018'
 book_ref_url: 'https://www.goodreads.com/book/show/25541028-elon-musk'
 recommendation: '3'
-url: /reading/elon-musk-quest-for-fantastic-future
+url: /bookshelf/elon-musk-quest-for-fantastic-future
 ---
 

@@ -5,6 +5,6 @@ author: Prashant Jha
 read_year: '2018'
 book_ref_url: 'https://www.goodreads.com/book/show/22665915-battles-of-the-new-republic'
 recommendation: '3'
-url: /reading/battle-of-the-new-republic
+url: /bookshelf/battle-of-the-new-republic
 ---
 
