@@ -9,7 +9,7 @@
 				
 				<ul>
 					{{ range .Pages }}
-						<li><a class="{{ if eq .Params.recommendation "4" }} bookshelf-book-green {{ else if eq .Params.recommendation "5" }} bookshelf-book-red {{ end }}" href="{{ .Params.book_ref_url }}">{{ .Title }}</a>{{ if isset .Params "description" }}: {{ .Params.description }} {{ end }}</li>
+						<li><a class="{{ if eq .Params.recommendation "4" }} bookshelf-book-green {{ else if eq .Params.recommendation "5" }} bookshelf-book-red {{ end }}" href="{{ .Params.book_ref_url }}" target="_blank">{{ .Title }}</a>{{ if isset .Params "description" }}: {{ .Params.description }} {{ end }}</li>
 					{{ end }}
 				</ul>
 			{{ end }}
