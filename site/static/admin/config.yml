@@ -4,8 +4,6 @@ backend:
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
-publish_mode: editorial_workflow
-
 collections: # A list of collections the CMS should be able to edit
   - name: "reading" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Reading" # Used in the UI, ie.: "New Post"
@@ -14,8 +12,9 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Read Year", name: "read_year", widget: "date", default: "", format: "YYYY"}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Description/Comments", name: "description", widget: "string", required: false}
+      - {label: "Read Year (No, if not)", name: "read_year", widget: "string", default: "NO"}
       - {label: "Reference URL", name: "book_ref_url", widget: "string", required: false}
       - {label: "My Recommendation (1-5)", name: "recommendation", widget: "select",  options: ["1", "2", "3", "4", "5"]}
       - {label: "Slug", name: "url", widget: "string", default: "/reading/:slug"}

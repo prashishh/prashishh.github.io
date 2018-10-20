@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+<div class="ui stackable sixteen column page grid">
+  {{ partial "left-nav" . }}
+	<div class="ui thirteen wide column main-body">
+    <div class="top-div">
+      {{ block "main" . }} {{ end }} 
+    </div>
+	</div>
+</div>
+{{ partial "footer" . }}
+

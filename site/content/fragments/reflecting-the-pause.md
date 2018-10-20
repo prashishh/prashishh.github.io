@@ -8,13 +8,11 @@ tags:
 category: No No
 url: /abakgarne
 ---
-\#2 Reflecting The Pause
+Welcome to abakgarne, a series of my raw thoughts, rants, and reflection of Nepal. They are going to be deeply personal, which most might find boring and to some, mildly amusing. If you want to try this experiment, 
+# more 
+write something less boring and use the hashtag #abakgarne.
 
-Welcome to abakgarne, a series of my raw thoughts, rants, and reflection of Nepal. They are going to be deeply personal, which most might find boring and to some, mildly amusing. If you want to try this experiment, write something less boring and use the hashtag #abakgarne.
-
-Views and opinions expressed are solely my own.
-
-It has been more than a month since I arrived in Kathmandu. Every day has been the same, but different. Every day I wake up inspired to beat the day, and curious to learn more.
+Views and opinions expressed are solely my own. It has been more than a month since I arrived in Kathmandu. Every day has been the same, but different. Every day I wake up inspired to beat the day, and curious to learn more.
 
 I haven’t felt this recharged for a long time.
 

@@ -5,7 +5,7 @@
         <div class="ui four wide column"></div>
         <div class="ui eight wide column">
           <div class="row more">
-            <div class="ui medium header center aligned copyright">&copy; {{ now.Format "2006"}} · Hand made with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> ·</div>
+            <div class="ui medium header center aligned copyright">&copy; {{ now.Format "2006"}} · Hand made with <a href="https://jekyllrb.com/" target="_blank">Hugo</a> · Hosted in <a href="https://jekyllrb.com/" target="_blank">Netlify</a> .</div>
           </div>
         </div>
         
@@ -17,17 +17,16 @@
   </div>
 </div>
 
-  <script async src="{{ "js/app.js" | relURL }}" type="text/javascript"></script>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112597479-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script async src="{{ "js/app.js" | relURL }}" type="text/javascript"></script>
 
-    gtag('config', 'UA-112597479-1');
-  </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112597479-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-112597479-1');
+</script>
 </body>
 </html>
