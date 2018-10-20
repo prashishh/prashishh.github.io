@@ -8,4 +8,3 @@ book_ref_url:
 recommendation: '3'
 url: /{{ .Section }}/{{ .Name }}/
 ---
-

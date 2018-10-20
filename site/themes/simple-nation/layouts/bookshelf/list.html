@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 	<div class="bookshelf-body">
-		<p> {{ .Params.content.top }}</p>
+		<p> {{ .Content }}</p>
 	
 		<div class="bookshelf-list">
 			{{ range .Data.Pages.GroupByParam "read_year" }}
@@ -9,7 +9,7 @@
 				
 				<ul>
 					{{ range .Pages }}
-						<li><a href="{{ .Params.book_ref_url }}">{{ .Title }}</a>{{ if isset .Params "description" }}: {{ .Params.description }} {{ end }}</li>
+						<li><a class="{{ if eq .Params.recommendation "4" }} bookshelf-book-green {{ else if eq .Params.recommendation "5" }} bookshelf-book-red {{ end }}" href="{{ .Params.book_ref_url }}">{{ .Title }}</a>{{ if isset .Params "description" }}: {{ .Params.description }} {{ end }}</li>
 					{{ end }}
 				</ul>
 			{{ end }}

@@ -496,6 +496,12 @@ hr {
   margin-top: 10px;
 }
 
+.bookshelf-body p a {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+
+
 .bookshelf-list {
   margin-top: 20px;
 }
@@ -508,6 +514,13 @@ hr {
   line-height: 2rem;
 }
 
+.bookshelf-book-red {
+  color: #880404;
+}
+
+.bookshelf-book-green {
+  color: #00751c;
+}
 /* end bookshelf */
 
 /* independent classes */
