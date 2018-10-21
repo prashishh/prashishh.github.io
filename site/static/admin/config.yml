@@ -57,13 +57,13 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-          label: people_list
-          name: people_list
-          fields: 
-            - {label: "Name", name: "full_name", widget: "string"}
-            - {label: "Description", name: "description", widget: "string", required: false}
-            - {label: "Website", name: "website", widget: "string", required: false}
-            - {label: "Twitter", name: "twitter", widget: "string", default: "@", required: false}
+          - label: people_list
+            name: people_list
+            fields: 
+              - {label: "Name", name: "full_name", widget: "string"}
+              - {label: "Description", name: "description", widget: "string", required: false}
+              - {label: "Website", name: "website", widget: "string", required: false}
+              - {label: "Twitter", name: "twitter", widget: "string", default: "@", required: false}
       - file: "site/content/about/_index.md"
         label: "About"
         name: "about"
