@@ -388,8 +388,8 @@ margin-top: 0px;
 .side-list ul li {
   letter-spacing: 0.01rem;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 18px;
+  line-height: 2em;
   list-style: none;
 }
 
@@ -466,6 +466,10 @@ p, p a {
   line-height: 1.4px;
   text-align: justify;
 }
+
+ a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
 
 a:hover {
   color: inherit;
