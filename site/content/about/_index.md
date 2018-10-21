@@ -1,7 +1,9 @@
 ---
 title: About
 ---
-![null](/img/prashish_rajbhandari.jpg)
+<img src = "/img/prashish_rajbhandari.jpg", width = "300px", height = "300px">
+
+
 
 I'm inspired by software, be it web, blockchain or artificial intelligence. I like to read non-fiction books especially autobiographies, world history & economics.
 

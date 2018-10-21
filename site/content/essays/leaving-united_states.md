@@ -150,9 +150,9 @@ I sign out from the US. See you soon, Nepal.
 Work resumes tomorrow!
 
 
+<img src = "/img/prashish-usa-august.jpeg", width = "300px", height = "300px">
 
-![](/img/prashish-usa-august.jpeg)
+<img src = "/img/prashish-usa-march2018.jpeg", width = "300px", height = "300px">
 
-![](/img/prashish-usa-march2018.jpeg)
 
 _Left: 11th Aug, 2013 to US. Right: 1st March 2018 to Nepal._

@@ -529,6 +529,12 @@ img {
   margin-bottom: 20px;
 }
 
+.common-body span.published-date {
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+}
+
 .bookshelf-body p a , .people-body p a {
   border-bottom: 1px solid #000;
   color: #000;
