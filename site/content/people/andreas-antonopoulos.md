@@ -1,6 +1,6 @@
 ---
 full_name: "Andreas Antonopoulos"
-website: 
+website: "https://www.youtube.com/user/aantonop"
 twitter: "@aantonop"
 description:
 ---
