@@ -490,26 +490,26 @@ hr {
 
 /* bookshelf */
 
-.bookshelf-body p {
+.bookshelf-body p, .people-body p, .common-body p {
   margin: 0px;
   line-height: 1.5;
   margin-top: 10px;
 }
 
-.bookshelf-body p a {
+.bookshelf-body p a , .people-body p a, .common-body p a {
   border-bottom: 1px solid #000;
   color: #000;
 }
 
-.bookshelf-list {
+.bookshelf-list, .people-list {
   margin-top: 20px;
 }
 
-.bookshelf-list ul {
+.bookshelf-list ul, .people-list ul {
   margin-top: 0.1em;
 }
 
-.bookshelf-body ul li {
+.bookshelf-body ul li, .people-body ul li, .common-body ul li {
   line-height: 2rem;
 }
 

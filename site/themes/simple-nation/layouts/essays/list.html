@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+	<div class="bookshelf-body">
+		<span class="title-bold">Latest Fragments:</span> 
+		<p> {{ .Content }}</p>
+	
+    <div class="index-body">
+      {{ range first 5 (where .Data.Pages "Type" "essays") }}
+        <p>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> . {{ .Summary }}
+          {{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">...</a> {{ end }}
+        </p>
+      {{ end }}
+	</div>
+
+{{ end }}
