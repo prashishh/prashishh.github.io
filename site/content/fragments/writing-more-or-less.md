@@ -13,3 +13,5 @@ Inspired by them, I tried writing a couple of drafts for #abakgarne. But it turn
 As I go through my journey, I want to make the process fun for me and for everyone. I constantly ask myself what this publication should represent. The short answer is that I still don’t know. But, I’m sure that we are going to find out.
 
 I want to make the journey fun and enlightening. And if there is a way you want to be part of this, [please say hi](https://twitter.com/intent/tweet?text=@prashishh%20Hello%20...)! I’m always looking to meet people to listen to their crazy ideas.
+
+![](/img/less-more-writing.jpeg)
