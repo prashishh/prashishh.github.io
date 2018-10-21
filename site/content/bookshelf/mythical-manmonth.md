@@ -5,6 +5,6 @@ draft: false
 author: 'Frederick P. Brooks Jr.'
 read_year: 'NO'
 book_ref_url: 'https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month'
-recommendation: '3'
+recommendation: '5'
 url: /bookshelf/mythical-manmonth/
 ---

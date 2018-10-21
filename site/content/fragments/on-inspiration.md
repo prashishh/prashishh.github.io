@@ -1,6 +1,6 @@
 ---
 title: On Inspiration
-date: 2018-10-21T14:12:08.804Z
+date: 2018-04-10T14:09:30.394Z
 author: Prashish
 tags:
   - ongoing
