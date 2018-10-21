@@ -9,7 +9,7 @@ I currently live in Kathmandu, Nepal and work at [Insight Workshop](https://insi
 
 Over the years, I have lived in India, Ohio, California and have been part of several organizations including [Clip](https://clip.mx/), [Mozilla Foundation](https://reps.mozilla.org/) & [Code for Nepal](http://codefornepal.org).
 
-
+--
 
 **Places you can find me:**
 
@@ -18,3 +18,16 @@ Over the years, I have lived in India, Ohio, California and have been part of se
 * **Telegram:** @prashishh
 * **Pocket:** [@prashishh](https://getpocket.com/@prashishh)
 * **Email:** <mailto:namaste@prashish.xyz>
+
+--
+
+**Few links:**
+
+* **Mozdrive:** Spreading the Mozilla story around the US in 25 days. [[twitter](https://twitter.com/mozdrive), [medium](https://medium.com/@prashishh/the-plan-after-mozdrive-24aacb9cf2d5), [medium](https://medium.com/@prashishh/how-mozdrive-started-af56d4be8a82)]
+* **infourminutes:** Blockchain/crypto whitepaper summaries. [[website](https://infourminutes.co/)]
+
+--
+
+**Interviews:**
+
+* **King's College:** Ten Questions. [[website](https://www.kingscollege.edu.np/tenquestions-with-prashish-rajbhandari/)]
