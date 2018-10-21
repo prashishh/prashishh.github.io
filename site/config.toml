@@ -1,6 +1,4 @@
 theme = "simple-nation"
-baseURL = "http://localhost:1313/"
+baseURL = "http://localhost:3000/"
 languageCode = "en-us"
-title = "xyz"
-
-summaryLength=40
+title = "xyz prashish"

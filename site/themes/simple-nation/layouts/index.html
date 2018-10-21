@@ -1,7 +1,4 @@
 {{ define "main" }}
-	<div>
-		<span class="title-bold">Latest Fragments:</span> 
-	</div>
 	<div class="index-body">
 		{{ range first 5 (where .Data.Pages "Type" "fragments") }}
 			<p>
