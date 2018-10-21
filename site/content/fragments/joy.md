@@ -1,10 +1,9 @@
 ---
 title: Joy
-date: 2018-10-21T06:23:33.049Z
+date: 2015-05-15T06:23:33.049Z
 author: Prashish
 tags:
   - ongoing
-category: Prashish
 url: /sparkjoy
 ---
 “What sparks joy?” — Wow, such a simple but complicated question to think about.
