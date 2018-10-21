@@ -16,17 +16,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description/Comments", name: "description", widget: "string", required: false}
       - {label: "Read Year (No, if not)", name: "read_year", widget: "string", default: "NO"}
       - {label: "Reference URL", name: "book_ref_url", widget: "string", required: false}
-      - {label: "My Recommendation (1-5)", name: "recommendation", widget: "select",  options: ["1", "2", "3", "4", "5"]}
+      - {label: "My Recommendation (1-5)", name: "recommendation", widget: "select",  options: ["1", "2", "3", "4", "5"], required: false}
       - {label: "Slug", name: "url", widget: "string", default: "/bookshelf/:slug"}
-  - name: "people" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "People" # Used in the UI, ie.: "New Post"
-    folder: "site/content/people" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Name", name: "full_name", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Website", name: "website", widget: "string", required: false}
-      - {label: "Twitter", name: "twitter", widget: "string", default: "@", required: false}
   - name: "essays" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Essays" # Used in the UI, ie.: "New Post"
     folder: "site/content/essays" # The path to the folder where the documents are stored
@@ -66,6 +57,13 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
+          label: people_list
+          name: people_list
+          fields: 
+            - {label: "Name", name: "full_name", widget: "string"}
+            - {label: "Description", name: "description", widget: "string", required: false}
+            - {label: "Website", name: "website", widget: "string", required: false}
+            - {label: "Twitter", name: "twitter", widget: "string", default: "@", required: false}
       - file: "site/content/about/_index.md"
         label: "About"
         name: "about"
