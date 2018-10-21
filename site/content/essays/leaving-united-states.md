@@ -5,7 +5,7 @@ author: Prashish
 tags:
   - ongoing
 category: Prashish
-url: '/:slug'
+url: /leaving-united-states
 ---
 Today is my last day in the United States.
 
