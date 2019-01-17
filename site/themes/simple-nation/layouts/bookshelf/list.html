@@ -4,15 +4,13 @@
 		{{ .Content }}
 	
 		<div class="bookshelf-list">
-			{{ range .Data.Pages.GroupByParam "read_year" }}
-				<p><strong>{{ if eq .Key "NO" }} Shelf: {{ else }} {{ .Key }}: {{ end }}</strong></p>
-				
-				<ul>
-					{{ range .Pages }}
-						<li><a class="{{ if eq .Params.recommendation "4" }} bookshelf-book-green {{ else if eq .Params.recommendation "5" }} bookshelf-book-red {{ end }}" href="{{ .Params.book_ref_url }}" target="_blank">{{ .Title }}</a>{{ if isset .Params "description" }}: {{ .Params.description }} {{ end }}</li>
-					{{ end }}
-				</ul>
-			{{ end }}
+			<p><strong>Shelf:</strong></p>
+			
+			<ul>
+				{{ range .Pages }}
+					<li><a class="{{ if eq .Params.recommendation "4" }} bookshelf-book-green {{ else if eq .Params.recommendation "5" }} bookshelf-book-red {{ end }}" href="{{ .Params.book_ref_url }}" target="_blank">{{ .Title }}</a>{{ if isset .Params "description" }}: {{ .Params.description }} {{ end }}</li>
+				{{ end }}
+			</ul>
 		</div>
 	</div>
 
