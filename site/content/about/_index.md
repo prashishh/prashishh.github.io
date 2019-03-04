@@ -3,7 +3,7 @@ title: About
 ---
 <img src = "/img/prashish_rajbhandari.jpg", width = "300px", height = "300px">
 
-I'm inspired by software, be it web, blockchain or artificial intelligence. I like to read non-fiction books especially autobiographies, world history & economics.
+I'm inspired by software. I like to read non-fiction books especially autobiographies, world history & economy.
 
 I currently live in Kathmandu, Nepal and work at [Insight Workshop](https://insightworkshop.io/) & Yeti. Mostly interested in accelerating the development (through software/technology) in emerging markets.
 
