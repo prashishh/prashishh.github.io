@@ -2,6 +2,7 @@
 title: About
 ---
 <img src = "/img/prashish_rajbhandari.jpg", width = "300px", height = "300px">
+<img src = "/img/img_4158-copy.jpg", width = "300px", height = "300px">
 
 I'm inspired by software. I like to read non-fiction books especially autobiographies, world history & economy.
 
