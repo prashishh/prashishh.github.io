@@ -11,6 +11,10 @@ I'm also helping one of [my close friend](https://www.instagram.com/momentum.shi
 
 
 
+## **रचनाहरु:**
 
+Last week, Princi and I started [**रचनाहरु**](rachanaharu.com)** **(rachanaharu.com) to help discover local Nepali products and brands. It is a proof-of-concept and we have big plans to take community's help to expand and grow rachanaharu. 
 
-## ****
+_(Last updated: March 12, 2019)_
+
+## \*\*\*\*
