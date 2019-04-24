@@ -1,9 +1,7 @@
 ---
 title: Leaving United States
-date: 2018-10-21T04:52:30.452Z
+date: 2018-03-01T04:52:30.452Z
 author: Prashish
-tags:
-  - ongoing
 category: Prashish
 url: /leaving-united-states
 ---
