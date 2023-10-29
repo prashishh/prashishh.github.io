@@ -14,7 +14,7 @@ import cssnano from "cssnano";
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
-const defaultArgs = ["-d", "../dist", "-s", "site"];
+const defaultArgs = ["-d", "../docs", "-s", "site"];
 
 if (process.env.DEBUG) {
   defaultArgs.unshift("--debug")
@@ -32,7 +32,7 @@ gulp.task("css", () => (
       cssnext(),
       cssnano(),
     ]))
-    .pipe(gulp.dest("./dist/css"))
+    .pipe(gulp.dest("./docs/css"))
     .pipe(browserSync.stream())
 ));
 
@@ -69,7 +69,7 @@ gulp.task("svg", () => {
 gulp.task("server", ["hugo", "css", "js", "svg"], () => {
   browserSync.init({
     server: {
-      baseDir: "./dist"
+      baseDir: "./docs"
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
