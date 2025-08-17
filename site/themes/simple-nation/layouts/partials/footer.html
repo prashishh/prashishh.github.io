@@ -4,6 +4,13 @@
       <div class="row">
         <div class="ui four wide column"></div>
         <div class="ui eight wide column">
+          <div class="row more" style="margin-bottom: 10px;">
+            <div class="ui medium header center aligned">
+              <div class="subscribe-title">Subscribe</div>
+              <!-- MailerLite Embedded Form (universal embed) -->
+              <div class="ml-embedded" data-form="162923905868105137"></div>
+            </div>
+          </div>
           <div class="row more">
             <div class="ui medium header center aligned copyright">&copy; {{ now.Format "2006"}} · Handmade using <a href="https://gohugo.io/" target="_blank">Hugo</a> · Hosted in <a href="https://www.netlifycms.org/" target="_blank">Netlify</a> .</div>
           </div>
@@ -18,6 +25,16 @@
 </div>
 
 <script async src="{{ "js/app.js" | relURL }}" type="text/javascript"></script>
+
+<!-- MailerLite Universal -->
+<script>
+  (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+  .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+  n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+  (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+  ml('account', '1739419');
+  // Form: https://preview.mailerlite.io/forms/1739419/162923905868105137/share
+</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112597479-1"></script>

@@ -1,0 +1,58 @@
+{{/*
+  SEO and social sharing meta tags
+  - Works for homepage, sections, and single pages
+  - Uses .Params.image (or cover/featured_image) when available, else default theme image
+*/}}
+
+{{- $isArticle := or (eq .Section "essays") (eq .Section "fragments") -}}
+{{- $title := .Title -}}
+{{- $desc := cond (gt (len (.Summary | plainify)) 0) ((.Summary | plainify) | truncate 200) (.Site.Title) -}}
+{{- $url := .Permalink -}}
+
+{{- $imgParam := or .Params.image (or .Params.cover .Params.featured_image) -}}
+{{- $img := cond $imgParam ($imgParam | absURL) ("images/prashish_rajbhandari.jpg" | absURL) -}}
+
+<link rel="canonical" href="{{ $url }}"/>
+<meta name="description" content="{{ $desc }}"/>
+<meta name="robots" content="index,follow"/>
+
+{{/* Open Graph */}}
+<meta property="og:site_name" content="{{ .Site.Title }}"/>
+<meta property="og:title" content="{{ $title }}"/>
+<meta property="og:description" content="{{ $desc }}"/>
+<meta property="og:type" content="{{ if $isArticle }}article{{ else }}website{{ end }}"/>
+<meta property="og:url" content="{{ $url }}"/>
+<meta property="og:image" content="{{ $img }}"/>
+{{ if $isArticle }}
+  <meta property="article:published_time" content="{{ .PublishDate.UTC.Format "2006-01-02T15:04:05Z07:00" }}"/>
+  <meta property="article:modified_time" content="{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}"/>
+{{ end }}
+
+{{/* Twitter */}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{{ $title }}"/>
+<meta name="twitter:description" content="{{ $desc }}"/>
+<meta name="twitter:image" content="{{ $img }}"/>
+
+{{/* RSS autodiscovery for convenience */}}
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | relURL }}"/>
+
+{{ if $isArticle }}
+  {{/* JSON-LD Article schema */}}
+  {{- $author := default "Prashish" .Params.author -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ $title | jsonify }},
+    "description": {{ $desc | jsonify }},
+    "image": {{ $img | jsonify }},
+    "author": { "@type": "Person", "name": {{ $author | jsonify }} },
+    "datePublished": "{{ .PublishDate.UTC.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": {{ $url | jsonify }} }
+  }
+  </script>
+{{ end }}
+
+

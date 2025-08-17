@@ -1,8 +1,8 @@
 {{ define "main" }}
 	<div class="index-body">
-		{{ range first 5 (where .Data.Pages "Type" "fragments") }}
+		{{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "fragments") }}
 			<p>
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a> . {{ .Summary }}
+				<a href="{{ .RelPermalink }}">{{ .Title }}</a> . {{ .Summary | plainify }}
 				{{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">...</a> {{ end }}
 			</p>
 		{{ end }}
@@ -12,7 +12,7 @@
 
 	<div class="bottom-body">
 		<p><span class="title-bold">Latest Essay:</span> 
-			{{ range last 1 (where .Data.Pages "Type" "essays") }}
+			{{ range first 1 (where .Site.RegularPages.ByDate.Reverse "Section" "essays") }}
 			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 			{{ end }}
 		</p>
