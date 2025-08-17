@@ -2,9 +2,6 @@
 title: AI and Creative Workflow
 date: 2025-07-01T00:00:00Z
 author: Prashish
-tags:
-  - ongoing
-url: /ai-and-creative-workflow
 
 ---
 
