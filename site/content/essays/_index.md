@@ -5,4 +5,3 @@ author: Prashish
 category: Introduction
 url: /essays
 ---
-Long writings.

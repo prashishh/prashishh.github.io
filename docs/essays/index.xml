@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Essays on xyz prashish</title>
+    <link>https://prashish.xyz/essays/</link>
+    <description>Recent content in Essays on xyz prashish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Oct 2018 08:55:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://prashish.xyz/essays/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leaving United States</title>
+      <link>https://prashish.xyz/leaving-united-states/</link>
+      <pubDate>Thu, 01 Mar 2018 04:52:30 +0000</pubDate>
+      
+      <guid>https://prashish.xyz/leaving-united-states/</guid>
+      <description>Today is my last day in the United States.
+I never thought I would say these words this early in my life. The US was my home far away from home for the last four and a half years. I have made a lot of close friends here, and I cherish every moment with them.
+I met some of the smartest, passionate, loving &amp;amp; caring people in this country. The US taught me about friendship, life, work, and passion in a whole new level.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,4 +5,3 @@ author: Prashish
 category: Introduction
 url: /fragments
 ---
-Fragmented thoughts.

@@ -1,16 +1,13 @@
 {{ define "main" }}
 
 	<div class="common-body">
-    {{ .Content }}
-          
-		<p class="title-bold title-margin-top">Latest Essays:</p>
-	
+    {{ .Content }}	
     <div class="common-list">
       {{ range first 10 (where .Data.Pages "Type" "essays") }}
-        <p>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a> . {{ .Summary }}
-          {{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">...</a> {{ end }}
-        </p>
+      <p>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span> . {{ .Summary | plainify }}
+        {{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">... </a> {{ end }}
+      </p>
       {{ end }}
 	</div>
 

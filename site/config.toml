@@ -2,3 +2,8 @@ theme = "simple-nation"
 baseURL = "https://prashish.xyz/"
 languageCode = "en-us"
 title = "xyz prashish"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

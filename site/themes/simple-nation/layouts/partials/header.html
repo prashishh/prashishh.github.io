@@ -12,6 +12,8 @@
 		<meta name="keywords" content="prashish, prashish rajbhandari, ">
 		<meta name="author" content="Prashish">
 
+		{{ partial "seo.html" . }}
+
 	  <title>{{ .Site.Title }}</title>
 		
 	  <link href="{{ "css/vendor/semantic.min.css" | relURL }}" rel='stylesheet' type='text/css'>
@@ -23,7 +25,7 @@
 			<div class="ui one wide column"></div>
 			<div class="ui thirteen wide column">
 				<div class="ui secondary pointing menu floated left nopadding">
-					<a href="{{ .Site.BaseURL }}" class="header active item">Prashish</a> 
+					<a href="{{ "/" | relURL }}" class="header active item">Prashish</a> 
 					<div href="#" class="item"><span class="subname">optimist, engineer, student of life</span></div> 
 				</div>
 			</div>

@@ -4,6 +4,7 @@ date: 2018-03-01T04:52:30.452Z
 author: Prashish
 category: Prashish
 url: /leaving-united-states
+image: /img/mozdrive-family-pic.png
 ---
 Today is my last day in the United States.
 

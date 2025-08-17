@@ -1,28 +1,34 @@
-import webpack from "webpack";
-import path from "path";
+const path = require("path");
 
-export default {
+module.exports = {
+  mode: process.env.NODE_ENV === "production" ? "production" : "development",
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader?name=/[hash].[ext]"
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            cacheDirectory: true,
+            babelrc: false,
+            configFile: path.join(__dirname, "babel.config.json")
+          }
+        }
       },
       {
-        loader: "babel-loader",
-        test: /\.js?$/,
-        exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "/[contenthash].[ext]"
+            }
+          }
+        ]
       }
     ]
   },
-
-  plugins: [
-    new webpack.ProvidePlugin({
-      "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
-    })
-  ],
-
   context: path.join(__dirname, "src"),
   entry: {
     app: ["./js/app"],
@@ -31,7 +37,8 @@ export default {
   output: {
     path: path.join(__dirname, "docs"),
     publicPath: "/",
-    filename: "[name].js"
+    filename: "[name].js",
+    clean: true
   },
-  externals:  [/^vendor\/.+\.js$/]
+  externals: [/^vendor\/.+\.js$/]
 };
