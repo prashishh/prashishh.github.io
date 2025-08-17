@@ -4,10 +4,9 @@
     {{ .Content }}
 	
     <div class="common-list">
-      {{ range first 10 (where .Data.Pages "Type" "fragments") }}
+      {{ range .Data.Pages.ByDate.Reverse }}
         <p>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span> . {{ .Summary | plainify }}
-          {{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">... </a> {{ end }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span>
         </p>
       {{ end }}
 	</div>

@@ -2,9 +2,6 @@
 title: Joy
 date: 2015-05-15T06:23:33.049Z
 author: Prashish
-tags:
-  - ongoing
-url: /sparkjoy
 ---
 “What sparks joy?” — Wow, such a simple but complicated question to think about.
 
@@ -34,4 +31,4 @@ It is interesting that this is a life long process of exploring and finding thin
 
 ‘Til then.
 
-![null](/img/land-between-the-lakes.jpeg)
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/land-between-the-lakes.jpeg"></div>

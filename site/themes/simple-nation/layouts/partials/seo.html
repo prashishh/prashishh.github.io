@@ -9,6 +9,10 @@
 {{- $desc := cond (gt (len (.Summary | plainify)) 0) ((.Summary | plainify) | truncate 200) (.Site.Title) -}}
 {{- $url := .Permalink -}}
 
+{{- if .IsHome -}}
+  {{- $desc = "Stories, ideas, and notes from my life, work, and beyond." -}}
+{{- end -}}
+
 {{/* Resolve social image in a way compatible with older Hugo */}}
 {{- $img := ("images/prashish_rajbhandari.jpg" | absURL) -}}
 {{- with .Params.image -}}

@@ -17,4 +17,5 @@ For me, the real importance of digital ownership is not about trading or specula
 
 I cannot say when that day comes. But I know it is where we are heading, and that is enough reason to stay excited.
 
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/vendetta-painting.jpg" alt="Vendetta Fully Onchain Game"></div>
 

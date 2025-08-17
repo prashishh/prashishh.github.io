@@ -5,8 +5,9 @@ author: Prashish
 tags:
   - ongoing
 url: /ai-and-creative-workflow
-image: /img/ai-and-creative-workflow.jpg
+
 ---
+
 In 2015, I came across Tim Urban’s fascinating post about AGI (Artificial General Intelligence) and ASI (Artificial Superintelligence). It was an interesting read, but it was not an "aha" moment for me at the time. My exposure to AI (or machine learning back then) was mostly through its use in engineering systems such as fraud detection, recommendation engines, and pattern recognition tools in our payment infrastructure. It felt more like solving backend challenges than experiencing anything magical.
 
 That changed ten years later.
@@ -25,5 +26,8 @@ Here is how we are using AI across our creative workflow:
 Today, AI contributes approximately 10-15% of our codebase, and I fully expect it to exceed 50% by next year. These tools are already handling many of the tasks that used to take up our developers', editors', and artists' time. The models keep getting better, and I can see them becoming even more powerful very soon. I can already envision an AI project manager that ties everything together, managing story, code, visuals, and audio, and coordinating the production process.
 
 This journey with AI is just beginning. I would love to hear how others in the Kathmandu community are using AI in their own projects. I would be excited to meet, share, and learn from one another. These are my stories, and I look forward to hearing yours.
+
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/prophet-vendetta.png"></div>
+
 
 

@@ -19,4 +19,6 @@ What this shows me is that with enough context and clear instructions, AI does s
 
 It makes me bullish about how software will be developed in the future. The way we build is going to look very different in the next five years, and it is important for developers to learn how to work with AI. These tools are about helping you execute and making your work more efficient.
 
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/painting.jpg" alt="Painting"></div>
+
 

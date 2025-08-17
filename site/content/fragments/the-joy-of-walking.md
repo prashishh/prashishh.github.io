@@ -17,4 +17,5 @@ When I visited the Isha Yoga Center in Coimbatore, they encouraged us to walk ba
 
 Walking has so many gifts, but above all, it sparks joy. And if you work in tech or spend most of your day on screens, I encourage you to skip that taxi or scooter at least once and walk to a destination if it is less than an hour away. It is a simple way to let your senses reconnect with the world around you.
 
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/singapore-walking.jpg"></div>
 
