@@ -35,7 +35,7 @@ module.exports = {
     cms: ["./js/cms"]
   },
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "docs"),
     publicPath: "/",
     filename: "[name].js",
     clean: true
