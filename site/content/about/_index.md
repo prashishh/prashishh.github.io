@@ -16,13 +16,13 @@ You can reach me at <mailto:namaste@prashish.xyz> or [LinkedIn](https://www.link
 
 \--
 
-**More places:**
+**More:**
 
-* **Mozdrive:** Spreading the Mozilla story around the US in 25 days. [[twitter](https://twitter.com/mozdrive), [medium](https://medium.com/@prashishh/the-plan-after-mozdrive-24aacb9cf2d5), [medium](https://medium.com/@prashishh/how-mozdrive-started-af56d4be8a82)]
-* **infourminutes:** Blockchain/crypto whitepaper summaries. [[website](https://infourminutes.co/)]
+* [Silicon Valley to Kathmandu Valley](https://www.youtube.com/watch?v=ruLvwY8LRlM)
+* [Silicon Valley, Blockchain and Spirituality](https://www.youtube.com/watch?v=1KSbzisP3sQ)
+* [Blockchain Roundtable](https://www.youtube.com/watch?v=NCzbY-653-M)
+* [Building a Strong Engineering Culture](https://www.youtube.com/watch?v=occjQDc4eJc)
+* [Whatever We Have On The Internet, We Do Not Own It](https://www.youtube.com/watch?v=aDxxxbwWITQ)
+* [NFTs: Origins, Trends and Impact on Digital Ownership](https://www.youtube.com/watch?v=OUypJWOS8eU)
+* **Mozdrive:** Spreading the Mozilla story around the US in 25 days. [twitter](https://twitter.com/mozdrive)
 
-\--
-
-**Interviews:**
-
-* **King's College:** Ten Questions. [[website](https://www.kingscollege.edu.np/tenquestions-with-prashish-rajbhandari/)]
