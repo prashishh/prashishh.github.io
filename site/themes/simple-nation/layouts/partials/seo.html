@@ -9,8 +9,19 @@
 {{- $desc := cond (gt (len (.Summary | plainify)) 0) ((.Summary | plainify) | truncate 200) (.Site.Title) -}}
 {{- $url := .Permalink -}}
 
-{{- $imgParam := or .Params.image (or .Params.cover .Params.featured_image) -}}
-{{- $img := cond $imgParam ($imgParam | absURL) ("images/prashish_rajbhandari.jpg" | absURL) -}}
+{{/* Resolve social image in a way compatible with older Hugo */}}
+{{- $img := ("images/prashish_rajbhandari.jpg" | absURL) -}}
+{{- with .Params.image -}}
+  {{- $img = (. | absURL) -}}
+{{- else -}}
+  {{- with .Params.cover -}}
+    {{- $img = (. | absURL) -}}
+  {{- else -}}
+    {{- with .Params.featured_image -}}
+      {{- $img = (. | absURL) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
 <link rel="canonical" href="{{ $url }}"/>
 <meta name="description" content="{{ $desc }}"/>
