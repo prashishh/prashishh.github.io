@@ -38,7 +38,7 @@ module.exports = {
     path: path.join(__dirname, "docs"),
     publicPath: "/",
     filename: "[name].js",
-    clean: true
+    clean: false
   },
   externals: [/^vendor\/.+\.js$/]
 };

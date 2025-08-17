@@ -1,9 +1,10 @@
 [build]
   command = "yarn build"
-  publish = "docs"
+  publish = "dist"
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "22"
   YARN_VERSION = "1.22.22"
+  HUGO_VERSION = "0.124.1"
 
 [context.deploy-preview]
   command = "yarn build-preview"
