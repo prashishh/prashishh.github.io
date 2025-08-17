@@ -214,13 +214,14 @@ padding-bottom: 15px;
 
 .ui.center.aligned.header.copyright {
 margin-top: -10px;
-font-size: 14px;
+font-size: 12px;
 font-weight: 300;
 }
 
 
 .ui.center.aligned.header.copyright a{
 text-decoration: none;
+font-size: inherit !important;
 }
 
 
@@ -576,6 +577,7 @@ img {
 /* subscribe form */
 .subscribe-form {
   text-align: center;
+  padding-bottom: 6px;
 }
 .subscribe-form input[type="email"] {
   padding: 6px 8px;
@@ -611,11 +613,7 @@ img {
   color: rgba(0,0,0,0.6);
 }
 
-.subscribe-title {
-  color: #ec4300;
-  font-weight: 600;
-  margin-bottom: 6px;
-}
+.subscribe-feedback { margin-top: 6px; font-size: 0.9em; color: rgba(0,0,0,0.6); }
 
 p.title-margin-top {
   margin-top: 30px;

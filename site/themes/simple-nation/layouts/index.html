@@ -2,7 +2,7 @@
 	<div class="index-body">
 		{{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "fragments") }}
 			<p>
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a> . {{ .Summary | plainify }}
+				<a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span> . {{ .Summary | plainify }}
 				{{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">...</a> {{ end }}
 			</p>
 		{{ end }}
@@ -13,7 +13,7 @@
 	<div class="bottom-body">
 		<p><span class="title-bold">Latest Essay:</span> 
 			{{ range first 1 (where .Site.RegularPages.ByDate.Reverse "Section" "essays") }}
-			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+			<a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span>
 			{{ end }}
 		</p>
 	</div>
