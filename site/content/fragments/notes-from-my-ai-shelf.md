@@ -19,7 +19,7 @@ On my desk right now:
 - Chip War
 - Co-intelligence
 - The Coming Wave
-- AI SuperPowers
+- AI Superpowers
 - AI Engineering
 - A Brief History of Intelligence
 - Nexus
@@ -27,4 +27,4 @@ On my desk right now:
 
 What strikes me most is the parallel to the industrial revolution. Back then machines gave us muscle, multiplying human power by hundreds or thousands, and people must have thought it was sorcery. Today AI is adding intelligence. The next revolution may not be of steel or coal but of thought. And behind the scenes there is already a quiet war underway of nations, companies, and ideas to see who will shape this new age.
 
-
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/ai-shelf-saraswati.jpg"></div>
