@@ -3,7 +3,7 @@ title: The Pain of Not Doing
 date: 2025-08-18T00:00:00Z
 author: Prashish
 ---
-I like to work with people who are __intensely passionate__ about what they do. It does not matter what the field is. It could be nurturing kids, reading, writing poems, solving scientific problems, or coding a simple database service. What matters is the feeling inside, whether it is fire or love that comes from the heart. It is hard to reason and explain, but it can be understood from the depth of the inner being. It is the kind of passion that makes you forget food, water, and time.
+I like to work with people who are _intensely passionate_ about what they do. It does not matter what the field is. It could be nurturing kids, reading, writing poems, solving scientific problems, or coding a simple database service. What matters is the feeling inside, whether it is fire or love that comes from the heart. It is hard to reason and explain, but it can be understood from the depth of the inner being. It is the kind of passion that makes you forget food, water, and time.
 
 Some people call them nerds, geeks, psycho or even cracked, but I see that as a badge of honor. To be so consumed that everything else fades away is a special feeling. And these passions do not have to be about changing the world in the Silicon Valley way of thinking. They simply bring joy and happiness to the person, something they would probably do even without money. Again, it is hard to put into words in a capitalistic world where everything seems to revolve around survival and livelihood.
 
