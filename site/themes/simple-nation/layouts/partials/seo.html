@@ -23,6 +23,13 @@
   {{- else -}}
     {{- with .Params.featured_image -}}
       {{- $img = (. | absURL) -}}
+    {{- else -}}
+      {{/* Fallback: first <img src="..."> in content */}}
+      {{- $first := findRE `(?i)<img[^>]+src=["']([^"']+)["']` .Content 1 -}}
+      {{- if gt (len $first) 0 -}}
+        {{- $firstSrc := replaceRE `(?i).*src=["']([^"']+)["'].*` "$1" (index $first 0) -}}
+        {{- if $firstSrc -}}{{- $img = ($firstSrc | absURL) -}}{{- end -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
