@@ -6,7 +6,7 @@ tags: [decision-making, youth, migration]
 category: Reflection
 ---
 
-This is the thought process of a young student looking to go abroad without really thinking it through, simply because everyone else is doing the same. Here's a grade 10 student from Nepal who wants to leave just because everyone else is.
+This is the thought process of a young student looking to go abroad without really thinking it through, simply because everyone else is doing the same. Here's a grade 12 student from Nepal who wants to leave just because everyone else is.
 
 __Step 1: Contemplation (Thinking):__<br>
 _"Look how clean those streets are."_<br>
