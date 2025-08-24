@@ -89,3 +89,4 @@ smṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati
 ___Translation:__
 "While contemplating the objects of the senses, a person develops attachment for them, and from such attachment desire develops, and from desire anger arises. From anger, delusion arises, and from delusion bewilderment of memory. When memory is bewildered, intelligence is lost, and when intelligence is lost one falls down completely."_
 
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/classroom-students.jpg"></div>
