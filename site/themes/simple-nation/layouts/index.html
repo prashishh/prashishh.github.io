@@ -2,7 +2,7 @@
 	<div class="index-body">
 		{{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "fragments") }}
 			<p>
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span> . {{ .Summary | plainify }}
+				<a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span> . {{ .Summary | plainify | htmlUnescape }}
 				{{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">...</a> {{ end }}
 			</p>
 		{{ end }}
