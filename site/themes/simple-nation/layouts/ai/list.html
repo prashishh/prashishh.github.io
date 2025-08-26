@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+	<div class="common-body">
+    {{ .Content }}
+    <p>—</p>
+	
+    <div class="common-list">
+      <ol>
+      {{ range .Data.Pages.ByDate.Reverse }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "02 January 2006" }})</span>
+        </li>
+      {{ end }}
+      </ol>
+	</div>
+  <p>—</p>
+
+{{ end }}
+
+

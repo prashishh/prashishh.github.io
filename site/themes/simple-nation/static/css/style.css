@@ -541,6 +541,18 @@ img {
   color: #000;
 }
 
+/* make links in common pages orange like the rest */
+.common-body a {
+  color: #ec4300;
+  text-decoration: none;
+  border-bottom: #ec4300 1px solid;
+}
+
+/* make single page titles orange */
+.common-body h1, .common-body h1 strong {
+  color: #ec4300;
+}
+
 .bookshelf-list, .people-list, .common-list {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -561,7 +573,7 @@ img {
 
 .bookshelf-book-red {
   color: #880404;
-}
+  }
 
 .bookshelf-book-green {
   color: #00751c;

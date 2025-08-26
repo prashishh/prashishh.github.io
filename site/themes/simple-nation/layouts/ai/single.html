@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+	<div class="common-body content">
+		<h1><strong>{{ .Title }}</strong></h1>
+		<span class="published-date">{{ .PublishDate.Format "January 2, 2006" }}</span>
+		{{ with .Params.image }}<p><img src="{{ . | relURL }}" alt="{{ $.Title }}"></p>{{ end }}
+		{{ .Content }}
+	</div>
+
+{{ end }}
+
+

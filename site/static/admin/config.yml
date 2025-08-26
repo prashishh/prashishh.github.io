@@ -39,6 +39,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Author", name: "author", widget: "string", default: "Prashish"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: false, default: ["ongoing"], required: false}
       - {label: "Slug", name: "url", widget: "string", default: "/:slug"}
+  - name: "ai"
+    label: "AI"
+    folder: "site/content/ai"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string", default: "Prashish"}
+      - {label: "Slug", name: "url", widget: "string", default: "/:slug"}
   - name: "pages"
     label: "Pages"
     files:
@@ -51,6 +61,12 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/about/_index.md"
         label: "About"
         name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "site/content/ai/_index.md"
+        label: "AI Overview"
+        name: "ai_overview"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
