@@ -1,6 +1,6 @@
 ---
 title: Widening the Light
-date: 2025-08-27T00:00:00Z
+date: 2025-08-26T00:00:00Z
 author: Prashish
 ---
 
