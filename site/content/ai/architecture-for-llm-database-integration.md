@@ -1,5 +1,5 @@
 ---
-title: "The Schema Wrapper Pattern: An Architecture for LLM-Database Integration"
+title: "An Architecture for LLM-Database Integration"
 date: 2025-08-27T00:00:00Z
 author: Prashish, Alok
 tags:
