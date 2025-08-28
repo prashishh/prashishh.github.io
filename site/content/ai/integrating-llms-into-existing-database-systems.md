@@ -43,26 +43,26 @@ This architectural foundation scales across any data storage technology. While r
 
 The architecture consists of multiple interconnected layers, each responsible for a specific aspect of the translation process from natural language intent to reliable database results.
 
-### High-Level System Architecture
+<h3 style="font-size: 1.5em; font-weight: bold;">High-Level System Architecture</h3>
 
 <div class="image-wrapper" style="margin: 12px auto; max-width: 40%; text-align: center;"><a href="/img/high-level-architecture.png" target="_blank"><img src="/img/high-level-architecture.png" style="max-width: 100%; height: auto; cursor: pointer;"></a></div>
 
 *Figure 1: High-level system architecture showing the core components and data flow from user input through the Schema Wrapper to database results and external system interactions.*
 
 
-### Detailed Component Architecture
+<h3 style="font-size: 1.5em; font-weight: bold;">Detailed Component Architecture</h3>
 
 <div class="image-wrapper" style="margin: 12px auto; max-width: 80%; text-align: center;"><a href="/img/detailed-component-architecture.png" target="_blank"><img src="/img/detailed-component-architecture.png" style="max-width: 100%; height: auto; cursor: pointer;"></a></div>
 
 *Figure 2: Detailed component architecture illustrating the Natural Language Layer, Orchestrator, LLM Reasoner, Schema Wrapper subsystems, Execution Layer, and Observability components with their interconnections.*
 
-### Interaction Flow Sequence
+<h3 style="font-size: 1.5em; font-weight: bold;">Interaction Flow Sequence</h3>
 
 <div class="image-wrapper" style="margin: 12px auto; max-width: 80%; text-align: center;"><a href="/img/interactive-flow-sequence.png" target="_blank"><img src="/img/interactive-flow-sequence.png" style="max-width: 100%; height: auto; cursor: pointer;"></a></div>
 
 *Figure 3: Interaction flow sequence diagram showing the step-by-step process from user request through intent classification, schema retrieval, and execution for different operation types (queries, writes, actions, and workflows).*
 
-### Complete Processing Flow
+<h3 style="font-size: 1.5em; font-weight: bold;">Complete Processing Flow</h3>
 
 The system processes natural language requests through a structured pipeline that branches based on intent type, ensuring appropriate handling for queries, writes, actions, and workflows:
 
@@ -97,6 +97,8 @@ The **Schema Wrapper** represents the most critical architectural component, ser
 
 Consider the difference between a raw database table definition and its wrapper equivalent. A typical enrollment table might be defined as follows:
 
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
+
 ```sql
 CREATE TABLE enrollments (
   enrollment_id INT PRIMARY KEY,
@@ -108,10 +110,14 @@ CREATE TABLE enrollments (
 );
 ```
 
+</div>
+
 *Example 1: Traditional database table definition showing raw technical structure without business context or semantic meaning.*
 
 This definition provides technical structure but offers no insight into business meaning, usage patterns, or contextual relationships. The wrapper transforms this technical specification into rich semantic knowledge with comprehensive business context:
 
+
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
 
 ```typescript
 enrollments: {
@@ -164,6 +170,8 @@ enrollments: {
 }
 ```
 
+</div>
+
 *Example 2: Schema Wrapper semantic definition transforming the raw table structure into rich business intelligence with relationships, rules, and domain vocabulary.*
 
 The wrapper contains five distinct categories of information that work together to provide complete domain context:
@@ -172,6 +180,8 @@ The wrapper contains five distinct categories of information that work together 
 
 • **Join Graph Documentation**: Documents canonical relationships between entities, specifying not just that tables can be connected, but how they should be connected for different business purposes. A student's academic performance, for example, might be accessed through multiple possible join paths, but only certain combinations respect business rules about active enrollments, current terms, and valid grade records.
 
+
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
 
 ```typescript
 joinPaths: {
@@ -215,6 +225,8 @@ joinPaths: {
 }
 ```
 
+</div>
+
 *Example 3: Join path configuration defining canonical relationships between entities with business logic filters and alternative access patterns.*
 
 • **Semantic Ontology**: Maps domain vocabulary to database structures, enabling the system to understand that *"class roster"* refers to active enrollments for a specific class section, that *"academic performance"* encompasses grades and assignment completion, and that *"at risk students"* involves calculations based on attendance, grades, and assignment submission patterns.
@@ -241,13 +253,15 @@ The system recognizes five primary intent categories, each requiring distinct pr
 
 • **Clarification Responses**: User responses to system questions during ambiguity resolution, which must be matched against pending clarification contexts and integrated with existing query or action plans.
 
-### Semantic Query Understanding
+<h3 style="font-size: 1.5em; font-weight: bold;">Semantic Query Understanding</h3>
 
 The system moves beyond simple rule-based pattern matching to develop contextual understanding of domain concepts. Traditional approaches fail when users rephrase requests or combine concepts in unexpected ways. A rule-based system might recognize *"failing students"* but struggle with *"students at academic risk"* or *"pupils with concerning performance trends."*
 
 Semantic understanding enables the system to handle complex, multi-faceted requests:
 
-```
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
+
+```text
 User: "Show me students who are struggling academically and might need intervention"
 
 Traditional Pattern Matching:
@@ -262,6 +276,8 @@ Semantic Understanding:
 - Offers clarification about "intervention" criteria if needed
 ```
 
+</div>
+
 *Example 4: Comparison between rule-based pattern matching and semantic understanding approaches for handling complex, multi-faceted user requests.*
 
 The wrapper enables this semantic understanding by encoding concept relationships, synonym mappings, and business rule interconnections. When the system encounters *"struggling academically,"* it consults the wrapper to understand this encompasses multiple measurable factors, each with specific thresholds and weighting in the overall assessment.
@@ -270,11 +286,13 @@ The wrapper enables this semantic understanding by encoding concept relationship
 
 *Figure 5: Proof of concept demonstration showing semantic query understanding in action, where natural language requests are processed through the wrapper to generate appropriate database operations.*
 
-### Multi-Step Action Processing
+<h3 style="font-size: 1.5em; font-weight: bold;">Multi-Step Action Processing</h3>
 
 Complex user intents often require orchestrating multiple operations across different system components:
 
-```
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
+
+```text
 User: "Process grade changes for Math 101: update final grades, recalculate GPAs, and notify affected students"
 
 Processing Steps:
@@ -286,15 +304,19 @@ Processing Steps:
 6. Audit trail: Record all changes and notifications sent
 ```
 
+</div>
+
 *Example 5: Multi-step action processing workflow showing how complex user intents are decomposed into sequential operations with proper validation and rollback mechanisms.*
 
 The system must understand dependencies between operations, potential failure points, and appropriate recovery mechanisms. Grade updates must complete successfully before GPA recalculation, and notification sending should not prevent the academic changes if email systems are unavailable.
 
-### Write Operation Examples
+<h3 style="font-size: 1.5em; font-weight: bold;">Write Operation Examples</h3>
 
 Beyond traditional queries, the system handles data modification with appropriate validation and business rule enforcement:
 
-```
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
+
+```text
 User: "Update Sarah Chen's grade in Calculus to B+ and add a note about improvement"
 
 Write Processing:
@@ -308,15 +330,19 @@ Write Processing:
 8. Confirmation: Return success status with audit reference
 ```
 
+</div>
+
 *Example 6: Write operation processing flow demonstrating the additional validation, permission checking, and audit trail requirements for database modifications.*
 
 Write operations require additional safeguards including transaction management, audit trail creation, and cascade effect handling that simple queries do not need.
 
-### Workflow Orchestration Examples
+<h3 style="font-size: 1.5em; font-weight: bold;">Workflow Orchestration Examples</h3>
 
 Complex business processes involve multiple steps across different systems:
 
-```
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
+
+```text
 User: "Execute semester transition: archive current grades, promote students to next level, generate transcripts, and email parents"
 
 Workflow Execution:
@@ -341,6 +367,8 @@ Workflow Execution:
 7. Completion: Workflow status summary and error report
 ```
 
+</div>
+
 *Example 7: Complex workflow orchestration showing multi-system operations with dependency management, state tracking, and comprehensive error handling.*
 
 Workflow orchestration requires state management, rollback capabilities, and progress tracking across multiple system boundaries.
@@ -355,7 +383,9 @@ Traditional systems often respond to ambiguity with generic error messages that 
 
 Effective clarification strategies generate specific, actionable questions that directly address the identified ambiguities:
 
-```
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
+
+```text
 // Bad: Generic clarification
 "Your query is ambiguous. Please provide more details."
 
@@ -366,6 +396,8 @@ Effective clarification strategies generate specific, actionable questions that 
 - Michael Johnson (Science Department)
 Which teacher did you mean?"
 ```
+
+</div>
 
 *Example 8: Clarification strategy comparison showing the difference between generic error messages and specific, actionable questions that guide users toward precision.*
 
@@ -381,7 +413,7 @@ Session state management ensures that clarification responses integrate smoothly
 
 Clarification design should consider the broader user experience beyond individual query resolution. Well crafted clarifications teach users about system capabilities and data structures, gradually improving the quality of initial requests. Users learn to provide more specific information upfront when they understand what distinctions matter within the domain.
 
-Once ambiguities are resolved through clarifications, the system moves into its reasoning phase. This is where intent, schema context, and policies are stitched together into a transparent decision process. Reasoning ensures that every query, write, workflow, or external action is not just executed, but explained — turning opaque black-box outputs into auditable, trustworthy steps.
+Once ambiguities are resolved through clarifications, the system moves into its reasoning phase. This is where intent, schema context, and policies are stitched together into a transparent decision process. Reasoning ensures that every query, write, workflow, or external action is not just executed, but explained, turning opaque black-box outputs into auditable, trustworthy steps.
 
 ---
 
@@ -393,13 +425,13 @@ The reasoning process follows a structured sequence across **all intent types**:
 
 • **Intent Classification**: Determines whether the input is a query, a write operation, an external API call, or a workflow orchestration. Routing the request correctly is the foundation for safe execution.
 
-• **Query Planning**: Breaks complex requests into subtasks — identifying required data sources, joins, filters, and aggregations. For workflows, this includes sequencing multiple dependent steps. For API actions, this includes validating parameters and dependencies.
+• **Query Planning**: Breaks complex requests into subtasks, identifying required data sources, joins, filters, and aggregations. For workflows, this includes sequencing multiple dependent steps. For API actions, this includes validating parameters and dependencies.
 
 • **Ambiguity Detection**: Identifies where user intent might be unclear (names, time ranges, criteria) and prompts for clarification before proceeding.
 
 • **Schema and Policy Resolution**: Maps intent to specific tables, join paths, API endpoints, or workflow definitions, always consulting wrapper intelligence and enforcing business rules.
 
-• **Partial Context Delivery**: To prevent LLM overload, the system employs ground slicing — providing only the relevant subset of schema, policies, or examples instead of the full wrapper. This ensures reasoning quality while respecting model token limits.
+• **Partial Context Delivery**: To prevent LLM overload, the system employs ground slicing, providing only the relevant subset of schema, policies, or examples instead of the full wrapper. This ensures reasoning quality while respecting model token limits.
 
 • **Compilation and Validation**: Translates the plan into SQL, API calls, or workflow steps using canonical patterns. Every operation undergoes validation for schema correctness, policy compliance, and resource limits.
 
@@ -415,15 +447,15 @@ By surfacing these steps, reasoning not only improves trust but also feeds direc
 
 Beyond the primary components of wrapper, intent classification, clarification, and reasoning, several additional modules provide essential functionality that enables reliable production operation of LLM database integration systems.
 
-### Conversation Manager
+<h3 style="font-size: 1.5em; font-weight: bold;">Conversation Manager</h3>
 
 The **Conversation Manager** maintains contextual state across multiple interaction turns, enabling natural dialogue patterns. It resolves pronoun references like *"their performance"* to previously identified entities and understands action continuity such as *"now update their status"* referring to the same student cohort. For complex workflows, it tracks multi-step processes where users might modify, approve, or cancel operations in progress.
 
-### Query Planner
+<h3 style="font-size: 1.5em; font-weight: bold;">Query Planner</h3>
 
 The **Query Planner** decomposes complex requests into manageable sequential steps, handling queries, write operations, API calls, and multi-step workflows. It creates execution strategies that consider task dependencies, optimize sequences for efficiency, and maintain intermediate results for meaningful analysis. For complex operations like *"compare this quarter's performance to last quarter for top students,"* the planner breaks this into: identify top students, calculate current metrics, calculate previous metrics, and generate comparisons.
 
-### Observability Layer
+<h3 style="font-size: 1.5em; font-weight: bold;">Observability Layer</h3>
 
 The **Observability Layer** captures telemetry about every stage of this reasoning chain. Logs include user requests, clarification paths, reasoning traces, query performance, and error outcomes. This integration ensures observability is not just a monitoring add-on but a direct extension of reasoning transparency. Teams can identify wrapper gaps, ambiguous patterns, or performance bottlenecks by inspecting reasoning logs side-by-side with execution metrics.
 
@@ -433,25 +465,25 @@ The **Observability Layer** captures telemetry about every stage of this reasoni
 
 Building production-quality LLM database integration systems presents numerous challenges and design implications. These are not simply obstacles but architectural realities that shape how systems must be designed and maintained. Understanding them helps teams prepare for implementation complexity and proactively design mitigation strategies.
 
-### Schema Complexity and Legacy Systems
+<h3 style="font-size: 1.5em; font-weight: bold;">Schema Complexity and Legacy Systems</h3>
 
 Schema complexity represents one of the most significant obstacles to successful integration. Real world databases rarely exhibit clean, well documented structures with intuitive naming conventions and clear relationships. Legacy systems often contain tables with names like "CUSTMST" or "ENROLLMT" that reflect historical character limits or development conventions rather than business meaning. The wrapper must decode these technical artifacts into comprehensible semantic descriptions.
 
 Foreign key relationships may follow inconsistent patterns, with some connections explicit through declared constraints while others exist only as implicit conventions understood by application developers but not documented in schema metadata. Essential business logic often exists in application code rather than database constraints, requiring the wrapper to encode rules about valid status transitions, required field combinations, and calculated values that aren't apparent from schema examination alone.
 
-### Join Path Selection and Optimization
+<h3 style="font-size: 1.5em; font-weight: bold;">Join Path Selection and Optimization</h3>
 
 Join path selection presents difficulties in systems with rich interconnection patterns. Multiple valid paths often exist between related entities, but only some paths respect business rules and produce meaningful results. A query about student performance might traverse from students through enrollments to classes to assignments to grades, or alternatively through students to terms to grades directly. The wrapper must encode not just the technical possibility of various paths but guidance about which approaches are semantically correct and performant.
 
-### Ambiguity Management and User Experience
+<h3 style="font-size: 1.5em; font-weight: bold;">Ambiguity Management and User Experience</h3>
 
 Ambiguity management requires balancing user experience with accuracy requirements. Users prefer quick responses but insufficient clarification can lead to incorrect results that undermine system trust. The system must develop strategies for detecting which ambiguities are critical to resolve versus which can be handled through reasonable default assumptions.
 
-### Performance and Scalability Constraints
+<h3 style="font-size: 1.5em; font-weight: bold;">Performance and Scalability Constraints</h3>
 
 Performance optimization becomes particularly complex when natural language queries must be translated into efficient database operations without user involvement in optimization decisions. Users cannot be expected to understand index usage, join ordering, or result set size implications of their requests. The system must incorporate performance intelligence into the wrapper and query planning components, automatically applying optimizations that maintain result accuracy while ensuring acceptable response times.
 
-### Model Reliability and System Evolution
+<h3 style="font-size: 1.5em; font-weight: bold;">Model Reliability and System Evolution</h3>
 
 Model reliability presents ongoing challenges as LLM capabilities and limitations evolve. Models may produce plausible but incorrect reasoning or exhibit inconsistent behavior across similar requests. The architecture must provide sufficient validation and constraint mechanisms to detect and prevent model errors before they impact users or systems.
 
@@ -463,9 +495,11 @@ Maintenance overhead becomes substantial as wrapper content grows and database s
 
 The following sections demonstrate specific implementation patterns that bring the architectural concepts into practice. These examples show how the abstract components translate into concrete systems that handle real-world complexity.
 
-### **Catalog System** Implementation
+<h3 style="font-size: 1.5em; font-weight: bold;">**Catalog System** Implementation</h3>
 
 The catalog system manages entity definitions, relationships, and semantic mappings that enable LLM understanding of database structures. This implementation demonstrates how abstract wrapper concepts translate into concrete data structures:
+
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
 
 ```json
 {
@@ -491,18 +525,14 @@ The catalog system manages entity definitions, relationships, and semantic mappi
 }
 ```
 
+</div>
+
 *Example 9: Catalog system JSON structure defining entity metadata, field mappings, synonyms, and keywords for semantic understanding.*
-
-**Core Components:**
-- Entity registry with versioning and change tracking
-- Relationship mapping with canonical join path definitions
-- Business rule engine with validation logic
-- Synonym and vocabulary management system
-- Policy enforcement framework
-
-### **Semantic Query Builder** with Business Logic
+<h3 style="font-size: 1.5em; font-weight: bold;">**Semantic Query Builder** with Business Logic</h3>
 
 This implementation shows how natural language gets transformed into structured SQL through LLM interaction with rich schema context:
+
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
 
 ```typescript
 export class SemanticQueryBuilder {
@@ -557,22 +587,19 @@ Respond with JSON only:
 }
 ```
 
+</div>
+
 *Example 10: Semantic Query Builder implementation showing how natural language gets transformed into structured SQL through LLM interaction with rich schema context.*
 
 <div class="image-wrapper" style="margin: 12px auto; max-width: 90%; text-align: center;"><a href="/img/sample-poc-2.png" target="_blank"><img src="/img/sample-poc-2.png" style="max-width: 100%; height: auto; cursor: pointer;"></a></div>
 
 *Figure 6: Live demonstration of the Semantic Query Builder processing natural language input and generating SQL with reasoning transparency and confidence scoring.*
 
-**Key Features:**
-- Natural language to semantic concept mapping
-- Business rule application during query planning
-- Context-aware join path selection
-- Dynamic filter generation based on user roles
-- Query optimization with domain knowledge
-
-### **Progressive Reasoning Chain** Architecture
+<h3 style="font-size: 1.5em; font-weight: bold;">**Progressive Reasoning Chain** Architecture</h3>
 
 This implementation shows how to build step-by-step reasoning systems that make decision processes transparent and enable debugging of complex query processing:
+
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
 
 ```typescript
 const reasoningPrompt = `Break down this query into sequential reasoning steps:
@@ -590,6 +617,10 @@ Respond with JSON:
   "confidence": 0.8
 }`;
 ```
+
+</div>
+
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
 
 ```typescript
 class ProgressiveReasoningChain {
@@ -627,18 +658,15 @@ class ProgressiveReasoningChain {
 }
 ```
 
+</div>
+
 *Example 11: Progressive Reasoning Chain implementation demonstrating step-by-step reasoning systems that make decision processes transparent and enable debugging of complex query processing.*
 
-**Components:**
-- Reasoning step definition and execution framework
-- Context management across reasoning chains
-- Decision point logging and audit trails
-- Error recovery and rollback mechanisms
-- Performance monitoring and optimization
-
-### **Hierarchical Task Breakdown System**
+<h3 style="font-size: 1.5em; font-weight: bold;">**Hierarchical Task Breakdown System**</h3>
 
 This implementation demonstrates workflow orchestration that decomposes complex multi-step operations into manageable, executable tasks with proper dependency tracking:
+
+<div style="padding: 16px; background: #1e1e1e; border-radius: 6px; margin: 12px 0;">
 
 ```typescript
 export interface PlanTask {
@@ -732,16 +760,10 @@ Respond with JSON only.`;
 }
 ```
 
+</div>
+
 *Example 12: Hierarchical Task Breakdown System showing workflow orchestration that decomposes complex multi-step operations into manageable, executable tasks with proper dependency tracking.*
 
-**Architecture Elements:**
-- Task dependency graph construction
-- Resource allocation and scheduling
-- State management across workflow steps
-- Error handling and recovery strategies
-- Progress reporting and user interaction
-
-*Note: Detailed implementations of these systems would require separate technical documentation focused on specific technology stacks and deployment environments.*
 
 <div class="image-wrapper" style="margin: 12px auto; max-width: 90%; text-align: center;"><a href="/img/sample-poc-3.png" target="_blank"><img src="/img/sample-poc-3.png" style="max-width: 100%; height: auto; cursor: pointer;"></a></div>
 
@@ -753,13 +775,13 @@ Respond with JSON only.`;
 
 While this architecture provides a robust foundation for LLM-database integration, it introduces complexity that may not be justified for all systems and carries inherent risks that teams must carefully consider.
 
-### When This Architecture Is Overkill
+<h3 style="font-size: 1.5em; font-weight: bold;">When This Architecture Is Overkill</h3>
 
 Organizations with simple, well-documented schemas and predictable query patterns may find the wrapper development overhead exceeds the benefits. A straightforward e-commerce platform with basic product catalogs and order tables might achieve better results with simpler validation layers and direct SQL generation. The semantic wrapper approach becomes cost-prohibitive when wrapper maintenance requires more engineering time than building traditional query interfaces.
 
 Startups and small teams face particular challenges with this architecture. The upfront investment in wrapper development, domain expertise requirements, and ongoing maintenance can consume resources better allocated to core product features. Systems serving fewer than 100 concurrent users rarely justify the architectural complexity required for comprehensive semantic translation.
 
-### Critical Failure Scenarios
+<h3 style="font-size: 1.5em; font-weight: bold;">Critical Failure Scenarios</h3>
 
 **Wrapper Schema Drift**: The wrapper can become inconsistent with actual database schemas during rapid development cycles, leading to systematic query failures that are difficult to diagnose. When wrapper definitions lag behind schema changes, the system generates valid-looking but failing operations that erode user trust.
 
@@ -769,7 +791,7 @@ Startups and small teams face particular challenges with this architecture. The 
 
 **Cascade Validation Failures**: Complex validation chains create brittle systems where minor policy changes can break seemingly unrelated operations. Dependencies between validation rules, business logic, and security policies become difficult to track and maintain.
 
-### Performance and Scalability Limitations
+<h3 style="font-size: 1.5em; font-weight: bold;">Performance and Scalability Limitations</h3>
 
 The multi-stage reasoning pipeline introduces latency that may be unacceptable for real-time applications. Systems requiring sub-second response times struggle with the semantic understanding, planning, and validation overhead. High-throughput scenarios reveal bottlenecks in wrapper consultation and reasoning chain generation.
 
@@ -781,9 +803,9 @@ Wrapper complexity grows quadratically with schema size, making this approach im
 
 Successful LLM database integration requires architectural discipline that goes far beyond prompt engineering or model selection. The intelligence of these systems resides in structured frameworks that constrain behavior within safe, productive boundaries.
 
-Key lessons include:
+__Key lessons include:__
 
-• **Wrapper First**: The **Schema Wrapper** is the single most important component. Teams should devote significant time and care to building rich semantic descriptions, canonical join paths, policy rules, and example libraries, as these form the foundation on which everything else rests.
+• **Wrapper First**: The Schema Wrapper is the single most important component. Teams should devote significant time and care to building rich semantic descriptions, canonical join paths, policy rules, and example libraries, as these form the foundation on which everything else rests.
 
 • **Reasoning Transparency**: Users and developers must see how results were derived. Exposing reasoning traces builds trust and provides a foundation for debugging, performance tuning, and wrapper evolution.
 
