@@ -9,7 +9,8 @@ tags:
   - databases
 ---
 
-> **Note**: This article is part of our ongoing exploration of AI systems and architectures. You can find more articles in this series at [/ai](/ai). This comprehensive analysis was developed through close collaboration with AI as a super assistant, combining human architectural expertise with AI's capability for systematic analysis and documentation.
+> **Note**: This article is part of our ongoing exploration of AI systems and architectures. You can find more articles in this series at [/ai](/ai). This essay emerged from collaborative discussions about LLM-database integration architecture, with AI systems contributing to content development, code examples, and architectural analysis.
+
 
 ## Introduction
 
@@ -495,7 +496,7 @@ Maintenance overhead becomes substantial as wrapper content grows and database s
 
 The following sections demonstrate specific implementation patterns that bring the architectural concepts into practice. These examples show how the abstract components translate into concrete systems that handle real-world complexity.
 
-<h3 style="font-size: 1.5em; font-weight: bold;">**Catalog System** Implementation</h3>
+<h3 style="font-size: 1.5em; font-weight: bold;">Catalog System Implementation</h3>
 
 The catalog system manages entity definitions, relationships, and semantic mappings that enable LLM understanding of database structures. This implementation demonstrates how abstract wrapper concepts translate into concrete data structures:
 
@@ -528,7 +529,7 @@ The catalog system manages entity definitions, relationships, and semantic mappi
 </div>
 
 *Example 9: Catalog system JSON structure defining entity metadata, field mappings, synonyms, and keywords for semantic understanding.*
-<h3 style="font-size: 1.5em; font-weight: bold;">**Semantic Query Builder** with Business Logic</h3>
+<h3 style="font-size: 1.5em; font-weight: bold;">Semantic Query Builder with Business Logic</h3>
 
 This implementation shows how natural language gets transformed into structured SQL through LLM interaction with rich schema context:
 
