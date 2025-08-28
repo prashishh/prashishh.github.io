@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llm on xyz prashish</title>
+    <link>http://localhost:1313/tags/llm/</link>
+    <description>Recent content in Llm on xyz prashish</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating LLMs into Existing Database Systems: A Practitioner’s Architecture</title>
+      <link>http://localhost:1313/ai/integrating-llms-into-existing-database-systems/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/integrating-llms-into-existing-database-systems/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Modern digital systems are built upon diverse data storage technologies that serve different architectural needs. While document databases like MongoDB dominate many startup environments due to their flexibility and ease of implementation, graph databases power social networks and recommendation systems, key-value stores handle high-throughput caching, and time-series databases manage IoT and monitoring data. However, relational databases remain the backbone of most enterprise systems and production applications, with frameworks commonly defaulting to PostgreSQL or MySQL for their ACID compliance, mature tooling, and well-understood operational characteristics.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
