@@ -566,7 +566,7 @@ AVAILABLE DATABASE SCHEMA:
 ${JSON.stringify(schema, null, 2)}
 
 EXAMPLES:
-1. *"How many students are in grade 9?"*
+1. "How many students are in grade 9?"
 {"sql": "SELECT COUNT(*) as total_students FROM students WHERE grade_level = 9 AND status = 'Active'", 
  "params": [], 
  "columns": ["total_students"], 
@@ -595,7 +595,7 @@ Respond with JSON only:
 
 *Figure 6: Live demonstration of the Semantic Query Builder processing natural language input and generating SQL with reasoning transparency and confidence scoring.*
 
-<h3 style="font-size: 1.5em; font-weight: bold;">**Progressive Reasoning Chain** Architecture</h3>
+<h3 style="font-size: 1.5em; font-weight: bold;">Progressive Reasoning Chain Architecture</h3>
 
 This implementation shows how to build step-by-step reasoning systems that make decision processes transparent and enable debugging of complex query processing:
 
@@ -662,7 +662,7 @@ class ProgressiveReasoningChain {
 
 *Example 11: Progressive Reasoning Chain implementation demonstrating step-by-step reasoning systems that make decision processes transparent and enable debugging of complex query processing.*
 
-<h3 style="font-size: 1.5em; font-weight: bold;">**Hierarchical Task Breakdown System**</h3>
+<h3 style="font-size: 1.5em; font-weight: bold;">Hierarchical Task Breakdown System</h3>
 
 This implementation demonstrates workflow orchestration that decomposes complex multi-step operations into manageable, executable tasks with proper dependency tracking:
 
@@ -730,7 +730,7 @@ TASK INTENTS:
 - "filter": Apply specific criteria to existing data
 
 EXAMPLE - Complex Query:
-Query: *"Students struggling academically who need intervention"*
+Query: "Students struggling academically who need intervention"
 {
   "tasks": [
     {
