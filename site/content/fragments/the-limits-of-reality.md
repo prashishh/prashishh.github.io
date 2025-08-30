@@ -1,5 +1,5 @@
 ---
-title: The Limits of Reality.
+title: The Limits of Reality
 date: 2025-08-26T00:00:00Z
 author: Prashish
 ---
