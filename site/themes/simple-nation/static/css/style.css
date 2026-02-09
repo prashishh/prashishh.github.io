@@ -696,6 +696,25 @@ p.title-margin-top {
   height: auto;
 }
 
+.content .diagram-center {
+  text-align: center;
+  margin: 1.5em 0;
+}
+.content .diagram-center pre {
+  display: inline-block;
+  text-align: left;
+  white-space: pre;
+  overflow-x: auto;
+  max-width: 100%;
+  font-family: "DejaVu Sans Mono", "Consolas", "Monaco", "Menlo", "SF Mono", "Liberation Mono", monospace;
+  font-size: 13px;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+.content .diagram-center pre code {
+  font-family: inherit;
+}
+
 .content ul li, .content ol li {
   line-height: 1.8em;
   font-size: 16px;
