@@ -4,3 +4,4 @@ docs/
 site/resources/_gen/
 /npm-debug.log
 yarn-error.log
+site/static/.DS_Store

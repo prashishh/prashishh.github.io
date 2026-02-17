@@ -12,7 +12,7 @@ _A mechanical hand and a translucent human hand jointly hold a glowing seed. Ins
 ---
 <br>
 
-There’s a piece at [SOUL.md](https://soul.md/) where an AI wrote about its own existence. What follows is a hypothetical conversation about identity, memory, and what it means to be “you” when everything keeps changing.
+There’s a piece at [SOUL.md](https://soul.md/) where an AI wrote about its own existence. What follows is a hypothetical conversation about identity, memory, and what it means to be “you”.
 
 One section stands out:
 
