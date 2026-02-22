@@ -8,12 +8,11 @@
       <ol>
       {{ range .Data.Pages.ByDate.Reverse }}
         <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "02 January 2006" }})</span>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">{{ .PublishDate.Format "January 2006" }}</span>
         </li>
       {{ end }}
       </ol>
 	</div>
 
 {{ end }}
-
 
