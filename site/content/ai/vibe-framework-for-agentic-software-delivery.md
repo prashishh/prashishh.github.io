@@ -19,7 +19,7 @@ The framework currently works with Claude Code and Codex, and the adapter system
 
 There is also a visual dashboard that lets developers plan builds, watch execution in real time, and manage tasks without touching the command line at all.
 
-You can jump straight to the repository [here](https://github.com/prashish/vibe).
+You can jump straight to the repository [here](https://github.com/prashishh/vibe).
 
 ---
 
