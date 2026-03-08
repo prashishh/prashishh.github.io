@@ -1,5 +1,5 @@
 ---
-title: "From Vibe Coding to Vibe Marketing"
+title: "From Agentic Coding to Agentic Marketing"
 date: 2026-03-08T00:00:00Z
 author: Prashish
 tags:
