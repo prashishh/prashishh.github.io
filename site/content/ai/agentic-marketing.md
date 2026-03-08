@@ -27,7 +27,7 @@ The starting point was [Alex Hormozi's](https://x.com/AlexHormozi) playbook, his
 
 The Command Center has four layers: a **Checklist**, **Playbooks**, **Audience Tracking**, and **KPIs**. The checklist drives the daily work, broken into phases covering pre-launch, outreach, and growth, with each item tagged by priority and sourced to a specific framework or learning.
 
-<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/command-center-2.png"></div>
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/command-center-2.jpg"></div>
 
 ---
 
@@ -61,6 +61,6 @@ The knowledge base is what ties it all together. It holds the playbooks, the bus
 
 For any business or project, this is where workflow is heading, a system where the knowledge base, the strategy, and the agents executing on it are all connected and constantly in sync.
 
-<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/command-center-1.png"></div>
+<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/command-center-1.jpg"></div>
 
 ---
