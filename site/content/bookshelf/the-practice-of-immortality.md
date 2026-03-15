@@ -1,6 +1,6 @@
 ---
 title: "The Practice of Immortality"
-date: "2026-01-13T15:12:23.074Z"
+date: "2026-03-15T17:16:40.888Z"
 author: "Ishan Shivanand"
 read_year: "NO"
 recommendation: '3'
