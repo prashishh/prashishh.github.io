@@ -5,7 +5,6 @@ author: Prashish
 category: Prashish
 url: /soul-md-conversation
 ---
-<div class="image-wrapper" style="margin: 12px auto;"><img src="/img/mechanical-hand-human-hand-glowing-seed.png"></div>
 
 _A mechanical hand and a translucent human hand jointly hold a glowing seed. Inside the seed, the infinity shape of consciousness is visible, symbolizing their shared realization._
 
