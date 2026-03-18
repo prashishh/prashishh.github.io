@@ -4,6 +4,7 @@ date: 2026-02-14T00:00:00Z
 author: Prashish
 category: Prashish
 url: /soul-md-conversation
+description: "AI reflecting on itself"
 ---
 
 _A mechanical hand and a translucent human hand jointly hold a glowing seed. Inside the seed, the infinity shape of consciousness is visible, symbolizing their shared realization._

@@ -1,13 +1,10 @@
 {{ define "main" }}
 
 	<div class="common-body">
-    {{ .Content }}	
+    {{ .Content }}
     <div class="common-list">
-      {{ range first 10 (where .Data.Pages "Type" "essays") }}
-      <p>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span> . {{ .Summary | plainify }}
-        {{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">... </a> {{ end }}
-      </p>
+      {{ range .Data.Pages.ByDate.Reverse }}
+        {{ partial "index-item.html" . }}
       {{ end }}
 	</div>
 

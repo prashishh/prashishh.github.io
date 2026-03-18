@@ -5,6 +5,8 @@ author: Prashish
 tags:
   - ongoing
 url: /writing-less-more
+description: "finding an authentic writing voice"
+article_kind: Personal
 ---
 My virtual mentors for writing are [Tim Urban](https://waitbutwhy.com/) and [Derek Sivers](http://sivers.org/). These two incredible human beings have a completely different writing styles. Tim writes long articles narrating as the first person and every nooks and corner of the subject. Derek writes short, crisp and valuable life lessons. My favorites are [this](https://waitbutwhy.com/2014/05/fermi-paradox.html), [this](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html), [this](https://sivers.org/hellyeah) and [this](https://sivers.org/evers).
 

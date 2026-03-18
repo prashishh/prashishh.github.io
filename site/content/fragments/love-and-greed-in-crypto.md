@@ -2,6 +2,8 @@
 title: Love and Greed in Crypto
 date: 2025-09-05T00:00:00Z
 author: Prashish
+description: "speculation vs genuine community"
+article_kind: Perspective
 ---
 
 *Note: While this framework applies to any community, from startups to religious movements to open source projects, I'm using crypto community as a reference point here because I have been working actively in this industry for the past 5 years and been here since 2014.*

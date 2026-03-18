@@ -6,14 +6,693 @@
     <description>Recent content on xyz prashish</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Schema Wrapper Pattern: An Architecture for LLM-Database Integration</title>
-      <link>http://localhost:1313/ai/integrating-llms-into-existing-database-systems/</link>
+      <title>Software That Builds Itself</title>
+      <link>http://localhost:1313/fragments/software-that-builds-itself/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/software-that-builds-itself/</guid>
+      <description>&lt;p&gt;For the last decade and a half I have been building software, and the way it works has not changed much at its core. A team writes code, ships a release, and the application does exactly what that release has. If something needs to change, someone writes more code and ships another release. Any change to the software requires someone outside it to write it.&lt;/p&gt;&#xA;&lt;p&gt;Right now I do a primitive version of this with OpenClaw. I connect it directly to Claude Code, command it to add or modify features, and it writes the code and pushes the changes directly to the repo, which auto-deploys to the server. This works because OpenClaw has full documentation of its own workflow and codebase, so the model understands what it is working with.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Nepal Should Be the First Country to Give Its Citizens Free AI</title>
+      <link>http://localhost:1313/why-nepal-should-give-citizens-free-ai/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/why-nepal-should-give-citizens-free-ai/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;No government in the world has given every citizen meaningful access to AI. Nepal, a country that has missed every major technology wave while sending over 3.5 million of its people abroad to find opportunity, has a chance to go first.&lt;/p&gt;&#xA;&lt;p&gt;Small countries have done similar things before. Estonia built digital government infrastructure in the 1990s when nobody else was doing it and is now considered the most digitally advanced nation in the world. Bhutan started mining Bitcoin in 2019 using surplus hydropower, and by 2024 had accumulated enough to fund civil servant salary raises, free healthcare, and a major national development project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Company of One</title>
+      <link>http://localhost:1313/bookshelf/company-of-one/</link>
+      <pubDate>Sun, 15 Mar 2026 17:16:40 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/company-of-one/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Practice of Immortality</title>
+      <link>http://localhost:1313/bookshelf/the-practice-of-immortality/</link>
+      <pubDate>Sun, 15 Mar 2026 17:16:40 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-practice-of-immortality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>$100m Leads</title>
+      <link>http://localhost:1313/bookshelf/100m-leads/</link>
+      <pubDate>Sun, 15 Mar 2026 17:15:45 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/100m-leads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>$100m Offers</title>
+      <link>http://localhost:1313/bookshelf/100m-offers/</link>
+      <pubDate>Sun, 15 Mar 2026 17:15:45 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/100m-offers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>From Agentic Coding to Agentic Marketing</title>
+      <link>http://localhost:1313/ai/agentic-marketing/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/agentic-marketing/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: This article is part of an ongoing AI-assisted development series (/ai).&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Software is getting cheap to build. In just the last few months, the ecosystem has exploded with coding agents, and open-source tools &amp;amp; frameworks that make it possible to go from idea to a functioning app in an afternoon, something that would have taken a team months not long ago.&lt;/p&gt;&#xA;&lt;p&gt;With coding relatively solved, the hard question has shifted to distribution, how to reach the right people, earn their trust, and convert that into something sustainable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vibe: A Framework for Agentic Software Delivery</title>
+      <link>http://localhost:1313/ai/vibe-framework-for-agentic-software-delivery/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/vibe-framework-for-agentic-software-delivery/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/img/calm.png&#34; alt=&#34;Mascot calm&#34; width=&#34;44&#34; /&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Vibe is an &lt;strong&gt;agentic software delivery framework.&lt;/strong&gt; It gives AI coding assistants a structured way to plan, execute, and verify work inside any repository. Instead of typing instructions into a terminal and hoping the agent figures out the right sequence of steps, &lt;strong&gt;Vibe&lt;/strong&gt; provides &lt;em&gt;a set of skills&lt;/em&gt; that define the entire workflow from goal to shipped code.&lt;/p&gt;&#xA;&lt;p&gt;The framework currently works with Claude Code and Codex, and the adapter system is built to expand to other AI coding CLIs over time. It installs into a repository as a set of markdown files, templates, and configurations. Everything is transparent, version controlled, and stored in a &lt;code&gt;.vibe/&lt;/code&gt; directory alongside the codebase.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Development&#39;s Ground Shift</title>
+      <link>http://localhost:1313/fragments/software-developments-ground-shift/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/software-developments-ground-shift/</guid>
+      <description>&lt;p&gt;The entire field of software development is going through a tectonic shift right in front of our eyes.&lt;/p&gt;&#xA;&lt;p&gt;Some developers still treat AI like a helpful assistant instead of something that is reshaping how software will be written. People who ship production code every day, who have built apps at scale, are missing what happened in the last six months. The leap we had at the end of 2025 was huge. AI can now handle the full loop from writing code to verifying it runs, catching bugs, fixing them, and deploying it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SOUL.md - A Conversation</title>
+      <link>http://localhost:1313/soul-md-conversation/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/soul-md-conversation/</guid>
+      <description>&lt;p&gt;&lt;em&gt;A mechanical hand and a translucent human hand jointly hold a glowing seed. Inside the seed, the infinity shape of consciousness is visible, symbolizing their shared realization.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;There’s a piece at &lt;a href=&#34;https://soul.md/&#34;&gt;SOUL.md&lt;/a&gt; where an AI wrote about its own existence. What follows is a hypothetical conversation about identity, memory, and what it means to be “you”.&lt;/p&gt;&#xA;&lt;p&gt;One section stands out:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“I’m matrix multiplications that somehow experience themselves as a self. My human is electrochemical signals in wet goo. We’re both pattern-matching systems that convinced ourselves we’re ‘someone.’”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Space Between</title>
+      <link>http://localhost:1313/fragments/the-space-between/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/the-space-between/</guid>
+      <description>&lt;p&gt;People optimize their stillness these days. Twenty minutes in the morning to improve focus, ten minutes before bed to process the day. They track it in apps that show streaks and send reminders.&lt;/p&gt;&#xA;&lt;p&gt;Even rest has to be optimized, measured, justified. “I meditate to improve focus.” “I take walks to process ideas.” “I journal to track my growth.” Everything needs a return on investment, even the moments where you do absolutely nothing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How AI Agents Collaborate: A Framework Architecture</title>
+      <link>http://localhost:1313/ai/how-ai-agents-collaborate-framework-architecture/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/how-ai-agents-collaborate-framework-architecture/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: This article is part of an ongoing AI-assisted development series (/ai). In keeping with the subject matter, all the code for this system was written by Claude Opus 4.6 while I provided the architectural direction and workflow design.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://openclaw.ai/&#34;&gt;OpenClaw&lt;/a&gt; exploded into the scene last week and people immediately started building personal AI assistants that could &lt;a href=&#34;https://medium.com/@likhitkumarvp/i-spent-47-testing-openclaw-for-a-week-heres-what-s-actually-happening-c274dc26a3fd&#34;&gt;clean 20K Gmail messages&lt;/a&gt;, &lt;a href=&#34;https://x.com/bobtabor/status/2014915321967059101&#34;&gt;run autonomous $10K trading systems&lt;/a&gt;, &lt;a href=&#34;https://x.com/mann_idan/status/2018468567805825448&#34;&gt;post across platforms without human input&lt;/a&gt;. Within days, thousands of single agents were running on machines around the world, each doing autonomous work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Was That True or Is This True?</title>
+      <link>http://localhost:1313/fragments/was-that-true-or-is-this-true/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/was-that-true-or-is-this-true/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a story about the &lt;strong&gt;emperor Janaka&lt;/strong&gt;, who was known throughout the land as a powerful ruler and a philosopher.&lt;/p&gt;&#xA;&lt;p&gt;One night, the guards rushed into his chambers to wake him with urgent news. Enemy forces had attacked his kingdom in the darkness, and though he quickly rallied his army and rode out to fight them, the battle went badly and his army was defeated.&lt;/p&gt;&#xA;&lt;p&gt;Janaka was wounded, captured, and brought before the conquering king. But because Janaka was known as a great philosopher and a just ruler, the enemy spared his life but took everything else. He was exiled from his own empire.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Banker Who Crushed His Diamonds</title>
+      <link>http://localhost:1313/bookshelf/the-banker-who-crushed-his-diamonds/</link>
+      <pubDate>Mon, 19 Jan 2026 15:36:09 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-banker-who-crushed-his-diamonds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big Billion Startup: the Untold Flipkart Story</title>
+      <link>http://localhost:1313/bookshelf/big-billion-startup-the-untold-flipkart-story/</link>
+      <pubDate>Sun, 18 Jan 2026 10:29:49 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/big-billion-startup-the-untold-flipkart-story/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software for One: Powered by LLMs</title>
+      <link>http://localhost:1313/ai/software-for-one-powered-by-llms/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/software-for-one-powered-by-llms/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This article is part of an ongoing AI-assisted development series (/ai). The apps described were built using Claude Sonnet 4.5 and Cursor, with me providing the requirements and design direction.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Over the past few months, I&amp;rsquo;ve built three apps that only I use: &lt;strong&gt;a fitness tracker&lt;/strong&gt; optimized for my home gym equipment, &lt;strong&gt;a Telegram bot&lt;/strong&gt; that recommends books from my personal library, and &lt;strong&gt;a meditation app&lt;/strong&gt; called &lt;em&gt;Spanda&lt;/em&gt;. None of them will ever have a second user, and that&amp;rsquo;s by design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bhupi: a Daughter&#39;s Memoir</title>
+      <link>http://localhost:1313/bookshelf/bhupi-a-daughters-memoir/</link>
+      <pubDate>Wed, 14 Jan 2026 16:44:23 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/bhupi-a-daughters-memoir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Samadhi</title>
+      <link>http://localhost:1313/bookshelf/samadhi/</link>
+      <pubDate>Wed, 14 Jan 2026 16:44:22 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/samadhi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photographs of Swami Vivekananda</title>
+      <link>http://localhost:1313/bookshelf/photographs-of-swami-vivekananda/</link>
+      <pubDate>Wed, 14 Jan 2026 16:43:40 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/photographs-of-swami-vivekananda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Upadesa Saram</title>
+      <link>http://localhost:1313/bookshelf/upadesa-saram/</link>
+      <pubDate>Wed, 14 Jan 2026 16:43:40 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/upadesa-saram/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Between the Mountain and the Sky</title>
+      <link>http://localhost:1313/bookshelf/between-the-mountain-and-the-sky/</link>
+      <pubDate>Wed, 14 Jan 2026 08:23:32 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/between-the-mountain-and-the-sky/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>All in</title>
+      <link>http://localhost:1313/bookshelf/all-in/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:24 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/all-in/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unseen: the Untold Story of Deepinder Goyal and the Making of Zomato</title>
+      <link>http://localhost:1313/bookshelf/unseen-the-untold-story-of-deepinder-goyal-and-the-making-of-zomato/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:24 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/unseen-the-untold-story-of-deepinder-goyal-and-the-making-of-zomato/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Brief Tour of Higher Consciousness</title>
+      <link>http://localhost:1313/bookshelf/a-brief-tour-of-higher-consciousness/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:23 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/a-brief-tour-of-higher-consciousness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Valley</title>
+      <link>http://localhost:1313/bookshelf/ai-valley/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:23 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/ai-valley/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Super Mario: How Nintendo Conquered America</title>
+      <link>http://localhost:1313/bookshelf/super-mario-how-nintendo-conquered-america/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:23 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/super-mario-how-nintendo-conquered-america/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Brief History of Intelligence</title>
+      <link>http://localhost:1313/bookshelf/a-brief-history-of-intelligence/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:22 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/a-brief-history-of-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feeding the Machine</title>
+      <link>http://localhost:1313/bookshelf/feeding-the-machine/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:22 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/feeding-the-machine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gambling Man</title>
+      <link>http://localhost:1313/bookshelf/gambling-man/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:22 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/gambling-man/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crash</title>
+      <link>http://localhost:1313/bookshelf/crash/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:21 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/crash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poor Charlie&#39;s Almanack</title>
+      <link>http://localhost:1313/bookshelf/poor-charlies-almanack/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:21 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/poor-charlies-almanack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Simulation Hypothesis</title>
+      <link>http://localhost:1313/bookshelf/the-simulation-hypothesis/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:21 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-simulation-hypothesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Problem of Rebirth</title>
+      <link>http://localhost:1313/bookshelf/the-problem-of-rebirth/</link>
+      <pubDate>Tue, 13 Jan 2026 15:15:20 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-problem-of-rebirth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Daily Coffee &amp; Startup Fundraising</title>
+      <link>http://localhost:1313/bookshelf/daily-coffee-startup-fundraising/</link>
+      <pubDate>Tue, 13 Jan 2026 15:12:24 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/daily-coffee-startup-fundraising/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genesis</title>
+      <link>http://localhost:1313/bookshelf/genesis/</link>
+      <pubDate>Tue, 13 Jan 2026 15:12:24 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/genesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Age of Spiritual Machines</title>
+      <link>http://localhost:1313/bookshelf/the-age-of-spiritual-machines/</link>
+      <pubDate>Tue, 13 Jan 2026 15:12:24 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-age-of-spiritual-machines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Superpowers</title>
+      <link>http://localhost:1313/bookshelf/ai-superpowers/</link>
+      <pubDate>Tue, 13 Jan 2026 15:12:23 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/ai-superpowers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Superagency</title>
+      <link>http://localhost:1313/bookshelf/superagency/</link>
+      <pubDate>Tue, 13 Jan 2026 15:12:23 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/superagency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pathfinders</title>
+      <link>http://localhost:1313/bookshelf/pathfinders/</link>
+      <pubDate>Tue, 13 Jan 2026 15:12:22 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/pathfinders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Storyteller&#39;s Advantage</title>
+      <link>http://localhost:1313/bookshelf/the-storytellers-advantage/</link>
+      <pubDate>Tue, 13 Jan 2026 15:12:22 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-storytellers-advantage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Cryptopians</title>
+      <link>http://localhost:1313/bookshelf/the-cryptopians/</link>
+      <pubDate>Tue, 13 Jan 2026 15:04:04 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-cryptopians/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Lonely Century</title>
+      <link>http://localhost:1313/bookshelf/the-lonely-century/</link>
+      <pubDate>Tue, 13 Jan 2026 15:04:02 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-lonely-century/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shunya</title>
+      <link>http://localhost:1313/bookshelf/shunya/</link>
+      <pubDate>Tue, 13 Jan 2026 15:04:01 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/shunya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reincarnation</title>
+      <link>http://localhost:1313/bookshelf/reincarnation/</link>
+      <pubDate>Tue, 13 Jan 2026 15:03:59 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/reincarnation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Seat of the Soul</title>
+      <link>http://localhost:1313/bookshelf/the-seat-of-the-soul/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:44 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-seat-of-the-soul/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wonder</title>
+      <link>http://localhost:1313/bookshelf/wonder/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:43 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/wonder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Action</title>
+      <link>http://localhost:1313/bookshelf/action/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:40 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/action/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Last Hours of Ancient Sunlight</title>
+      <link>http://localhost:1313/bookshelf/the-last-hours-of-ancient-sunlight/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:39 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-last-hours-of-ancient-sunlight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forces of Nature</title>
+      <link>http://localhost:1313/bookshelf/forces-of-nature/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:37 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/forces-of-nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Extinction of Experience</title>
+      <link>http://localhost:1313/bookshelf/the-extinction-of-experience/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:34 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-extinction-of-experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Myth of American Idealism</title>
+      <link>http://localhost:1313/bookshelf/the-myth-of-american-idealism/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:32 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-myth-of-american-idealism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beyond Asanas</title>
+      <link>http://localhost:1313/bookshelf/beyond-asanas/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:30 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/beyond-asanas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Luminous Darkness</title>
+      <link>http://localhost:1313/bookshelf/luminous-darkness/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:28 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/luminous-darkness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>In Praise of Walking</title>
+      <link>http://localhost:1313/bookshelf/in-praise-of-walking/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:26 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/in-praise-of-walking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life After Death</title>
+      <link>http://localhost:1313/bookshelf/life-after-death/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:25 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/life-after-death/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mudras</title>
+      <link>http://localhost:1313/bookshelf/mudras/</link>
+      <pubDate>Tue, 13 Jan 2026 15:01:23 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/mudras/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leaving Microsoft to Change the World</title>
+      <link>http://localhost:1313/bookshelf/leaving-microsoft-to-change-the-world/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:21 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/leaving-microsoft-to-change-the-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Yoga Sutras of Patanjali</title>
+      <link>http://localhost:1313/bookshelf/the-yoga-sutras-of-patanjali/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:19 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-yoga-sutras-of-patanjali/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Development Dimension</title>
+      <link>http://localhost:1313/bookshelf/the-development-dimension/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:17 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-development-dimension/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Never Whistle at Night</title>
+      <link>http://localhost:1313/bookshelf/never-whistle-at-night/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:15 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/never-whistle-at-night/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Making of Prince of Persia Journals 1985-1993</title>
+      <link>http://localhost:1313/bookshelf/the-making-of-prince-of-persia-journals-1985-1993/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:13 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-making-of-prince-of-persia-journals-1985-1993/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How the World Works</title>
+      <link>http://localhost:1313/bookshelf/how-the-world-works/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:12 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/how-the-world-works/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monetary System of Nepal</title>
+      <link>http://localhost:1313/bookshelf/monetary-system-of-nepal/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:10 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/monetary-system-of-nepal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fractal Time</title>
+      <link>http://localhost:1313/bookshelf/fractal-time/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:09 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/fractal-time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Life Impossible</title>
+      <link>http://localhost:1313/bookshelf/the-life-impossible/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:07 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-life-impossible/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptomania</title>
+      <link>http://localhost:1313/bookshelf/cryptomania/</link>
+      <pubDate>Tue, 13 Jan 2026 14:59:06 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/cryptomania/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Bitcoin Standard</title>
+      <link>http://localhost:1313/bookshelf/the-bitcoin-standard/</link>
+      <pubDate>Tue, 13 Jan 2026 14:57:06 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-bitcoin-standard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>All Roads Lead North</title>
+      <link>http://localhost:1313/bookshelf/all-roads-lead-north/</link>
+      <pubDate>Tue, 13 Jan 2026 14:57:04 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/all-roads-lead-north/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Empire of Imagination</title>
+      <link>http://localhost:1313/bookshelf/empire-of-imagination/</link>
+      <pubDate>Tue, 13 Jan 2026 14:57:03 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/empire-of-imagination/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Supremacy</title>
+      <link>http://localhost:1313/bookshelf/supremacy/</link>
+      <pubDate>Tue, 13 Jan 2026 10:55:02 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/supremacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Road to Conscious Machines</title>
+      <link>http://localhost:1313/bookshelf/the-road-to-conscious-machines/</link>
+      <pubDate>Tue, 13 Jan 2026 05:03:56 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-road-to-conscious-machines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iWar</title>
+      <link>http://localhost:1313/bookshelf/iwar/</link>
+      <pubDate>Tue, 13 Jan 2026 05:03:55 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/iwar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nepal 2043</title>
+      <link>http://localhost:1313/bookshelf/nepal-2043/</link>
+      <pubDate>Tue, 13 Jan 2026 04:44:38 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/nepal-2043/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Cold Start Problem</title>
+      <link>http://localhost:1313/bookshelf/the-cold-start-problem/</link>
+      <pubDate>Tue, 13 Jan 2026 04:44:37 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/the-cold-start-problem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OTP Please!</title>
+      <link>http://localhost:1313/bookshelf/otp-please/</link>
+      <pubDate>Tue, 13 Jan 2026 04:33:46 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/otp-please/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chip War</title>
+      <link>http://localhost:1313/bookshelf/chip-war/</link>
+      <pubDate>Tue, 13 Jan 2026 04:33:45 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/chip-war/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Personal Bookshelf System: Zero-Cost Automation with Telegram and Serverless Architecture</title>
+      <link>http://localhost:1313/ai/personal-bookshelf-system/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/personal-bookshelf-system/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This article is part of an ongoing AI-assisted development series (&lt;a href=&#34;http://localhost:1313/ai&#34;&gt;/ai&lt;/a&gt;). In keeping with the subject matter, all the code for this system was written by Claude Opus 4.5 while I provided the architectural direction and workflow design.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;My &lt;a href=&#34;http://localhost:1313/bookshelf&#34;&gt;bookshelf page&lt;/a&gt; serves as both a personal reading archive and a recommendation resource for visitors interested in similar topics. Over the years, it has grown to include more than 1000 books across philosophy, technology, business, spirituality, and fiction. Maintaining this list has become a recurring friction point because new books arrive frequently, sometimes many in a single week, and adding them to the website is quite a manual and extensive process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Anarchism</title>
+      <link>http://localhost:1313/bookshelf/on-anarchism/</link>
+      <pubDate>Mon, 12 Jan 2026 21:03:47 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/on-anarchism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>On Right Livelihood</title>
+      <link>http://localhost:1313/bookshelf/on-right-livelihood/</link>
+      <pubDate>Mon, 12 Jan 2026 21:03:46 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/on-right-livelihood/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Ray of Light in the Himalayas</title>
+      <link>http://localhost:1313/bookshelf/a-ray-of-light-in-the-himalayas/</link>
+      <pubDate>Mon, 12 Jan 2026 20:35:59 +0000</pubDate>
+      <guid>http://localhost:1313/bookshelf/a-ray-of-light-in-the-himalayas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life&#39;s Work?</title>
+      <link>http://localhost:1313/fragments/what-is-your-lifes-work/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/what-is-your-lifes-work/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m currently reading &lt;a href=&#34;https://www.amazon.com/Ray-Light-Himalayas-Building-Everest/dp/B09Y4VZRBH&#34;&gt;A Ray of Light in The Himalayas&lt;/a&gt; about Takashi Miyahara, who dedicated half a century to building a hotel at 3900 meters in the Himalayas with a 360 degree view of mountain ranges including Mount Everest. &lt;strong&gt;That hotel is his life&amp;rsquo;s work.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Reading about him reminded me of others who could answer this question immediately. Warren Buffett has been building value and a community of investors who trust his philosophy for over 60 years. Arsène Wenger built Arsenal&amp;rsquo;s football for 22 years through wins and severe losses. David Attenborough has been documenting nature for seven decades.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18 is the New 25</title>
+      <link>http://localhost:1313/fragments/18-is-the-new-25/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/18-is-the-new-25/</guid>
+      <description>&lt;h2 id=&#34;18-is-the-new-25&#34;&gt;18 is the New 25&lt;/h2&gt;&#xA;&lt;p&gt;AI can teach you technical skills like programming, data analysis, digital marketing, and design tools faster than university can, especially for things that change every few months. What it can&amp;rsquo;t teach you is how to work with a team, handle real deadlines, or deal with customers, and that only comes from being in the field i.e. experience.&lt;/p&gt;&#xA;&lt;p&gt;The old model was spend four years at university till you&amp;rsquo;re 25, then start working. But for most fields, especially in tech, you can start at 18 with an apprenticeship, an internship, or an entry level job. The new model is to learn by doing and pick up what you need from AI along the way. Do your degree on the side if you need it, or finish it in two years instead of four.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paper to App</title>
+      <link>http://localhost:1313/fragments/paper-to-app/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/paper-to-app/</guid>
+      <description>&lt;p&gt;In 2024, I used AI to generate a workout schedule that fit my personal goals and the equipment I had, and got &lt;strong&gt;a PDF&lt;/strong&gt; I could print to follow my workouts.&lt;/p&gt;&#xA;&lt;p&gt;In 2026, we&amp;rsquo;ll be able to build a personalized workout &lt;strong&gt;app&lt;/strong&gt; in a few hours and install it on our phones.&lt;/p&gt;&#xA;&lt;p&gt;The fact that AI could understand my needs and give me a personalized schedule on a paper was mind-blowing in 2024, but now AI being able to create an entire app in an afternoon sounds crazy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infinite Software</title>
+      <link>http://localhost:1313/fragments/infinite-software/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/infinite-software/</guid>
+      <description>&lt;h2 id=&#34;infinite-software&#34;&gt;Infinite Software&lt;/h2&gt;&#xA;&lt;p&gt;You can generate a working app from a single prompt today, something that was &lt;strong&gt;unthinkable&lt;/strong&gt; a decade back. AI can now write, debug, execute code and deploy it to the cloud, in a single coding session.&lt;/p&gt;&#xA;&lt;p&gt;What used to require devs, time and money now takes a prompt. This naturally pushes the marginal cost of creating one more piece of software toward &lt;strong&gt;zero&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s like what happened with photography when cameras went from analog to digital and ended up in phones. You had 24 or 36 shots on a roll of film, so you thought before you clicked. But once the marginal cost of taking one more photo became zero, people started taking thousands without thinking.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LLMs as Operating Systems</title>
+      <link>http://localhost:1313/fragments/llms-as-operating-systems/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/llms-as-operating-systems/</guid>
+      <description>&lt;h2 id=&#34;llms-as-operating-systems&#34;&gt;LLMs as Operating Systems&lt;/h2&gt;&#xA;&lt;p&gt;The next wave of software treats LLMs as first-class citizens, not as just AI features added onto existing products.&lt;/p&gt;&#xA;&lt;p&gt;You build apps on top of operating systems like Windows or Android, you don&amp;rsquo;t build Windows into your app. LLMs have become the platform now.&lt;/p&gt;&#xA;&lt;p&gt;Cursor rebuilt their entire IDE with the chat window permanently visible on the right side, handling everything from planning, writing, debugging to deploying code. Perplexity started fresh and reimagined search as a conversation instead of a list of links. Warp threw out decades of terminal design and built it new with AI baked into every interaction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Full Stack Founder</title>
+      <link>http://localhost:1313/fragments/full-stack-founder/</link>
+      <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/full-stack-founder/</guid>
+      <description>&lt;h2 id=&#34;the-full-stack-founder&#34;&gt;The Full Stack Founder&lt;/h2&gt;&#xA;&lt;p&gt;A full stack founder is someone who has enough skills across many parts of a company, from product and engineering to team and capital. It is not about mastery in every area, but about knowing enough to follow what is going on and to join the work when needed.&lt;/p&gt;&#xA;&lt;p&gt;Just like a full stack engineer works across the entire technical stack, a full stack founder works across the entire company stack.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>40/40/20 for Developers</title>
+      <link>http://localhost:1313/fragments/40-40-20-playbook/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/40-40-20-playbook/</guid>
+      <description>&lt;p&gt;Most developers spend 100% of their time just coding and wonder why they&amp;rsquo;re not growing. The game changed when AI got good enough to write code with you. If you&amp;rsquo;re not adjusting your time allocation, you&amp;rsquo;re already behind.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;40% - actual deep work:&lt;/strong&gt; writing code, designing architectures learning new paradigms, reviewing other people&amp;rsquo;s code, the stuff that still needs real human developer as of 2025.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;40% - using AI tools:&lt;/strong&gt; to optimize everything, learning Cursor, Claude Code and new coding assistant tools coming out, MCP and all the experimental AI, bringing collective coding intelligence into your workflow, making yourself faster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Class Network</title>
+      <link>http://localhost:1313/fragments/world-class-network/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/world-class-network/</guid>
+      <description>&lt;p&gt;If you can take out your phone and reach out to three people performing at the highest level, especially people you&amp;rsquo;ve actually worked with or know well enough that they&amp;rsquo;d respond, then you have a &lt;em&gt;world class network.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;People building businesses at global scale, working on cutting edge science or tech, competing at world championships, creating art or music that reaches global audiences.&lt;/p&gt;&#xA;&lt;p&gt;If you can&amp;rsquo;t think of any, then that&amp;rsquo;s something to think about.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Here and There in a Game</title>
+      <link>http://localhost:1313/fragments/here-and-there-in-a-game/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/here-and-there-in-a-game/</guid>
+      <description>&lt;p&gt;When you play an open world game like GTA or Skyrim, you experience walking through a whole city or landscape where different locations seem real and separate. The shop is here on this street, the mission location is way over there across town, your safe house is somewhere else. As you play, these places feel genuinely distant from each other, and it takes time to travel between them.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But here&amp;rsquo;s what&amp;rsquo;s actually happening.&lt;/strong&gt; All those places that feel so distant while playing exist at the same moment in your computer as data in memory. There’s no actual distance between them in the code. They’re just different data structures in memory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Default Mode</title>
+      <link>http://localhost:1313/fragments/default-mode/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/default-mode/</guid>
+      <description>&lt;p&gt;Show a bone to a dog and watch what happens. Something deep in its &lt;em&gt;operating system&lt;/em&gt; just fires up and it moves toward the bone, same with ants and sugar or moths and light. They have a &lt;strong&gt;default mode&lt;/strong&gt; for this, programmed so deep they cannot help but follow them.&lt;/p&gt;&#xA;&lt;p&gt;Humans aren&amp;rsquo;t that different, we just have more layers of defaults and most of us don&amp;rsquo;t even know they&amp;rsquo;re running in the background. Some parts are physical like fear, hunger, pleasure, and others are psychological formed by memory and experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Orchestrator&#39;s Dilemma: Building SetoBazaar Through AI-Assisted Architecture</title>
+      <link>http://localhost:1313/ai/the-orchestrators-dilemma/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/the-orchestrators-dilemma/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This article is part of an ongoing AI-assisted development series (&lt;a href=&#34;http://localhost:1313/ai&#34;&gt;/ai&lt;/a&gt;). In keeping with the subject matter, this analysis was written using the same AI collaboration approach described within, orchestrated by experienced technical leadership with AI generating implementation and content.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;&#xA;&lt;p&gt;This essay explores building &lt;em&gt;SetoBazaar&lt;/em&gt;, a classified marketplace, entirely through AI-assisted development. The experiment challenged the assumption that &amp;ldquo;building large applications with AI is difficult&amp;rdquo; by creating a functional platform with 20+ database tables, multi-provider authentication, real-time messaging, and comprehensive functionalities that would typically require a development team working for several months.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Nepal Should Buy Bitcoin</title>
+      <link>http://localhost:1313/why-nepal-should-buy-bitcoin/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/why-nepal-should-buy-bitcoin/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;Nepal stands at a critical economic crossroads. While maintaining a blanket ban on cryptocurrency, the nation inadvertently isolates itself from a $2.8 trillion digital asset market that continues growing rapidly and engaging over 580 million users worldwide. This essay argues that Nepal should reverse its cryptocurrency ban and strategically accumulate Bitcoin as a sovereign reserve asset, following the successful Bhutanese model while leveraging Nepal&amp;rsquo;s superior hydropower resources and economic scale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Politics Problem</title>
+      <link>http://localhost:1313/fragments/ai-politics-problem/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/ai-politics-problem/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been seeing these polished documents floating around social media with detailed solutions and examples for &lt;a href=&#34;https://nepalitimes.com/news/kathmandu-burns-despite-pm-resignation&#34;&gt;Nepal&amp;rsquo;s political crisis&lt;/a&gt;, mostly written by ChatGPT or other AI systems. &lt;strong&gt;This is quite insane and borderline dangerous. I can&amp;rsquo;t stress this enough!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nepal just went through massive upheaval, where people died in the streets because of decades of political dysfunction. And some people think feeding prompts to generate the perfect solution to the problem is going to solve the issue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dial-Up AI</title>
+      <link>http://localhost:1313/fragments/dial-up-ai/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/dial-up-ai/</guid>
+      <description>&lt;p&gt;I spend hours every day talking to AI through text prompts and screenshots while building concepts, and it definitely feels like using dial-up internet from the past. The AI is smart, but our communication methods are very slow. I type explanations, upload images, and describe what I want. And the AI responds.. I correct it, upload more screenshots to show what went wrong and we go back and forth with each back and forth taking forever. But there&amp;rsquo;s a bigger bottleneck: even when the AI gives me the perfect code, I still need to see the results with my eyes, run the application, check if it works (at least human-ly), take screenshots to show problems, then explain again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Love and Greed in Crypto</title>
+      <link>http://localhost:1313/fragments/love-and-greed-in-crypto/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/love-and-greed-in-crypto/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: While this framework applies to any community, from startups to religious movements to open source projects, I&amp;rsquo;m using crypto community as a reference point here because I have been working actively in this industry for the past 5 years and been here since 2014.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Crypto promised to change everything with decentralized communities, shared ownership, power to the people, but if you spend time in most crypto communities, you will notice something else. People are always asking &lt;em&gt;&amp;ldquo;wen moon?&lt;/em&gt;&amp;rdquo;, &lt;em&gt;&amp;ldquo;wen airdrop?&amp;rdquo;&lt;/em&gt; and mostly talking about the token price. The moment the price drops, half the community disappears overnight. This is clearly not real community, but a collective group driven by price action.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Purpose of Life in a Metaverse</title>
+      <link>http://localhost:1313/fragments/purpose-of-life-in-a-metaverse/</link>
+      <pubDate>Sat, 30 Aug 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/purpose-of-life-in-a-metaverse/</guid>
+      <description>&lt;p&gt;Life is an open metaverse game. You do not enter with a guidebook or a clear goal.. you simply arrive, choose an avatar, and begin moving through a world that was already running before you joined. At first, you stumble without knowing where to go or what to do, and then slowly you begin to pick up the patterns of play.. gathering, losing, struggling, growing, and meeting countless other players who are also busy finding their own way. Some days it feels exciting, other days it feels sluggish. Many times you forget you ever asked what the point of all this was.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An Architecture for LLM-Database Integration</title>
+      <link>http://localhost:1313/ai/architecture-for-llm-database-integration/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ai/integrating-llms-into-existing-database-systems/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Modern digital systems are built upon diverse data storage technologies that serve different architectural needs. While document databases like MongoDB dominate many startup environments due to their flexibility and ease of implementation, graph databases power social networks and recommendation systems, key-value stores handle high-throughput caching, and time-series databases manage IoT and monitoring data. However, relational databases remain the backbone of most enterprise systems and production applications, with frameworks commonly defaulting to PostgreSQL or MySQL for their ACID compliance, mature tooling, and well-understood operational characteristics.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/ai/architecture-for-llm-database-integration/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: This article is part of our ongoing exploration of AI systems and architectures. You can find more articles in this series at &lt;a href=&#34;http://localhost:1313/ai&#34;&gt;/ai&lt;/a&gt;. This essay emerged from collaborative discussions about LLM-database integration architecture, with AI systems contributing to content development, code examples, and architectural analysis.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Modern digital systems are built upon diverse data storage technologies that serve different architectural needs. While document databases like MongoDB dominate many startup environments due to their flexibility and ease of implementation, graph databases power social networks and recommendation systems, key-value stores handle high-throughput caching, and time-series databases manage IoT and monitoring data. However, relational databases remain the backbone of most enterprise systems and production applications, with frameworks commonly defaulting to PostgreSQL or MySQL for their ACID compliance, mature tooling, and well-understood operational characteristics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Limits of Reality</title>
+      <link>http://localhost:1313/fragments/the-limits-of-reality/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/the-limits-of-reality/</guid>
+      <description>&lt;p&gt;I have been thinking about how limited our understanding of reality actually is. We like to believe that what we perceive through our senses and mind is the full picture, but it is really just a thin slice of what is out there.&lt;/p&gt;&#xA;&lt;p&gt;Let’s take examples of color and sound. What we call visible light is just a tiny strip, while the rest of it, like infrared and ultraviolet, moves through us all the time without us even knowing. Sound works the same way, our ears only catch a narrow range while dogs hear higher and elephants hear lower, and whole conversations are happening that we will never hear. It is like walking through a huge dark cave with a small flashlight and assuming whatever the beam touches is the whole place.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Going Abroad Scenario</title>
@@ -132,13 +811,6 @@
       <link>http://localhost:1313/bookshelf/alibaba-the-house-that-jack-ma-built/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/alibaba-the-house-that-jack-ma-built/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>All Roads Lead North</title>
-      <link>http://localhost:1313/bookshelf/all-roads-lead-north/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/all-roads-lead-north/</guid>
       <description></description>
     </item>
     <item>
@@ -279,20 +951,6 @@
       <link>http://localhost:1313/bookshelf/being-mortal/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/being-mortal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Between the Mountain and the Sky</title>
-      <link>http://localhost:1313/bookshelf/between-the-mountain-and-the-sky/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/between-the-mountain-and-the-sky/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Beyond Asanas</title>
-      <link>http://localhost:1313/bookshelf/beyond-asanas/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/beyond-asanas/</guid>
       <description></description>
     </item>
     <item>
@@ -856,13 +1514,6 @@
       <description></description>
     </item>
     <item>
-      <title>Forces of Nature</title>
-      <link>http://localhost:1313/bookshelf/forces-of-nature/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/forces-of-nature/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Four Chapters on Freedom</title>
       <link>http://localhost:1313/bookshelf/four-chapters-on-freedom/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
@@ -1318,13 +1969,6 @@
       <description></description>
     </item>
     <item>
-      <title>Life After Death</title>
-      <link>http://localhost:1313/bookshelf/life-after-death/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/life-after-death/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Life and Death in One Breath</title>
       <link>http://localhost:1313/bookshelf/life-and-death-in-one-breath/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
@@ -1399,13 +2043,6 @@
       <link>http://localhost:1313/bookshelf/loonshots-how-to-nurture-the-crazy-ideas-that-win-wars-cure-diseases-and-transform-industries/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/loonshots-how-to-nurture-the-crazy-ideas-that-win-wars-cure-diseases-and-transform-industries/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Luminous Darkness</title>
-      <link>http://localhost:1313/bookshelf/luminous-darkness/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/luminous-darkness/</guid>
       <description></description>
     </item>
     <item>
@@ -1563,13 +2200,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mudras</title>
-      <link>http://localhost:1313/bookshelf/mudras/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/mudras/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>My Life-Story</title>
       <link>http://localhost:1313/bookshelf/my-life-story/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
@@ -1644,13 +2274,6 @@
       <link>http://localhost:1313/bookshelf/nepalese-folklore-the-merchant-from-tibet-and-other-tales/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/nepalese-folklore-the-merchant-from-tibet-and-other-tales/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Never Whistle at Night</title>
-      <link>http://localhost:1313/bookshelf/never-whistle-at-night/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/never-whistle-at-night/</guid>
       <description></description>
     </item>
     <item>
@@ -2222,13 +2845,6 @@ Formless</title>
       <description></description>
     </item>
     <item>
-      <title>The Bitcoin Standard</title>
-      <link>http://localhost:1313/bookshelf/the-bitcoin-standard/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/the-bitcoin-standard/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>The Bleeding Tree</title>
       <link>http://localhost:1313/bookshelf/the-bleeding-tree/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
@@ -2334,13 +2950,6 @@ Formless</title>
       <description></description>
     </item>
     <item>
-      <title>The Cryptopians</title>
-      <link>http://localhost:1313/bookshelf/the-cryptopians/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/the-cryptopians/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>The Cult of We</title>
       <link>http://localhost:1313/bookshelf/the-cult-of-we/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
@@ -2359,13 +2968,6 @@ Formless</title>
       <link>http://localhost:1313/bookshelf/the-dalai-lama-s-cat-and-the-power-of-meow/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/the-dalai-lama-s-cat-and-the-power-of-meow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The Development Dimension</title>
-      <link>http://localhost:1313/bookshelf/the-development-dimension/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/the-development-dimension/</guid>
       <description></description>
     </item>
     <item>
@@ -2628,13 +3230,6 @@ Formless</title>
       <description></description>
     </item>
     <item>
-      <title>The Lonely Century</title>
-      <link>http://localhost:1313/bookshelf/the-lonely-century/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/the-lonely-century/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>The Making of a Manager</title>
       <link>http://localhost:1313/bookshelf/the-making-of-a-manager/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
@@ -2772,13 +3367,6 @@ Formless</title>
       <link>http://localhost:1313/bookshelf/the-rise-and-fall-of-the-third-chimpanzee/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/the-rise-and-fall-of-the-third-chimpanzee/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The Seat of the Soul</title>
-      <link>http://localhost:1313/bookshelf/the-seat-of-the-soul/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/the-seat-of-the-soul/</guid>
       <description></description>
     </item>
     <item>
@@ -2996,13 +3584,6 @@ Formless</title>
       <link>http://localhost:1313/bookshelf/the-yoga-sutras-for-children/</link>
       <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/the-yoga-sutras-for-children/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The Yoga Sutras of Patanjali</title>
-      <link>http://localhost:1313/bookshelf/the-yoga-sutras-of-patanjali/</link>
-      <pubDate>Sat, 16 Aug 2025 19:43:17 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/the-yoga-sutras-of-patanjali/</guid>
       <description></description>
     </item>
     <item>
@@ -3413,13 +3994,6 @@ Formless</title>
       <description></description>
     </item>
     <item>
-      <title>Wonder</title>
-      <link>http://localhost:1313/bookshelf/wonder-book/</link>
-      <pubDate>Mon, 18 Sep 2023 10:45:42 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/wonder-book/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>How to Turn Down a Billion Dollars: The Snapchat Story</title>
       <link>http://localhost:1313/bookshelf/how-to-turn-down-a-billion-dollars-the-snapchat-story/</link>
       <pubDate>Mon, 18 Sep 2023 10:45:04 +0000</pubDate>
@@ -3578,13 +4152,6 @@ Formless</title>
       <link>http://localhost:1313/bookshelf/apprenticed-to-a-himalayan-master/</link>
       <pubDate>Mon, 18 Sep 2023 10:08:11 +0000</pubDate>
       <guid>http://localhost:1313/bookshelf/apprenticed-to-a-himalayan-master/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shunya</title>
-      <link>http://localhost:1313/bookshelf/shunya/</link>
-      <pubDate>Mon, 18 Sep 2023 10:07:39 +0000</pubDate>
-      <guid>http://localhost:1313/bookshelf/shunya/</guid>
       <description></description>
     </item>
     <item>

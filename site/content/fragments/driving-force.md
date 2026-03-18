@@ -5,6 +5,8 @@ author: Prashish
 tags:
   - ongoing
 url: /mozdrive-end
+description: "open web advocacy"
+article_kind: Personal
 ---
 Every Mozillian that I have met are passionate about their work. There is no ‘I’ in the community. This sense of togetherness isn't common in today's selfish world. And to be part of this community makes me a proud Mozillian. I could have easily spent my 25-days break completing full seasons of TV series. Or, if I wanted to be productive.. work on a hobby project. Both of them sounded fun as per my liking. However, that’s not what Mozillians do. A Mozillian would spend their free time taking actions to build communities. A Mozillian would work to make the web free and open. A Mozillian would create a movement. That’s what I wanted to do too. I wanted to inspire thousands of Mozillians to push themselves in making them their dream, a reality. That’s the reason I set out on this incredible journey [to travel around the United States](https://twitter.com/mozdrive) to spread the love about Mozilla and the Open Web.
 

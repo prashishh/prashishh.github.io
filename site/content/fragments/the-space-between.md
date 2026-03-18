@@ -5,6 +5,8 @@ author: Prashish
 tags:
   - reflection
   - stillness
+description: "productivity hustle culture"
+article_kind: Spiritual
 ---
 
 People optimize their stillness these days. Twenty minutes in the morning to improve focus, ten minutes before bed to process the day. They track it in apps that show streaks and send reminders.

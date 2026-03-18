@@ -4,6 +4,7 @@ date: 2025-10-15T00:00:00.452Z
 author: Prashish
 category: Prashish
 url: /why-nepal-should-buy-bitcoin
+description: "sovereign reserves for Nepal"
 ---
 ## Summary
 

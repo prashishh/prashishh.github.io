@@ -5,6 +5,8 @@ author: Prashish
 url: /ai/how-ai-agents-collaborate-framework-architecture
 tags:
   - ai
+description: "building multi-agentic teams"
+article_kind: Technical
 ---
 
 > **Note**: This article is part of an ongoing AI-assisted development series (/ai). In keeping with the subject matter, all the code for this system was written by Claude Opus 4.6 while I provided the architectural direction and workflow design.

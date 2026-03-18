@@ -5,6 +5,8 @@ author: Prashish
 tags:
   - ongoing
 url: /fat-wallets
+description: "digital wallet adoption in Nepal"
+article_kind: Perspective
 ---
 I paid all my orders in cash because my previous debit card was not active. But most stores didn’t accept cards anyways. This has remained the same for a long time. I hardly noticed any store with a card reader, unlike the stores in California.
 

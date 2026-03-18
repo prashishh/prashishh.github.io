@@ -2,6 +2,8 @@
 title: Dial-Up AI
 date: 2025-09-06T00:00:00Z
 author: Prashish
+description: "human-AI communication bottlenecks"
+article_kind: Perspective
 ---
 
 I spend hours every day talking to AI through text prompts and screenshots while building concepts, and it definitely feels like using dial-up internet from the past. The AI is smart, but our communication methods are very slow. I type explanations, upload images, and describe what I want. And the AI responds.. I correct it, upload more screenshots to show what went wrong and we go back and forth with each back and forth taking forever. But there's a bigger bottleneck: even when the AI gives me the perfect code, I still need to see the results with my eyes, run the application, check if it works (at least human-ly), take screenshots to show problems, then explain again.

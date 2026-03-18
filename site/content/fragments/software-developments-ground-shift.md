@@ -2,6 +2,8 @@
 title: Software Development's Ground Shift
 date: 2026-02-17T00:00:00Z
 author: Prashish
+description: "agentic coding"
+article_kind: Perspective
 ---
 
 The entire field of software development is going through a tectonic shift right in front of our eyes.

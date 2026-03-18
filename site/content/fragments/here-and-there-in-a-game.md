@@ -2,6 +2,8 @@
 title: Here and There in a Game
 date: 2025-10-31T00:00:00Z
 author: Prashish
+description: "code-created space"
+article_kind: Spiritual
 ---
 
 When you play an open world game like GTA or Skyrim, you experience walking through a whole city or landscape where different locations seem real and separate. The shop is here on this street, the mission location is way over there across town, your safe house is somewhere else. As you play, these places feel genuinely distant from each other, and it takes time to travel between them.

@@ -2,6 +2,8 @@
 title: 40/40/20 for Developers
 date: 2025-11-22T00:00:00Z
 author: Prashish
+description: "deep work, AI tools, & the human element"
+article_kind: Perspective
 ---
 
 Most developers spend 100% of their time just coding and wonder why they're not growing. The game changed when AI got good enough to write code with you. If you're not adjusting your time allocation, you're already behind.

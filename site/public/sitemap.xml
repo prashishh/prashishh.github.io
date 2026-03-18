@@ -2,37 +2,370 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/fragments/software-that-builds-itself/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/why-nepal-should-give-citizens-free-ai/</loc>
+    <lastmod>2026-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/</loc>
+    <lastmod>2026-03-15T17:16:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/company-of-one/</loc>
+    <lastmod>2026-03-15T17:16:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-practice-of-immortality/</loc>
+    <lastmod>2026-03-15T17:16:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/100m-leads/</loc>
+    <lastmod>2026-03-15T17:15:45+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/100m-offers/</loc>
+    <lastmod>2026-03-15T17:15:45+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/agents/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ai/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/architecture/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/distribution/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/databases/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/ai/agentic-marketing/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/decision-making/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/marketing/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ai/integrating-llms-into-existing-database-systems/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/delivery/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai/vibe-framework-for-agentic-software-delivery/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/workflow/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/software-developments-ground-shift/</loc>
+    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/reflection/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/soul-md-conversation/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/stillness/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/the-space-between/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai/how-ai-agents-collaborate-framework-architecture/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/was-that-true-or-is-this-true/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-banker-who-crushed-his-diamonds/</loc>
+    <lastmod>2026-01-19T15:36:09+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/big-billion-startup-the-untold-flipkart-story/</loc>
+    <lastmod>2026-01-18T10:29:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/llm/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/personalization/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai/software-for-one-powered-by-llms/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/software-economics/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/bhupi-a-daughters-memoir/</loc>
+    <lastmod>2026-01-14T16:44:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/samadhi/</loc>
+    <lastmod>2026-01-14T16:44:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/photographs-of-swami-vivekananda/</loc>
+    <lastmod>2026-01-14T16:43:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/upadesa-saram/</loc>
+    <lastmod>2026-01-14T16:43:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/between-the-mountain-and-the-sky/</loc>
+    <lastmod>2026-01-14T08:23:32+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/all-in/</loc>
+    <lastmod>2026-01-13T15:15:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/unseen-the-untold-story-of-deepinder-goyal-and-the-making-of-zomato/</loc>
+    <lastmod>2026-01-13T15:15:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/a-brief-tour-of-higher-consciousness/</loc>
+    <lastmod>2026-01-13T15:15:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/ai-valley/</loc>
+    <lastmod>2026-01-13T15:15:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/super-mario-how-nintendo-conquered-america/</loc>
+    <lastmod>2026-01-13T15:15:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/a-brief-history-of-intelligence/</loc>
+    <lastmod>2026-01-13T15:15:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/feeding-the-machine/</loc>
+    <lastmod>2026-01-13T15:15:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/gambling-man/</loc>
+    <lastmod>2026-01-13T15:15:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/crash/</loc>
+    <lastmod>2026-01-13T15:15:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/poor-charlies-almanack/</loc>
+    <lastmod>2026-01-13T15:15:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-simulation-hypothesis/</loc>
+    <lastmod>2026-01-13T15:15:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-problem-of-rebirth/</loc>
+    <lastmod>2026-01-13T15:15:20+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/daily-coffee-startup-fundraising/</loc>
+    <lastmod>2026-01-13T15:12:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/genesis/</loc>
+    <lastmod>2026-01-13T15:12:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-age-of-spiritual-machines/</loc>
+    <lastmod>2026-01-13T15:12:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/ai-superpowers/</loc>
+    <lastmod>2026-01-13T15:12:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/superagency/</loc>
+    <lastmod>2026-01-13T15:12:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/pathfinders/</loc>
+    <lastmod>2026-01-13T15:12:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-storytellers-advantage/</loc>
+    <lastmod>2026-01-13T15:12:22+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-cryptopians/</loc>
+    <lastmod>2026-01-13T15:04:04+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-lonely-century/</loc>
+    <lastmod>2026-01-13T15:04:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/shunya/</loc>
+    <lastmod>2026-01-13T15:04:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/reincarnation/</loc>
+    <lastmod>2026-01-13T15:03:59+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-seat-of-the-soul/</loc>
+    <lastmod>2026-01-13T15:01:44+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/wonder/</loc>
+    <lastmod>2026-01-13T15:01:43+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/action/</loc>
+    <lastmod>2026-01-13T15:01:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-last-hours-of-ancient-sunlight/</loc>
+    <lastmod>2026-01-13T15:01:39+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/forces-of-nature/</loc>
+    <lastmod>2026-01-13T15:01:37+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-extinction-of-experience/</loc>
+    <lastmod>2026-01-13T15:01:34+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-myth-of-american-idealism/</loc>
+    <lastmod>2026-01-13T15:01:32+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/beyond-asanas/</loc>
+    <lastmod>2026-01-13T15:01:30+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/luminous-darkness/</loc>
+    <lastmod>2026-01-13T15:01:28+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/in-praise-of-walking/</loc>
+    <lastmod>2026-01-13T15:01:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/life-after-death/</loc>
+    <lastmod>2026-01-13T15:01:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/mudras/</loc>
+    <lastmod>2026-01-13T15:01:23+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/leaving-microsoft-to-change-the-world/</loc>
+    <lastmod>2026-01-13T14:59:21+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-yoga-sutras-of-patanjali/</loc>
+    <lastmod>2026-01-13T14:59:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-development-dimension/</loc>
+    <lastmod>2026-01-13T14:59:17+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/never-whistle-at-night/</loc>
+    <lastmod>2026-01-13T14:59:15+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-making-of-prince-of-persia-journals-1985-1993/</loc>
+    <lastmod>2026-01-13T14:59:13+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/how-the-world-works/</loc>
+    <lastmod>2026-01-13T14:59:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/monetary-system-of-nepal/</loc>
+    <lastmod>2026-01-13T14:59:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/fractal-time/</loc>
+    <lastmod>2026-01-13T14:59:09+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-life-impossible/</loc>
+    <lastmod>2026-01-13T14:59:07+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/cryptomania/</loc>
+    <lastmod>2026-01-13T14:59:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-bitcoin-standard/</loc>
+    <lastmod>2026-01-13T14:57:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/all-roads-lead-north/</loc>
+    <lastmod>2026-01-13T14:57:04+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/empire-of-imagination/</loc>
+    <lastmod>2026-01-13T14:57:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/supremacy/</loc>
+    <lastmod>2026-01-13T10:55:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-road-to-conscious-machines/</loc>
+    <lastmod>2026-01-13T05:03:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/iwar/</loc>
+    <lastmod>2026-01-13T05:03:55+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/nepal-2043/</loc>
+    <lastmod>2026-01-13T04:44:38+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/the-cold-start-problem/</loc>
+    <lastmod>2026-01-13T04:44:37+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/otp-please/</loc>
+    <lastmod>2026-01-13T04:33:46+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/chip-war/</loc>
+    <lastmod>2026-01-13T04:33:45+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai/personal-bookshelf-system/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/automation/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloudflare/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/telegram/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/on-anarchism/</loc>
+    <lastmod>2026-01-12T21:03:47+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/on-right-livelihood/</loc>
+    <lastmod>2026-01-12T21:03:46+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bookshelf/a-ray-of-light-in-the-himalayas/</loc>
+    <lastmod>2026-01-12T20:35:59+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/what-is-your-lifes-work/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/18-is-the-new-25/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ongoing/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/paper-to-app/</loc>
+    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/infinite-software/</loc>
+    <lastmod>2025-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/llms-as-operating-systems/</loc>
+    <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/full-stack-founder/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/40-40-20-playbook/</loc>
+    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/world-class-network/</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/here-and-there-in-a-game/</loc>
+    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/default-mode/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/architecture/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/databases/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai/the-orchestrators-dilemma/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/why-nepal-should-buy-bitcoin/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/ai-politics-problem/</loc>
+    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/dial-up-ai/</loc>
+    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/love-and-greed-in-crypto/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/purpose-of-life-in-a-metaverse/</loc>
+    <lastmod>2025-08-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai/architecture-for-llm-database-integration/</loc>
+    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fragments/the-limits-of-reality/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/decision-making/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/migration/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/fragments/the-going-abroad-scenario/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/youth/</loc>
@@ -48,9 +381,6 @@
     <lastmod>2025-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fragments/back-to-writing-thanks-ai/</loc>
-    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ongoing/</loc>
     <lastmod>2025-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/25-greatest-speeches-of-swami-vivekananda/</loc>
@@ -87,9 +417,6 @@
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/alibaba-the-house-that-jack-ma-built/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/all-roads-lead-north/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/all-the-beauty-in-the-world/</loc>
@@ -152,12 +479,6 @@
     <loc>http://localhost:1313/bookshelf/being-mortal/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/between-the-mountain-and-the-sky/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/beyond-asanas/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/bhakti-yoga-tales-and-teachings-from-the-bhagavata-purana/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
@@ -174,9 +495,6 @@
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/body-the-greatest-gadget/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/boomerang-travels-in-the-new-third-world/</loc>
@@ -401,9 +719,6 @@
     <loc>http://localhost:1313/bookshelf/folk-tales-of-nepal-the-stolen-image-and-other-stories/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/forces-of-nature/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/four-chapters-on-freedom/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
@@ -599,9 +914,6 @@
     <loc>http://localhost:1313/bookshelf/liar-s-poker-rising-through-the-wreckage-on-wall-street/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/life-after-death/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/life-and-death-in-one-breath/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
@@ -633,9 +945,6 @@
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/loonshots-how-to-nurture-the-crazy-ideas-that-win-wars-cure-diseases-and-transform-industries/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/luminous-darkness/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/mad-country/</loc>
@@ -704,9 +1013,6 @@
     <loc>http://localhost:1313/bookshelf/mountains-painted-with-turmeric/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/mudras/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/my-life-story/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
@@ -738,9 +1044,6 @@
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/nepalese-folklore-the-merchant-from-tibet-and-other-tales/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/never-whistle-at-night/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/nine-principal-upanishads/</loc>
@@ -986,9 +1289,6 @@
     <loc>http://localhost:1313/bookshelf/the-big-short-inside-the-doomsday-machine/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/the-bitcoin-standard/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/the-bleeding-tree/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
@@ -1034,9 +1334,6 @@
     <loc>http://localhost:1313/bookshelf/the-cosmology-of-the-bhagavata-purana/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/the-cryptopians/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/the-cult-of-we/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
@@ -1044,9 +1341,6 @@
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/the-dalai-lama-s-cat-and-the-power-of-meow/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/the-development-dimension/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/the-diary-of-a-young-girl/</loc>
@@ -1160,9 +1454,6 @@
     <loc>http://localhost:1313/bookshelf/the-living-goddess/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/the-lonely-century/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/the-making-of-a-manager/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
@@ -1221,9 +1512,6 @@
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/the-rise-and-fall-of-the-third-chimpanzee/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/the-seat-of-the-soul/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/the-second-curve/</loc>
@@ -1317,9 +1605,6 @@
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/the-yoga-sutras-for-children/</loc>
-    <lastmod>2025-08-16T19:43:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/the-yoga-sutras-of-patanjali/</loc>
     <lastmod>2025-08-16T19:43:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/theories-of-the-chakras/</loc>
@@ -1496,9 +1781,6 @@
     <loc>http://localhost:1313/bookshelf/light-on-life/</loc>
     <lastmod>2023-09-18T10:46:24+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bookshelf/wonder-book/</loc>
-    <lastmod>2023-09-18T10:45:42+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bookshelf/how-to-turn-down-a-billion-dollars-the-snapchat-story/</loc>
     <lastmod>2023-09-18T10:45:04+00:00</lastmod>
   </url><url>
@@ -1567,9 +1849,6 @@
   </url><url>
     <loc>http://localhost:1313/bookshelf/apprenticed-to-a-himalayan-master/</loc>
     <lastmod>2023-09-18T10:08:11+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bookshelf/shunya/</loc>
-    <lastmod>2023-09-18T10:07:39+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bookshelf/wisdom-of-the-gods-for-you-and-me/</loc>
     <lastmod>2023-09-18T10:06:48+00:00</lastmod>

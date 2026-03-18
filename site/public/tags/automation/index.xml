@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on xyz prashish</title>
+    <link>http://localhost:1313/tags/automation/</link>
+    <description>Recent content in Automation on xyz prashish</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Personal Bookshelf System: Zero-Cost Automation with Telegram and Serverless Architecture</title>
+      <link>http://localhost:1313/ai/personal-bookshelf-system/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/personal-bookshelf-system/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This article is part of an ongoing AI-assisted development series (&lt;a href=&#34;http://localhost:1313/ai&#34;&gt;/ai&lt;/a&gt;). In keeping with the subject matter, all the code for this system was written by Claude Opus 4.5 while I provided the architectural direction and workflow design.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;My &lt;a href=&#34;http://localhost:1313/bookshelf&#34;&gt;bookshelf page&lt;/a&gt; serves as both a personal reading archive and a recommendation resource for visitors interested in similar topics. Over the years, it has grown to include more than 1000 books across philosophy, technology, business, spirituality, and fiction. Maintaining this list has become a recurring friction point because new books arrive frequently, sometimes many in a single week, and adding them to the website is quite a manual and extensive process.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

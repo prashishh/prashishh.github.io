@@ -2,6 +2,8 @@
 title: AI Politics Problem
 date: 2025-09-11T00:00:00Z
 author: Prashish
+description: "AI limitations & Nepal's political crisis"
+article_kind: Perspective
 ---
 
 I've been seeing these polished documents floating around social media with detailed solutions and examples for [Nepal's political crisis](https://nepalitimes.com/news/kathmandu-burns-despite-pm-resignation), mostly written by ChatGPT or other AI systems. __This is quite insane and borderline dangerous. I can't stress this enough!__

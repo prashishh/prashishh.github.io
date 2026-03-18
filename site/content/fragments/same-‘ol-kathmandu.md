@@ -5,6 +5,8 @@ author: Prashish
 tags:
   - ongoing
 url: /same-old-ktm
+description: "returning to Kathmandu"
+article_kind: Personal
 ---
 To be honest, Kathmandu hasn’t changed a lot. I see the same shops, the same restaurants, the same school buses, the same गल्लि (small roads) at the same spots where I left them five years ago. Things have remained the same for the better, or for the worse.
 

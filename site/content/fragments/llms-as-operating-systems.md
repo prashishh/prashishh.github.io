@@ -2,6 +2,8 @@
 title: LLMs as Operating Systems
 date: 2025-12-28T00:00:00Z
 author: Prashish
+description: "LLMs as platforms, not features"
+article_kind: Technical
 ---
 
 ## LLMs as Operating Systems

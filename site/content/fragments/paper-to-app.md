@@ -4,6 +4,8 @@ date: 2025-12-31T00:00:00Z
 author: Prashish
 tags:
   - ongoing
+description: "agentic coding"
+article_kind: Perspective
 ---
 
 In 2024, I used AI to generate a workout schedule that fit my personal goals and the equipment I had, and got **a PDF** I could print to follow my workouts. 

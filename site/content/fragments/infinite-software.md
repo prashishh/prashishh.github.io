@@ -2,6 +2,8 @@
 title: Infinite Software
 date: 2025-12-29T00:00:00Z
 author: Prashish
+description: "software's zero marginal cost"
+article_kind: Perspective
 ---
 
 ## Infinite Software

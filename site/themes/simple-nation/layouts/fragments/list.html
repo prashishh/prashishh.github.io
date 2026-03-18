@@ -2,12 +2,10 @@
 
 	<div class="common-body">
     {{ .Content }}
-	
+
     <div class="common-list">
       {{ range .Data.Pages.ByDate.Reverse }}
-        <p>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span>
-        </p>
+        {{ partial "index-item.html" . }}
       {{ end }}
 	</div>
 

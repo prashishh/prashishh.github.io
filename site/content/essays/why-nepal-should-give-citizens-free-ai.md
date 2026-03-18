@@ -3,6 +3,7 @@ title: Why Nepal Should Be the First Country to Give Its Citizens Free AI
 date: 2026-03-16T00:00:00.000Z
 author: Prashish
 url: /why-nepal-should-give-citizens-free-ai
+description: "national AI access for Nepal"
 ---
 ## Summary
 

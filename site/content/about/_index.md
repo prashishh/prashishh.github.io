@@ -24,5 +24,6 @@ You can reach me at <mailto:namaste@prashish.xyz> or [LinkedIn](https://www.link
 * [Building a Strong Engineering Culture](https://www.youtube.com/watch?v=occjQDc4eJc)
 * [Whatever We Have On The Internet, We Do Not Own It](https://www.youtube.com/watch?v=aDxxxbwWITQ)
 * [NFTs: Origins, Trends and Impact on Digital Ownership](https://www.youtube.com/watch?v=OUypJWOS8eU)
+* [How Nepali Software Engineers Can Stay Competitive in the Post-AI World?](https://www.youtube.com/watch?v=BQGYx7N66ds)
 * **Mozdrive:** Spreading the Mozilla story around the US in 25 days. [twitter](https://twitter.com/mozdrive)
 

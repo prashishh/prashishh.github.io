@@ -252,7 +252,7 @@ padding-bottom: 15px;
 }
 
 .ui.center.aligned.copyright {
-margin-top: -10px;
+margin-top: 40px;
 font-size: 12px;
 font-weight: 300;
 color: var(--text-color-muted);
@@ -434,10 +434,15 @@ margin-top: 0px;
   line-height: 1.8;
 }
 
+.side-list {
+  font-family: inherit !important;
+  font-weight: 400 !important;
+}
+
 .side-list ul li {
   letter-spacing: 0.01rem;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 2em;
   list-style: none;
 }
@@ -509,22 +514,40 @@ h1.ui.header {
 
 /* primary */
 
-body {
+html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
+}
+
+/* Override Semantic UI font to use site font */
+.ui.menu,
+.ui.menu .item,
+.ui.header,
+.ui.grid,
+.ui.segment,
+.ui.container,
+.ui.button,
+.ui.label,
+.ui.list,
+.ui.message {
+  font-family: inherit !important;
+}
+
+body {
+  font-family: inherit;
+  font-size: 15px;
 }
 
 p, p a {
   font-style: normal;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: inherit;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4px;
+  font-size: 15px;
+  line-height: 1.4;
   text-align: left;
 }
 
  a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: inherit;
  }
 
 a:hover {
@@ -551,6 +574,151 @@ img {
   margin: 0px;
   line-height: 1.5;
   margin-top: 20px;
+}
+
+.section-heading-link {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+hr + .index-body {
+  margin-top: 10px;
+}
+
+.section-heading {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-color-light);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-heading-link:hover .section-heading {
+  color: var(--accent-color);
+}
+
+.section-count {
+  font-size: 0.75em;
+  font-weight: 500;
+  color: var(--text-color-muted);
+  background: var(--border-color-light);
+  padding: 0 5px;
+  border-radius: 3px;
+  letter-spacing: 0;
+}
+
+/* index item rows */
+.index-item {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.index-item-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.index-item-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.index-item-title a {
+  font-weight: 400;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-bottom: none;
+  color: var(--accent-color);
+  letter-spacing: 0.01em;
+}
+
+.index-item-title a:hover {
+  opacity: 0.8;
+}
+
+.common-body .index-item-title a {
+  border-bottom: none;
+}
+
+.index-item-desc {
+  font-size: 0.95em;
+  color: var(--text-color-light);
+  font-family: inherit;
+  margin-top: 3px;
+  letter-spacing: -0.01em;
+}
+
+.index-item-kind {
+  font-size: 0.68em;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.index-item-kinds {
+  display: none;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.kind-perspective {
+  color: #16a34a;
+  background: rgba(22, 163, 74, 0.1);
+  border: 1px solid rgba(22, 163, 74, 0.25);
+}
+
+.kind-technical {
+  color: #2563eb;
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+}
+
+.kind-spiritual {
+  color: #9333ea;
+  background: rgba(147, 51, 234, 0.1);
+  border: 1px solid rgba(147, 51, 234, 0.25);
+}
+
+.kind-personal {
+  color: #ca8a04;
+  background: rgba(202, 138, 4, 0.1);
+  border: 1px solid rgba(202, 138, 4, 0.25);
+}
+
+[data-theme="dark"] .kind-perspective {
+  color: #86efac;
+  background: rgba(134, 239, 172, 0.1);
+  border-color: rgba(134, 239, 172, 0.25);
+}
+
+[data-theme="dark"] .kind-technical {
+  color: #93c5fd;
+  background: rgba(147, 197, 253, 0.1);
+  border-color: rgba(147, 197, 253, 0.25);
+}
+
+[data-theme="dark"] .kind-spiritual {
+  color: #d8b4fe;
+  background: rgba(216, 180, 254, 0.1);
+  border-color: rgba(216, 180, 254, 0.25);
+}
+
+[data-theme="dark"] .kind-personal {
+  color: #fde68a;
+  background: rgba(253, 230, 138, 0.1);
+  border-color: rgba(253, 230, 138, 0.25);
 }
 
 .main-body p a {

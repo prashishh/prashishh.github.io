@@ -5,6 +5,7 @@ author: Prashish
 category: Prashish
 url: /leaving-united-states
 image: /img/mozdrive-family-pic.png
+description: "returning to Nepal"
 ---
 Today is my last day in the United States.
 

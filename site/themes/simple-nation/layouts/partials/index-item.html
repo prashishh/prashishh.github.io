@@ -1,0 +1,22 @@
+<div class="index-item">
+	<div class="index-item-main">
+		<div class="index-item-title">
+			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+			<span class="list-date">{{ .PublishDate.Format "Jan 2006" }}</span>
+		</div>
+		{{ with .Params.description }}
+			<div class="index-item-desc">{{ . }}</div>
+		{{ end }}
+	</div>
+	{{ with .Params.article_kind }}
+		<div class="index-item-kinds">
+			{{ if reflect.IsSlice . }}
+				{{ range . }}
+					<span class="index-item-kind kind-{{ . | urlize }}">{{ . }}</span>
+				{{ end }}
+			{{ else }}
+				<span class="index-item-kind kind-{{ . | urlize }}">{{ . }}</span>
+			{{ end }}
+		</div>
+	{{ end }}
+</div>

@@ -5,6 +5,8 @@ author: Prashish
 tags:
   - ongoing
 url: /on-integrity
+description: "trust & handshake deals"
+article_kind: Personal
 ---
 Handshake deals are the best kind of business deals. People come together, discuss their ideas and shake on it. No legal paperwork, just trust and the promise of work.
 

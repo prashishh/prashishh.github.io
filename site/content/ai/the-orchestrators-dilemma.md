@@ -7,6 +7,8 @@ tags:
   - llm
   - architecture
   - databases
+description: "developer to orchestrator"
+article_kind: Technical
 ---
 *Note: This article is part of an ongoing AI-assisted development series ([/ai](/ai)). In keeping with the subject matter, this analysis was written using the same AI collaboration approach described within, orchestrated by experienced technical leadership with AI generating implementation and content.*
 

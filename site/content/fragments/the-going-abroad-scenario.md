@@ -4,6 +4,8 @@ date: 2025-08-24T00:00:00Z
 author: Prashish
 tags: [decision-making, youth, migration]
 category: Reflection
+description: "migration decisions"
+article_kind: Personal
 ---
 
 This is the thought process of a young student looking to go abroad without really thinking it through, simply because everyone else is doing the same. Here's a grade 12g student from Nepal who wants to leave just because everyone else is.

@@ -2,6 +2,8 @@
 title: World Class Network
 date: 2025-11-07T00:00:00Z
 author: Prashish
+description: "network"
+article_kind: Perspective
 ---
 
 If you can take out your phone and reach out to three people performing at the highest level, especially people you've actually worked with or know well enough that they'd respond, then you have a _world class network._

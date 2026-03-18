@@ -1,20 +1,35 @@
 {{ define "main" }}
+	{{ $fragments := where .Site.RegularPages.ByDate.Reverse "Section" "fragments" }}
 	<div class="index-body">
-		{{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Section" "fragments") }}
-			<p>
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span> . {{ .Summary | plainify | htmlUnescape }}
-				{{ if .Truncated }}<a class="no-underline" href="{{ .RelPermalink }}">...</a> {{ end }}
-			</p>
+		<a href="/fragments/" class="section-heading-link">
+			<h3 class="section-heading">Short-form Fragments <span class="section-count">{{ len $fragments }}</span></h3>
+		</a>
+		{{ range first 10 $fragments }}
+			{{ partial "index-item.html" . }}
 		{{ end }}
 	</div>
 
 	<hr />
 
-	<div class="bottom-body">
-		<p><span class="title-bold">Latest Essay:</span> 
-			{{ range first 1 (where .Site.RegularPages.ByDate.Reverse "Section" "essays") }}
-			<a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="list-date">({{ .PublishDate.Format "January 2006" }})</span>
-			{{ end }}
-		</p>
+	{{ $essays := where .Site.RegularPages.ByDate.Reverse "Section" "essays" }}
+	<div class="index-body">
+		<a href="/essays/" class="section-heading-link">
+			<h3 class="section-heading">Long-form Essays <span class="section-count">{{ len $essays }}</span></h3>
+		</a>
+		{{ range first 10 $essays }}
+			{{ partial "index-item.html" . }}
+		{{ end }}
+	</div>
+
+	<hr />
+
+	{{ $ai := where .Site.RegularPages.ByDate.Reverse "Section" "ai" }}
+	<div class="index-body">
+		<a href="/ai/" class="section-heading-link">
+			<h3 class="section-heading">Essays on AI <span class="section-count">{{ len $ai }}</span></h3>
+		</a>
+		{{ range first 10 $ai }}
+			{{ partial "index-item.html" . }}
+		{{ end }}
 	</div>
 {{ end }}

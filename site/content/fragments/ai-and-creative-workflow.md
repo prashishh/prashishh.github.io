@@ -2,7 +2,8 @@
 title: AI and Creative Workflow
 date: 2025-07-01T00:00:00Z
 author: Prashish
-
+description: "my journey with AI"
+article_kind: Personal
 ---
 
 In 2015, I came across Tim Urban’s fascinating post about AGI (Artificial General Intelligence) and ASI (Artificial Superintelligence). It was an interesting read, but it was not an "aha" moment for me at the time. My exposure to AI (or machine learning back then) was mostly through its use in engineering systems such as fraud detection, recommendation engines, and pattern recognition tools in our payment infrastructure. It felt more like solving backend challenges than experiencing anything magical.

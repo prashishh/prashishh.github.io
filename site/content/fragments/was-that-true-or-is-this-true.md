@@ -2,6 +2,10 @@
 title: Was That True or Is This True?
 date: 2026-01-24T00:00:00Z
 author: Prashish
+description: "attachment & impermanence"
+article_kind:
+  - Spiritual
+  - Personal
 ---
 
 There's a story about the __emperor Janaka__, who was known throughout the land as a powerful ruler and a philosopher. 

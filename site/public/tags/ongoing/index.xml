@@ -6,8 +6,15 @@
     <description>Recent content in Ongoing on xyz prashish</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ongoing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper to App</title>
+      <link>http://localhost:1313/fragments/paper-to-app/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/paper-to-app/</guid>
+      <description>&lt;p&gt;In 2024, I used AI to generate a workout schedule that fit my personal goals and the equipment I had, and got &lt;strong&gt;a PDF&lt;/strong&gt; I could print to follow my workouts.&lt;/p&gt;&#xA;&lt;p&gt;In 2026, we&amp;rsquo;ll be able to build a personalized workout &lt;strong&gt;app&lt;/strong&gt; in a few hours and install it on our phones.&lt;/p&gt;&#xA;&lt;p&gt;The fact that AI could understand my needs and give me a personalized schedule on a paper was mind-blowing in 2024, but now AI being able to create an entire app in an afternoon sounds crazy.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Back to Writing, Thanks to AI</title>
       <link>http://localhost:1313/fragments/back-to-writing-thanks-ai/</link>

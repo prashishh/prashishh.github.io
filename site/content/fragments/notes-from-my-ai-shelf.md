@@ -4,6 +4,8 @@ date: 2025-08-01T00:00:00Z
 author: Prashish
 tags:
   - ongoing
+description: "exploring AI"
+article_kind: Personal
 ---
 Over the last few months I have found myself surrounded by books, talks and podcasts on AI. I pick one up in the evenings, sometimes just to flip through a chapter, other times to get lost in the stories of how this technology came to be and might turn out to be.
 

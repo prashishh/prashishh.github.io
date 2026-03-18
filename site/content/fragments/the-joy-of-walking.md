@@ -4,6 +4,8 @@ date: 2024-12-01T00:00:00Z
 author: Prashish
 tags:
   - ongoing
+description: "exploring cities on foot"
+article_kind: Personal
 ---
 I think the best way to explore a city is by walking. No doubt about it.
 

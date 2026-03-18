@@ -7,6 +7,8 @@ tags:
   - llm
   - architecture
   - databases
+description: "LLM orchestration, database queries, & system architecture"
+article_kind: Technical
 ---
 
 > **Note**: This article is part of our ongoing exploration of AI systems and architectures. You can find more articles in this series at [/ai](/ai). This essay emerged from collaborative discussions about LLM-database integration architecture, with AI systems contributing to content development, code examples, and architectural analysis.

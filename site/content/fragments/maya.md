@@ -2,9 +2,11 @@
 title: Maya
 date: 2025-08-22T00:00:00Z
 author: Prashish
+description: "tech industry illusion & endless cycles"
+article_kind: Spiritual
 ---
 
-Working in tech for the past decade, I've been thinking about this concept called _Maya_ and how it maps to what I see around me. The tech industry feels like _Maya_ in action. Not sure why this keeps bugging me. _This is Maya._
+The tech industry feels like _Maya_ in action. Not sure why this keeps bugging me. _This is Maya._
 
 You start as a junior developer, excited about every new library, every framework, convinced you're building the future. Then you become senior, and you watch the next wave of juniors get excited about... the exact same things. Different names, same energy. React becomes Vue becomes Svelte becomes whatever's next. Microservices become serverless become edge computing. _This is Maya._
 

@@ -5,6 +5,8 @@ author: Prashish
 tags:
   - ongoing
 url: /on-finding-inspiration
+description: "biographical reading & purposeful living"
+article_kind: Personal
 ---
 People have asked me a countless number of times why I moved back. I have been pondering over this for some time. For the last few weeks, I have been looking for my “inspiration”.
 

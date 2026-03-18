@@ -2,6 +2,8 @@
 title: Joy
 date: 2015-05-15T06:23:33.049Z
 author: Prashish
+description: "what sparks inner engagement"
+article_kind: Personal
 ---
 “What sparks joy?” — Wow, such a simple but complicated question to think about.
 

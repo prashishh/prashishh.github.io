@@ -2,6 +2,8 @@
 title: Life's Work?
 date: 2026-01-10T00:00:00Z
 author: Prashish
+description: "lasting legacy"
+article_kind: Personal
 ---
 I'm currently reading [A Ray of Light in The Himalayas](https://www.amazon.com/Ray-Light-Himalayas-Building-Everest/dp/B09Y4VZRBH) about Takashi Miyahara, who dedicated half a century to building a hotel at 3900 meters in the Himalayas with a 360 degree view of mountain ranges including Mount Everest. __That hotel is his life's work.__
 

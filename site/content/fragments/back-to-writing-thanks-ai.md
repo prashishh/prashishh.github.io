@@ -4,6 +4,8 @@ date: 2025-08-17T00:00:00Z
 author: Prashish
 tags:
   - ongoing
+description: "starting my blog"
+article_kind: Personal
 ---
 The progress of AI keeps surprising me, even when I expect it to work. This blog was built in 2018 when I was experimenting with Jekyll and Hugo late at night, mostly to see if I could get something working.
 

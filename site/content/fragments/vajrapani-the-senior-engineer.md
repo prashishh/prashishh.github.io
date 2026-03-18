@@ -2,9 +2,13 @@
 title: Vajrapani The Senior Engineer
 date: 2025-08-20T00:00:00Z
 author: Prashish
+description: "wisdom"
+article_kind:
+  - Spiritual
+  - Technical
 ---
 
-I came across a story in Buddhist literature that has been on my mind ever since. _Vajrapani_, known for raw power, went to _Buddha_ (the enlightened being) and asked for wisdom. _Vajrapani_ already had the strength to get things done by sheer force and power, but he wanted to know what makes effort truly meaningful.
+_Vajrapani_, known for raw power, went to _Buddha_ (the enlightened being) and asked for wisdom. _Vajrapani_ already had the strength to get things done by sheer force and power, but he wanted to know what makes effort truly meaningful.
 
 It reminded me of engineers I know who can go deep into the codebase, fix tricky bugs, and ship features, but often only see their piece of the puzzle. What they miss is how it connects with everything else , marketing trying to explain the product, customer service handling frustrated users, finance keeping the lights on, or founders shifting direction after talking to customers and the changing dynamics of the market.
 

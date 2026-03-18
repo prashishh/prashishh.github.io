@@ -6,8 +6,141 @@
     <description>Recent content in Fragments on xyz prashish</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/fragments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software That Builds Itself</title>
+      <link>http://localhost:1313/fragments/software-that-builds-itself/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/software-that-builds-itself/</guid>
+      <description>&lt;p&gt;For the last decade and a half I have been building software, and the way it works has not changed much at its core. A team writes code, ships a release, and the application does exactly what that release has. If something needs to change, someone writes more code and ships another release. Any change to the software requires someone outside it to write it.&lt;/p&gt;&#xA;&lt;p&gt;Right now I do a primitive version of this with OpenClaw. I connect it directly to Claude Code, command it to add or modify features, and it writes the code and pushes the changes directly to the repo, which auto-deploys to the server. This works because OpenClaw has full documentation of its own workflow and codebase, so the model understands what it is working with.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Development&#39;s Ground Shift</title>
+      <link>http://localhost:1313/fragments/software-developments-ground-shift/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/software-developments-ground-shift/</guid>
+      <description>&lt;p&gt;The entire field of software development is going through a tectonic shift right in front of our eyes.&lt;/p&gt;&#xA;&lt;p&gt;Some developers still treat AI like a helpful assistant instead of something that is reshaping how software will be written. People who ship production code every day, who have built apps at scale, are missing what happened in the last six months. The leap we had at the end of 2025 was huge. AI can now handle the full loop from writing code to verifying it runs, catching bugs, fixing them, and deploying it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Space Between</title>
+      <link>http://localhost:1313/fragments/the-space-between/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/the-space-between/</guid>
+      <description>&lt;p&gt;People optimize their stillness these days. Twenty minutes in the morning to improve focus, ten minutes before bed to process the day. They track it in apps that show streaks and send reminders.&lt;/p&gt;&#xA;&lt;p&gt;Even rest has to be optimized, measured, justified. “I meditate to improve focus.” “I take walks to process ideas.” “I journal to track my growth.” Everything needs a return on investment, even the moments where you do absolutely nothing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Was That True or Is This True?</title>
+      <link>http://localhost:1313/fragments/was-that-true-or-is-this-true/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/was-that-true-or-is-this-true/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a story about the &lt;strong&gt;emperor Janaka&lt;/strong&gt;, who was known throughout the land as a powerful ruler and a philosopher.&lt;/p&gt;&#xA;&lt;p&gt;One night, the guards rushed into his chambers to wake him with urgent news. Enemy forces had attacked his kingdom in the darkness, and though he quickly rallied his army and rode out to fight them, the battle went badly and his army was defeated.&lt;/p&gt;&#xA;&lt;p&gt;Janaka was wounded, captured, and brought before the conquering king. But because Janaka was known as a great philosopher and a just ruler, the enemy spared his life but took everything else. He was exiled from his own empire.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Life&#39;s Work?</title>
+      <link>http://localhost:1313/fragments/what-is-your-lifes-work/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/what-is-your-lifes-work/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m currently reading &lt;a href=&#34;https://www.amazon.com/Ray-Light-Himalayas-Building-Everest/dp/B09Y4VZRBH&#34;&gt;A Ray of Light in The Himalayas&lt;/a&gt; about Takashi Miyahara, who dedicated half a century to building a hotel at 3900 meters in the Himalayas with a 360 degree view of mountain ranges including Mount Everest. &lt;strong&gt;That hotel is his life&amp;rsquo;s work.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Reading about him reminded me of others who could answer this question immediately. Warren Buffett has been building value and a community of investors who trust his philosophy for over 60 years. Arsène Wenger built Arsenal&amp;rsquo;s football for 22 years through wins and severe losses. David Attenborough has been documenting nature for seven decades.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18 is the New 25</title>
+      <link>http://localhost:1313/fragments/18-is-the-new-25/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/18-is-the-new-25/</guid>
+      <description>&lt;h2 id=&#34;18-is-the-new-25&#34;&gt;18 is the New 25&lt;/h2&gt;&#xA;&lt;p&gt;AI can teach you technical skills like programming, data analysis, digital marketing, and design tools faster than university can, especially for things that change every few months. What it can&amp;rsquo;t teach you is how to work with a team, handle real deadlines, or deal with customers, and that only comes from being in the field i.e. experience.&lt;/p&gt;&#xA;&lt;p&gt;The old model was spend four years at university till you&amp;rsquo;re 25, then start working. But for most fields, especially in tech, you can start at 18 with an apprenticeship, an internship, or an entry level job. The new model is to learn by doing and pick up what you need from AI along the way. Do your degree on the side if you need it, or finish it in two years instead of four.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paper to App</title>
+      <link>http://localhost:1313/fragments/paper-to-app/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/paper-to-app/</guid>
+      <description>&lt;p&gt;In 2024, I used AI to generate a workout schedule that fit my personal goals and the equipment I had, and got &lt;strong&gt;a PDF&lt;/strong&gt; I could print to follow my workouts.&lt;/p&gt;&#xA;&lt;p&gt;In 2026, we&amp;rsquo;ll be able to build a personalized workout &lt;strong&gt;app&lt;/strong&gt; in a few hours and install it on our phones.&lt;/p&gt;&#xA;&lt;p&gt;The fact that AI could understand my needs and give me a personalized schedule on a paper was mind-blowing in 2024, but now AI being able to create an entire app in an afternoon sounds crazy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infinite Software</title>
+      <link>http://localhost:1313/fragments/infinite-software/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/infinite-software/</guid>
+      <description>&lt;h2 id=&#34;infinite-software&#34;&gt;Infinite Software&lt;/h2&gt;&#xA;&lt;p&gt;You can generate a working app from a single prompt today, something that was &lt;strong&gt;unthinkable&lt;/strong&gt; a decade back. AI can now write, debug, execute code and deploy it to the cloud, in a single coding session.&lt;/p&gt;&#xA;&lt;p&gt;What used to require devs, time and money now takes a prompt. This naturally pushes the marginal cost of creating one more piece of software toward &lt;strong&gt;zero&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s like what happened with photography when cameras went from analog to digital and ended up in phones. You had 24 or 36 shots on a roll of film, so you thought before you clicked. But once the marginal cost of taking one more photo became zero, people started taking thousands without thinking.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LLMs as Operating Systems</title>
+      <link>http://localhost:1313/fragments/llms-as-operating-systems/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/llms-as-operating-systems/</guid>
+      <description>&lt;h2 id=&#34;llms-as-operating-systems&#34;&gt;LLMs as Operating Systems&lt;/h2&gt;&#xA;&lt;p&gt;The next wave of software treats LLMs as first-class citizens, not as just AI features added onto existing products.&lt;/p&gt;&#xA;&lt;p&gt;You build apps on top of operating systems like Windows or Android, you don&amp;rsquo;t build Windows into your app. LLMs have become the platform now.&lt;/p&gt;&#xA;&lt;p&gt;Cursor rebuilt their entire IDE with the chat window permanently visible on the right side, handling everything from planning, writing, debugging to deploying code. Perplexity started fresh and reimagined search as a conversation instead of a list of links. Warp threw out decades of terminal design and built it new with AI baked into every interaction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Full Stack Founder</title>
+      <link>http://localhost:1313/fragments/full-stack-founder/</link>
+      <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/full-stack-founder/</guid>
+      <description>&lt;h2 id=&#34;the-full-stack-founder&#34;&gt;The Full Stack Founder&lt;/h2&gt;&#xA;&lt;p&gt;A full stack founder is someone who has enough skills across many parts of a company, from product and engineering to team and capital. It is not about mastery in every area, but about knowing enough to follow what is going on and to join the work when needed.&lt;/p&gt;&#xA;&lt;p&gt;Just like a full stack engineer works across the entire technical stack, a full stack founder works across the entire company stack.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>40/40/20 for Developers</title>
+      <link>http://localhost:1313/fragments/40-40-20-playbook/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/40-40-20-playbook/</guid>
+      <description>&lt;p&gt;Most developers spend 100% of their time just coding and wonder why they&amp;rsquo;re not growing. The game changed when AI got good enough to write code with you. If you&amp;rsquo;re not adjusting your time allocation, you&amp;rsquo;re already behind.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;40% - actual deep work:&lt;/strong&gt; writing code, designing architectures learning new paradigms, reviewing other people&amp;rsquo;s code, the stuff that still needs real human developer as of 2025.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;40% - using AI tools:&lt;/strong&gt; to optimize everything, learning Cursor, Claude Code and new coding assistant tools coming out, MCP and all the experimental AI, bringing collective coding intelligence into your workflow, making yourself faster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Class Network</title>
+      <link>http://localhost:1313/fragments/world-class-network/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/world-class-network/</guid>
+      <description>&lt;p&gt;If you can take out your phone and reach out to three people performing at the highest level, especially people you&amp;rsquo;ve actually worked with or know well enough that they&amp;rsquo;d respond, then you have a &lt;em&gt;world class network.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;People building businesses at global scale, working on cutting edge science or tech, competing at world championships, creating art or music that reaches global audiences.&lt;/p&gt;&#xA;&lt;p&gt;If you can&amp;rsquo;t think of any, then that&amp;rsquo;s something to think about.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Here and There in a Game</title>
+      <link>http://localhost:1313/fragments/here-and-there-in-a-game/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/here-and-there-in-a-game/</guid>
+      <description>&lt;p&gt;When you play an open world game like GTA or Skyrim, you experience walking through a whole city or landscape where different locations seem real and separate. The shop is here on this street, the mission location is way over there across town, your safe house is somewhere else. As you play, these places feel genuinely distant from each other, and it takes time to travel between them.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But here&amp;rsquo;s what&amp;rsquo;s actually happening.&lt;/strong&gt; All those places that feel so distant while playing exist at the same moment in your computer as data in memory. There’s no actual distance between them in the code. They’re just different data structures in memory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Default Mode</title>
+      <link>http://localhost:1313/fragments/default-mode/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/default-mode/</guid>
+      <description>&lt;p&gt;Show a bone to a dog and watch what happens. Something deep in its &lt;em&gt;operating system&lt;/em&gt; just fires up and it moves toward the bone, same with ants and sugar or moths and light. They have a &lt;strong&gt;default mode&lt;/strong&gt; for this, programmed so deep they cannot help but follow them.&lt;/p&gt;&#xA;&lt;p&gt;Humans aren&amp;rsquo;t that different, we just have more layers of defaults and most of us don&amp;rsquo;t even know they&amp;rsquo;re running in the background. Some parts are physical like fear, hunger, pleasure, and others are psychological formed by memory and experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Politics Problem</title>
+      <link>http://localhost:1313/fragments/ai-politics-problem/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/ai-politics-problem/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been seeing these polished documents floating around social media with detailed solutions and examples for &lt;a href=&#34;https://nepalitimes.com/news/kathmandu-burns-despite-pm-resignation&#34;&gt;Nepal&amp;rsquo;s political crisis&lt;/a&gt;, mostly written by ChatGPT or other AI systems. &lt;strong&gt;This is quite insane and borderline dangerous. I can&amp;rsquo;t stress this enough!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nepal just went through massive upheaval, where people died in the streets because of decades of political dysfunction. And some people think feeding prompts to generate the perfect solution to the problem is going to solve the issue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dial-Up AI</title>
+      <link>http://localhost:1313/fragments/dial-up-ai/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/dial-up-ai/</guid>
+      <description>&lt;p&gt;I spend hours every day talking to AI through text prompts and screenshots while building concepts, and it definitely feels like using dial-up internet from the past. The AI is smart, but our communication methods are very slow. I type explanations, upload images, and describe what I want. And the AI responds.. I correct it, upload more screenshots to show what went wrong and we go back and forth with each back and forth taking forever. But there&amp;rsquo;s a bigger bottleneck: even when the AI gives me the perfect code, I still need to see the results with my eyes, run the application, check if it works (at least human-ly), take screenshots to show problems, then explain again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Love and Greed in Crypto</title>
+      <link>http://localhost:1313/fragments/love-and-greed-in-crypto/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/love-and-greed-in-crypto/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: While this framework applies to any community, from startups to religious movements to open source projects, I&amp;rsquo;m using crypto community as a reference point here because I have been working actively in this industry for the past 5 years and been here since 2014.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Crypto promised to change everything with decentralized communities, shared ownership, power to the people, but if you spend time in most crypto communities, you will notice something else. People are always asking &lt;em&gt;&amp;ldquo;wen moon?&lt;/em&gt;&amp;rdquo;, &lt;em&gt;&amp;ldquo;wen airdrop?&amp;rdquo;&lt;/em&gt; and mostly talking about the token price. The moment the price drops, half the community disappears overnight. This is clearly not real community, but a collective group driven by price action.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Purpose of Life in a Metaverse</title>
+      <link>http://localhost:1313/fragments/purpose-of-life-in-a-metaverse/</link>
+      <pubDate>Sat, 30 Aug 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/purpose-of-life-in-a-metaverse/</guid>
+      <description>&lt;p&gt;Life is an open metaverse game. You do not enter with a guidebook or a clear goal.. you simply arrive, choose an avatar, and begin moving through a world that was already running before you joined. At first, you stumble without knowing where to go or what to do, and then slowly you begin to pick up the patterns of play.. gathering, losing, struggling, growing, and meeting countless other players who are also busy finding their own way. Some days it feels exciting, other days it feels sluggish. Many times you forget you ever asked what the point of all this was.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Limits of Reality</title>
+      <link>http://localhost:1313/fragments/the-limits-of-reality/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fragments/the-limits-of-reality/</guid>
+      <description>&lt;p&gt;I have been thinking about how limited our understanding of reality actually is. We like to believe that what we perceive through our senses and mind is the full picture, but it is really just a thin slice of what is out there.&lt;/p&gt;&#xA;&lt;p&gt;Let’s take examples of color and sound. What we call visible light is just a tiny strip, while the rest of it, like infrared and ultraviolet, moves through us all the time without us even knowing. Sound works the same way, our ears only catch a narrow range while dogs hear higher and elephants hear lower, and whole conversations are happening that we will never hear. It is like walking through a huge dark cave with a small flashlight and assuming whatever the beam touches is the whole place.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Going Abroad Scenario</title>
       <link>http://localhost:1313/fragments/the-going-abroad-scenario/</link>

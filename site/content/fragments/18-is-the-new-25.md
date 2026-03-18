@@ -2,6 +2,8 @@
 title: "18 is the New 25"
 date: 2026-01-04T00:00:00Z
 author: Prashish
+description: "accelerated work experience"
+article_kind: Perspective
 ---
 
 ## 18 is the New 25

@@ -2,6 +2,8 @@
 title: The Full Stack Founder
 date: 2025-11-27T00:00:00Z
 author: Prashish
+description: "founder competence across domains"
+article_kind: Perspective
 ---
 
 ## The Full Stack Founder

@@ -2,7 +2,8 @@
 title: "Software for One: Powered by LLMs"
 date: 2026-01-17T00:00:00Z
 author: Prashish
-description: "How LLMs are enabling a new wave of personalized applications built for individual users, transforming software economics from scale to personalization."
+description: "personalized apps & software economics"
+article_kind: Perspective
 url: /ai/software-for-one-powered-by-llms/
 tags:
   - ai

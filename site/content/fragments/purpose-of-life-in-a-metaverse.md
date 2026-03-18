@@ -2,6 +2,8 @@
 title: Purpose of Life in a Metaverse
 date: 2025-08-30T12:00:00.000Z
 author: Prashish
+description: "existence without preset purpose"
+article_kind: Spiritual
 ---
 Life is an open metaverse game. You do not enter with a guidebook or a clear goal.. you simply arrive, choose an avatar, and begin moving through a world that was already running before you joined. At first, you stumble without knowing where to go or what to do, and then slowly you begin to pick up the patterns of play.. gathering, losing, struggling, growing, and meeting countless other players who are also busy finding their own way. Some days it feels exciting, other days it feels sluggish. Many times you forget you ever asked what the point of all this was.
 

@@ -6,14 +6,28 @@
     <description>Recent content in Llm on xyz prashish</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Integrating LLMs into Existing Database Systems: A Practitioner’s Architecture</title>
-      <link>http://localhost:1313/ai/integrating-llms-into-existing-database-systems/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ai/integrating-llms-into-existing-database-systems/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Modern digital systems are built upon diverse data storage technologies that serve different architectural needs. While document databases like MongoDB dominate many startup environments due to their flexibility and ease of implementation, graph databases power social networks and recommendation systems, key-value stores handle high-throughput caching, and time-series databases manage IoT and monitoring data. However, relational databases remain the backbone of most enterprise systems and production applications, with frameworks commonly defaulting to PostgreSQL or MySQL for their ACID compliance, mature tooling, and well-understood operational characteristics.&lt;/p&gt;</description>
+      <title>Software for One: Powered by LLMs</title>
+      <link>http://localhost:1313/ai/software-for-one-powered-by-llms/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/software-for-one-powered-by-llms/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This article is part of an ongoing AI-assisted development series (/ai). The apps described were built using Claude Sonnet 4.5 and Cursor, with me providing the requirements and design direction.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Over the past few months, I&amp;rsquo;ve built three apps that only I use: &lt;strong&gt;a fitness tracker&lt;/strong&gt; optimized for my home gym equipment, &lt;strong&gt;a Telegram bot&lt;/strong&gt; that recommends books from my personal library, and &lt;strong&gt;a meditation app&lt;/strong&gt; called &lt;em&gt;Spanda&lt;/em&gt;. None of them will ever have a second user, and that&amp;rsquo;s by design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Orchestrator&#39;s Dilemma: Building SetoBazaar Through AI-Assisted Architecture</title>
+      <link>http://localhost:1313/ai/the-orchestrators-dilemma/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/the-orchestrators-dilemma/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This article is part of an ongoing AI-assisted development series (&lt;a href=&#34;http://localhost:1313/ai&#34;&gt;/ai&lt;/a&gt;). In keeping with the subject matter, this analysis was written using the same AI collaboration approach described within, orchestrated by experienced technical leadership with AI generating implementation and content.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;&#xA;&lt;p&gt;This essay explores building &lt;em&gt;SetoBazaar&lt;/em&gt;, a classified marketplace, entirely through AI-assisted development. The experiment challenged the assumption that &amp;ldquo;building large applications with AI is difficult&amp;rdquo; by creating a functional platform with 20+ database tables, multi-provider authentication, real-time messaging, and comprehensive functionalities that would typically require a development team working for several months.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An Architecture for LLM-Database Integration</title>
+      <link>http://localhost:1313/ai/architecture-for-llm-database-integration/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/architecture-for-llm-database-integration/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: This article is part of our ongoing exploration of AI systems and architectures. You can find more articles in this series at &lt;a href=&#34;http://localhost:1313/ai&#34;&gt;/ai&lt;/a&gt;. This essay emerged from collaborative discussions about LLM-database integration architecture, with AI systems contributing to content development, code examples, and architectural analysis.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Modern digital systems are built upon diverse data storage technologies that serve different architectural needs. While document databases like MongoDB dominate many startup environments due to their flexibility and ease of implementation, graph databases power social networks and recommendation systems, key-value stores handle high-throughput caching, and time-series databases manage IoT and monitoring data. However, relational databases remain the backbone of most enterprise systems and production applications, with frameworks commonly defaulting to PostgreSQL or MySQL for their ACID compliance, mature tooling, and well-understood operational characteristics.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

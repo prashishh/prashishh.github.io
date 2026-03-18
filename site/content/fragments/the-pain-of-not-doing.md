@@ -2,6 +2,8 @@
 title: The Pain of Not Doing
 date: 2025-08-18T00:00:00Z
 author: Prashish
+description: "deep passion & lifelong craft"
+article_kind: Perspective
 ---
 I like to work with people who are _intensely passionate_ about what they do. It does not matter what the field is. It could be nurturing kids, reading, writing poems, solving scientific problems, or coding a simple database service. What matters is the feeling inside, whether it is fire or love that comes from the heart. It is hard to reason and explain, but it can be understood from the depth of the inner being. It is the kind of passion that makes you forget food, water, and time.
 

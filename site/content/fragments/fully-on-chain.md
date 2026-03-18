@@ -4,6 +4,8 @@ date: 2024-08-01T00:00:00Z
 author: Prashish
 tags:
   - ongoing
+description: "true digital ownership"
+article_kind: Technical
 ---
 Digital ownership is what makes blockchain exciting for me. For the first time, you can actually hold something that does not vanish just because a company shuts down or pulls the plug on its servers.
 

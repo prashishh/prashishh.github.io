@@ -7,6 +7,8 @@ tags:
   - workflow
   - delivery
   - agents
+description: "structured workflows & developer tooling"
+article_kind: Technical
 ---
 
 <img src="/img/calm.png" alt="Mascot calm" width="44" />
