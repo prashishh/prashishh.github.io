@@ -13,15 +13,15 @@ Small countries have done similar things before. Estonia built digital governmen
 
 Why this matters to Nepal, now:
 
-* **Migration:** Nepal cannot keep losing its most capable people to countries with better opportunities.
-* **Public utility:** Countries that treat AI access as a public good early will have a structural advantage in every knowledge-based industry for years, and that gap widens with each year that passes.
+* **Migration:** Nepal cannot keep losing its most capable people to countries for better opportunities.
+* **Public utility:** Countries that treat AI access as a public good early will have a structural advantage in every knowledge-based industry for years, and that gap widens with each year.
 * **Branding:** No country has done this yet, and being first is a rare opening for a small nation to be noticed globally.
 * **A growing industry:** Nepal's IT export sector is already worth over NPR 1 kharba 45 arba annually, and broader AI access can expand the sector.
 * **Practical daily benefits:** Students, farmers, small business owners, doctors in remote areas, and content creators all gain access to tools that currently cost NPR 2,940 per month or more when subscribed directly from international providers, which most people in Nepal simply cannot afford.
 
 The artificial intelligence (AI) foundation models already exist, many are free to use, and the cost of running them nationally is far less than most infrastructure projects Nepal has taken on. At a reasonable estimate, giving all 16.5 million connected citizens a basic AI allowance each year would cost between NPR 9.7 crore and NPR 85 crore in annual compute (self-hosted models at 1 million tokens per citizen per year, small to large model scenarios), with initial infrastructure investment for a national small-model deployment between NPR 9 arba and NPR 22 arba spread over several years.
 
-The gap between countries building national AI programs and those that are not will widen every year, not just in technology but in economic productivity, education quality, and the ability to compete globally in services. This is one of those decisions where moving early makes a permanent difference.
+The gap between countries building national AI programs and those that are not will widen every year, not just in technology but in economic productivity, education quality, and the ability to compete globally in services. __This is one of those decisions where moving early makes a permanent difference.__
 
 ---
 
@@ -79,8 +79,6 @@ The deeper barrier is that for most people in the world, AI has never been prese
 | Used free tier tools | 1,278 | 15.6% |
 | Paying subscriber | 59 | 0.7% |
 | **World total** | **8,205** | **100%** |
-
-*Sources: Global adoption rate (16.3%) from Microsoft/LinkedIn Global AI Adoption Report, January 2026. Paying subscriber count (50M consumer + 9M business) from OpenAI, February 2026. World population from UN DESA, 2025.*
 
 No government anywhere has decided to treat AI access the way governments treat roads, schools, and electricity. Nepal can be the first country to make that decision, addressing the cost, education, and access problem all at once.
 
@@ -219,9 +217,13 @@ The figures below are illustrative conservative capacity scenarios, with headroo
 
 *All figures are illustrative estimates only, based on an assumed token mix; actual costs will vary by usage pattern and model configuration.*
 
+### Bhutan Story:
+
 For comparison, Bhutan started mining Bitcoin in 2019 using surplus hydroelectric power at near-zero cost. By October 2024, the government's holdings peaked at 13,295 BTC worth approximately $1.5 billion. Since then, Bhutan has been steadily selling in structured batches, with total liquidations exceeding $1 billion. 
 
-It funded a 65 percent raise in civil servant salaries, expanded free healthcare programs, and the Gelephu Mindfulness City development project. As of early 2026, Bhutan still holds roughly 5,400 BTC. Bhutan converted a natural resource, surplus hydroelectric power, into a sovereign digital asset strategy that now funds core government services. For Nepal, the equivalent is a policy decision about AI access.
+It funded a 65 percent raise in civil servant salaries, expanded free healthcare programs, and the Gelephu Mindfulness City development project. As of early 2026, Bhutan still holds roughly 5,400 BTC. Bhutan converted a natural resource, surplus hydroelectric power, into a sovereign digital asset strategy that now funds core government services. 
+
+__For Nepal, the equivalent is a policy decision about AI access.__
 
 ---
 
@@ -251,7 +253,7 @@ Nepal has a strong tradition of storytelling, documentary filmmaking, and music.
 
 ## Building This Creates an Industry Nepal Does Not Have Yet
 
-The act of setting up national AI infrastructure creates jobs and expertise that Nepal currently loses to emigration. Data centers need engineers, operators, security specialists, and network architects, and once that infrastructure exists, foreign companies looking for a reliable, politically neutral place to run AI experiments have a concrete reason to come to Kathmandu.
+The act of setting up national AI infrastructure creates jobs and expertise that Nepal currently loses to emigration. Data centers need engineers, operators, security specialists, and network architects. Once that infrastructure exists, foreign companies looking for a reliable, politically neutral place to run AI experiments have a concrete reason to come to Kathmandu.
 
 Citizens who want more tokens beyond their free allowance can buy additional capacity at cost, which funds the program and builds a commercial AI services layer. Nepali developers who want to build AI-powered products can use the same infrastructure at competitive local rates, which is something that simply does not exist today.
 
@@ -325,7 +327,7 @@ Nepal has watched every recent technology wave from the outside. The AI wave is 
 * Make regulatory changes to invite AI companies from India, China, and elsewhere to operate in Nepal, collaborate on Nepali language and voice model development, and run workshops in Kathmandu
 * Make a clear public commitment to being the first country to give every citizen meaningful free AI access, which is itself a signal to investors, researchers, and partner governments
 
-Nepal has 30 million people, not 300 million or 3 billion, and a single focused government ministry with a clear mandate could stand this up within two to three years. The tools exist, the costs are known, and the only thing left is a decision.
+Nepal has 30 million people, not 300 million or 3 billion, and a single-focused government ministry with a clear mandate could stand this up within two to three years. The tools exist, the costs are known, and the only thing left is a decision whether to take the leap or not.
 
 <div class="image-wrapper" style="margin: 12px auto;"><img src="/img/banner-image.png"></div>
 
