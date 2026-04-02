@@ -334,6 +334,8 @@ function loop() {
 requestAnimationFrame(loop);
 </script>
 
+**Note:** This visualization is symbolic and exploratory, not a medical or scientific claim about how meditation works or how brainwaves synchronize with Earth's frequency.
+
 ---
 
-_The Schumann Resonance (7.83 Hz) is the Earth's fundamental electromagnetic frequency, created by lightning activity in the cavity between the surface and the ionosphere. The subjective states referenced in the interactive visualization come from Patanjali's Yoga Sutras and the Mandukya Upanishad._
+_The Schumann Resonance is Earth's electromagnetic frequency at 7.83 Hz. The meditation states come from Patanjali's Yoga Sutras and the Mandukya Upanishad._
