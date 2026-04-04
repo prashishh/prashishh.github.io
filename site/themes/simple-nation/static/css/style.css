@@ -892,6 +892,21 @@ p.title-margin-top {
   font-size: 16px;
 }
 
+/* Nav External Link (left nav) */
+.side-list ul li.nav-external {
+  margin-top: 4px;
+}
+
+.side-list ul li.nav-external a {
+  font-size: 13px;
+  color: var(--text-color-muted);
+  border-bottom: none;
+}
+
+.side-list ul li.nav-external a:hover {
+  color: var(--accent-color) !important;
+}
+
 /* Dark Mode Toggle Button */
 .dark-mode-toggle {
   position: fixed;
