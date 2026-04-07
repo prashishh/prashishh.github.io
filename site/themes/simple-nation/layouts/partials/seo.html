@@ -53,8 +53,10 @@
   {{- end -}}
 {{- end -}}
 
-{{/* Resolve social image in a way compatible with older Hugo */}}
-{{- $img := ("images/prashish_rajbhandari.jpg" | absURL) -}}
+{{/* Resolve social image. Leave empty if no real image is found so we
+     do not show a default fallback portrait on every article. The
+     homepage and section pages still get the site portrait below. */}}
+{{- $img := "" -}}
 {{- with .Params.image -}}
   {{- $img = (. | absURL) -}}
 {{- else -}}
@@ -74,6 +76,11 @@
   {{- end -}}
 {{- end -}}
 
+{{/* Use the site portrait only on the homepage and section listing pages */}}
+{{- if and (eq $img "") (or .IsHome $isSection) -}}
+  {{- $img = ("images/prashish_rajbhandari.jpg" | absURL) -}}
+{{- end -}}
+
 <link rel="canonical" href="{{ $url }}"/>
 <meta name="description" content="{{ $desc }}"/>
 <meta name="robots" content="index,follow"/>
@@ -84,17 +91,17 @@
 <meta property="og:description" content="{{ $desc }}"/>
 <meta property="og:type" content="{{ if $isArticle }}article{{ else if $isSection }}website{{ else }}website{{ end }}"/>
 <meta property="og:url" content="{{ $url }}"/>
-<meta property="og:image" content="{{ $img }}"/>
+{{ if $img }}<meta property="og:image" content="{{ $img }}"/>{{ end }}
 {{ if $isArticle }}
   <meta property="article:published_time" content="{{ .PublishDate.UTC.Format "2006-01-02T15:04:05Z07:00" }}"/>
   <meta property="article:modified_time" content="{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}"/>
 {{ end }}
 
 {{/* Twitter */}}
-<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}"/>
 <meta name="twitter:title" content="{{ $title }}"/>
 <meta name="twitter:description" content="{{ $desc }}"/>
-<meta name="twitter:image" content="{{ $img }}"/>
+{{ if $img }}<meta name="twitter:image" content="{{ $img }}"/>{{ end }}
 
 {{/* RSS autodiscovery - section-aware */}}
 {{- $rssURL := "index.xml" | relURL -}}
@@ -112,7 +119,7 @@
     "@type": "Article",
     "headline": {{ $title | jsonify }},
     "description": {{ $desc | jsonify }},
-    "image": {{ $img | jsonify }},
+    {{ if $img }}"image": {{ $img | jsonify }},{{ end }}
     "author": { "@type": "Person", "name": {{ $author | jsonify }} },
     "datePublished": "{{ .PublishDate.UTC.Format "2006-01-02T15:04:05Z07:00" }}",
     "dateModified": "{{ .Lastmod.UTC.Format "2006-01-02T15:04:05Z07:00" }}",
