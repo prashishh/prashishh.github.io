@@ -18,6 +18,7 @@ You can reach me at <mailto:namaste@prashish.xyz> or [LinkedIn](https://www.link
 
 **More:**
 
+* [Can Nepal Build Global Tech? | AI, Crypto & Startups Explained](https://www.youtube.com/watch?v=IZHKk8cft3c)
 * [Silicon Valley to Kathmandu Valley](https://www.youtube.com/watch?v=ruLvwY8LRlM)
 * [Silicon Valley, Blockchain and Spirituality](https://www.youtube.com/watch?v=1KSbzisP3sQ)
 * [Blockchain Roundtable](https://www.youtube.com/watch?v=NCzbY-653-M)
