@@ -4,19 +4,7 @@
 		<a href="/fragments/" class="section-heading-link">
 			<h3 class="section-heading">Short-form Fragments <span class="section-count">{{ len $fragments }}</span></h3>
 		</a>
-		{{ range first 10 $fragments }}
-			{{ partial "index-item.html" . }}
-		{{ end }}
-	</div>
-
-	<hr />
-
-	{{ $essays := where .Site.RegularPages.ByDate.Reverse "Section" "essays" }}
-	<div class="index-body">
-		<a href="/essays/" class="section-heading-link">
-			<h3 class="section-heading">Long-form Essays <span class="section-count">{{ len $essays }}</span></h3>
-		</a>
-		{{ range first 10 $essays }}
+		{{ range first 7 $fragments }}
 			{{ partial "index-item.html" . }}
 		{{ end }}
 	</div>
@@ -28,7 +16,19 @@
 		<a href="/ai/" class="section-heading-link">
 			<h3 class="section-heading">Essays on AI <span class="section-count">{{ len $ai }}</span></h3>
 		</a>
-		{{ range first 10 $ai }}
+		{{ range first 7 $ai }}
+			{{ partial "index-item.html" . }}
+		{{ end }}
+	</div>
+
+	<hr />
+
+	{{ $essays := where .Site.RegularPages.ByDate.Reverse "Section" "essays" }}
+	<div class="index-body">
+		<a href="/essays/" class="section-heading-link">
+			<h3 class="section-heading">Long-form Essays <span class="section-count">{{ len $essays }}</span></h3>
+		</a>
+		{{ range first 7 $essays }}
 			{{ partial "index-item.html" . }}
 		{{ end }}
 	</div>
