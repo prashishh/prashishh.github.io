@@ -4,6 +4,8 @@ date: 2025-10-25T00:00:00Z
 author: Prashish
 description: "unconscious patterns & the samskara cycle"
 article_kind: Spiritual
+aliases:
+  - /fragments/default-mode/
 ---
 
 Show a bone to a dog and watch what happens. Something deep in its _operating system_ just fires up and it moves toward the bone, same with ants and sugar or moths and light. They have a __default mode__ for this, programmed so deep they cannot help but follow them.

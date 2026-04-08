@@ -6,6 +6,8 @@ description: "wisdom"
 article_kind:
   - Spiritual
   - Technical
+aliases:
+  - /fragments/vajrapani-the-senior-engineer/
 ---
 
 _Vajrapani_, known for raw power, went to _Buddha_ (the enlightened being) and asked for wisdom. _Vajrapani_ already had the strength to get things done by sheer force and power, but he wanted to know what makes effort truly meaningful.

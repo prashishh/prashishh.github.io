@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+	<div class="common-body">
+    {{ .Content }}
+
+    <div class="common-list">
+      {{ range .Data.Pages.ByDate.Reverse }}
+        {{ partial "index-item.html" . }}
+      {{ end }}
+	</div>
+
+{{ end }}

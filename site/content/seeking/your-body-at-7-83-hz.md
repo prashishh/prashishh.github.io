@@ -9,6 +9,8 @@ categories: ["Spiritual", "Perspective"]
 article_kind:
   - Spiritual
   - Perspective
+aliases:
+  - /fragments/your-body-at-7-83-hz/
 ---
 
 Pseudocode to sync the _body_ with the _earth_, via the _mind_.

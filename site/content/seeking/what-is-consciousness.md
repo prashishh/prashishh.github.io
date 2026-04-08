@@ -4,6 +4,8 @@ date: 2026-04-05T00:00:00Z
 author: Prashish
 description: "explained through light and hand"
 article_kind: Spiritual
+aliases:
+  - /fragments/what-is-consciousness/
 ---
 
 <style>

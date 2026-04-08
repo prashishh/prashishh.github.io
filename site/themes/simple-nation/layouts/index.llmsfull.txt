@@ -1,0 +1,60 @@
+# Prashish Rajbhandari — Full Content
+
+> Engineer, founder, and writer based in Kathmandu, Nepal. Notes and essays on AI, software, building products, and inquiries into self & reality. This file contains the full markdown content of every published piece on prashish.xyz, intended for LLMs and AI agents that want to ingest the complete corpus in a single fetch.
+
+Source: {{ .Site.BaseURL }}
+Last generated: {{ now.Format "2006-01-02" }}
+
+---
+
+# Long-form Essays
+{{ range where .Site.RegularPages.ByDate.Reverse "Section" "essays" }}
+## {{ .Title }}
+
+URL: {{ .Permalink }}
+Date: {{ .PublishDate.Format "2006-01-02" }}
+{{ with .Description }}Description: {{ . }}{{ end }}
+
+{{ .RawContent }}
+
+---
+{{ end }}
+
+# Essays on AI
+{{ range where .Site.RegularPages.ByDate.Reverse "Section" "ai" }}
+## {{ .Title }}
+
+URL: {{ .Permalink }}
+Date: {{ .PublishDate.Format "2006-01-02" }}
+{{ with .Description }}Description: {{ . }}{{ end }}
+
+{{ .RawContent }}
+
+---
+{{ end }}
+
+# Inquiries on Self & Reality
+{{ range where .Site.RegularPages.ByDate.Reverse "Section" "seeking" }}
+## {{ .Title }}
+
+URL: {{ .Permalink }}
+Date: {{ .PublishDate.Format "2006-01-02" }}
+{{ with .Description }}Description: {{ . }}{{ end }}
+
+{{ .RawContent }}
+
+---
+{{ end }}
+
+# Short-form Fragments
+{{ range where .Site.RegularPages.ByDate.Reverse "Section" "fragments" }}
+## {{ .Title }}
+
+URL: {{ .Permalink }}
+Date: {{ .PublishDate.Format "2006-01-02" }}
+{{ with .Description }}Description: {{ . }}{{ end }}
+
+{{ .RawContent }}
+
+---
+{{ end }}

@@ -1,0 +1,26 @@
+# Prashish Rajbhandari
+
+> Engineer, founder, and writer based in Kathmandu, Nepal. Notes and essays on AI, software, building products, and inquiries into self & reality. Long-form essays on Nepal, technology, and policy; short-form fragments on the craft of building; and contemplative writing rooted in personal inquiry.
+
+## Long-form Essays
+{{- range where .Site.RegularPages.ByDate.Reverse "Section" "essays" }}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
+
+## Essays on AI
+{{- range where .Site.RegularPages.ByDate.Reverse "Section" "ai" }}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
+
+## Inquiries on Self & Reality
+{{- range where .Site.RegularPages.ByDate.Reverse "Section" "seeking" }}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
+
+## Short-form Fragments
+{{- range where .Site.RegularPages.ByDate.Reverse "Section" "fragments" }}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
+
+## About
+- [About Prashish]({{ "about/" | absURL }}): background, work, and contact

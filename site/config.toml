@@ -6,7 +6,26 @@ title = "xyz prashish"
 # Summary settings for better social sharing
 summaryLength = 70
 
+enableRobotsTXT = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[outputFormats]
+  [outputFormats.LLMS]
+    name = "LLMS"
+    mediaType = "text/plain"
+    baseName = "llms"
+    isPlainText = true
+    notAlternative = true
+  [outputFormats.LLMSFull]
+    name = "LLMSFull"
+    mediaType = "text/plain"
+    baseName = "llms-full"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "LLMS", "LLMSFull"]

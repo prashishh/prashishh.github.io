@@ -4,6 +4,8 @@ date: 2025-08-26T00:00:00Z
 author: Prashish
 description: "perception & the narrow slices we see"
 article_kind: Spiritual
+aliases:
+  - /fragments/the-limits-of-reality/
 ---
 
 I have been thinking about how limited our understanding of reality actually is. We like to believe that what we perceive through our senses and mind is the full picture, but it is really just a thin slice of what is out there.

@@ -6,6 +6,8 @@ description: "attachment & impermanence"
 article_kind:
   - Spiritual
   - Personal
+aliases:
+  - /fragments/was-that-true-or-is-this-true/
 ---
 
 There's a story about the __emperor Janaka__, who was known throughout the land as a powerful ruler and a philosopher. 

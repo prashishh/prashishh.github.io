@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "hugo",
-      "runtimeExecutable": "hugo",
+      "runtimeExecutable": "/opt/homebrew/bin/hugo",
       "runtimeArgs": ["server", "-s", "site", "--disableFastRender"],
       "port": 1313
     }
