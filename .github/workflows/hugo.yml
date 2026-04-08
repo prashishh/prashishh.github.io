@@ -23,20 +23,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Install Hugo CLI
         run: |
           wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb
           sudo dpkg -i /tmp/hugo.deb
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Install Yarn
-        run: npm install -g yarn@1.22.22
-      - name: Install Dependencies
-        run: yarn install --frozen-lockfile
       - name: Build with Hugo
-        run: yarn build
+        run: hugo -s site -d ../dist --minify
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

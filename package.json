@@ -1,53 +1,12 @@
 {
-  "name": "victor-hugo",
-  "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "main": "index.js",
-  "scripts": {
-    "hugo": "gulp hugo",
-    "webpack": "gulp js",
-    "build": "gulp build",
-    "build-preview": "gulp build-preview",
-    "start": "gulp server",
-    "lint": "eslint src"
-  },
-  "author": "",
+  "name": "prashish-xyz",
+  "private": true,
+  "description": "Source for prashish.xyz, a Hugo site.",
   "license": "MIT",
-  "dependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
-    "@babel/preset-react": "^7.24.7",
-    "babel-loader": "^9.1.3",
-    "browser-sync": "^2.29.3",
-    "cssnano": "^5.1.15",
-    
-    "date-fns": "^1.30.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-import": "^2.29.1",
-    "exports-loader": "^3.1.0",
-    "fancy-log": "^2.0.0",
-    "file-loader": "^6.2.0",
-    "gotrue-js": "^0.9.29",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-postcss": "^9.1.0",
-    "imports-loader": "^3.0.1",
-    "netlify-cms": "^2.10.192",
-    "plugin-error": "^1.0.1",
-    "postcss": "8.4.45",
-    "postcss-import": "^15.1.0",
-    "postcss-preset-env": "^9.5.14",
-    "postcss-uncss": "^0.16.1",
-    "react": "16.5.1",
-    "uncss": "^0.16.2",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.94.0",
-    "whatwg-fetch": "^3.6.20"
-  },
-  "devDependencies": {
-    "gulp-inject": "^4.3.2",
-    "gulp-svgmin": "^1.2.4",
-    "gulp-svgstore": "^6.1.1",
-    "svg-sprite-loader": "^3.9.2"
+  "scripts": {
+    "start": "hugo server -s site --disableFastRender",
+    "start:drafts": "hugo server -s site --disableFastRender --buildDrafts --buildFuture",
+    "build": "hugo -s site -d ../dist --minify",
+    "build:preview": "hugo -s site -d ../dist --minify --buildDrafts --buildFuture"
   }
 }
