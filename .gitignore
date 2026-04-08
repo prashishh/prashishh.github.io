@@ -1,7 +1,6 @@
 node_modules/
 dist/
 docs/
+site/public/
 site/resources/_gen/
-/npm-debug.log
-yarn-error.log
-site/static/.DS_Store
+.DS_Store
