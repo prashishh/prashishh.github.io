@@ -7,7 +7,7 @@ tags:
   - llm
   - architecture
   - databases
-description: "LLM orchestration, database queries, & system architecture"
+description: "llm orchestration, database queries, & system architecture"
 article_kind: Technical
 ---
 

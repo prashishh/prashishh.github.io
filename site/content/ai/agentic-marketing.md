@@ -7,7 +7,7 @@ tags:
   - distribution
   - marketing
   - agents
-description: "AI agents, distribution, & automated go-to-market"
+description: "ai agents, distribution, & automated go-to-market"
 article_kind: Perspective
 ---
 
