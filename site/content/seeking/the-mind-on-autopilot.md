@@ -2,7 +2,7 @@
 title: The Mind on Autopilot
 date: 2026-04-27T00:00:00Z
 author: Prashish
-description: "the cycle of thought, action, and the seeds underneath"
+description: "the hidden loop of thought and action"
 article_kind: Spiritual
 aliases:
   - /fragments/the-mind-on-autopilot/
