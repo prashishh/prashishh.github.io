@@ -1,6 +1,6 @@
 ---
 title: The Fourth
-date: 2026-05-13T00:00:00Z
+date: 2026-05-27T00:00:00Z
 author: Prashish
 description: "flatland, shadows & turiya"
 article_kind: Spiritual
