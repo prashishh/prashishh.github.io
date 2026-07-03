@@ -1,5 +1,5 @@
 ---
-title: "Not What AI Can Do, But Who Can Use It"
+title: "AI's Widening Access Gap"
 date: 2026-07-02T00:00:00Z
 author: Prashish
 tags:
