@@ -4,3 +4,4 @@ docs/
 site/public/
 site/resources/_gen/
 .DS_Store
+.claude/worktrees/
